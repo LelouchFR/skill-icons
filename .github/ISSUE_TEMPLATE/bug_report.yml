@@ -1,0 +1,38 @@
+name: Bug Report
+description: File a bug report here
+title: "[BUG]: "
+labels: ["bug"]
+assignees: ["LelouchFR"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report
+        Make sure there is no open nor closed issues for this topic
+  
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Description of the bug
+      description: Give us a brief description of what happened and what should have happened
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error in console
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: |
+        Provide any additional information such as logs, screenshots, likes, scenarios in which the bug occurs so that it facilitates resolving the issue.
