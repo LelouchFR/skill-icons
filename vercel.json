@@ -1,13 +1,10 @@
 {
-    "routes": [
+    "trailingSlash": false,
+    "includeFiles": ["assets/*"],
+    "rewrites": [
         {
-            "src": "/(.*)",
-            "dest": "."
+            "source":"/api(.*)",
+            "destination":"/api/index.go"
         }
-    ],
-    "build": {
-        "env": {
-            "GO_BUILD_FLAGS": "-ldflags '-s -w'"
-        }
-    }
+    ]
 }
