@@ -1,4 +1,4 @@
-package api
+package main
 
 import (
 	"fmt"
@@ -8,6 +8,7 @@ import (
 	"path/filepath"
 	"strconv"
 	"strings"
+    "github.com/gorilla/mux"
 )
 
 var skillAliases = map[string]string {
@@ -169,3 +170,15 @@ func GenerateSVG(iconNames []string, theme string, hasTitle bool, perLine int) s
 
     return svg.String()
 }
+
+func SetupRoutes(router *mux.Router) {
+    router.HandleFunc("/icons", GetSkillIcons).Methods("GET")
+}
+
+func main() {
+    router := mux.NewRouter()
+
+    SetupRoutes(router)
+    http.ListenAndServe(":8080", router)
+}
+

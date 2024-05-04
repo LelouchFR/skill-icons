@@ -2,7 +2,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "main.go"
+            "dest": "."
         }
     ],
     "build": {
