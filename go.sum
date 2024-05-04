@@ -1,2 +1,4 @@
 github.com/gorilla/mux v1.8.1 h1:TuBL49tXwgrFYWhqrNgrUNEY92u81SPhu7sTdzQEiWY=
 github.com/gorilla/mux v1.8.1/go.mod h1:AKf9I4AEqPTmMytcMc0KkNouC66V3BtZ4qD5fmWSiMQ=
+github.com/tbxark/g4vercel v0.0.4 h1:KJGsz0/tarMKwEQbBlToAvcUTvPU5XMz1NJ7WpgwHAw=
+github.com/tbxark/g4vercel v0.0.4/go.mod h1:ixnfFruSriTYP/dZ+GxB/hkYMOhmozYkEZ780Ws2Hhk=
