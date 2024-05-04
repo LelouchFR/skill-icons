@@ -89,10 +89,16 @@ func GetSkillIcons(w http.ResponseWriter, r *http.Request) {
     skills := r.URL.Query().Get("i")
     theme := r.URL.Query().Get("theme")
     perLineQuery := r.URL.Query().Get("perline")
+    hasTitleQuery := r.URL.Query().Get("titles")
 
     perLine, err := strconv.Atoi(perLineQuery)
     if err != nil {
         perLine = IconsPerLine
+    }
+
+    hasTitle, err := strconv.ParseBool(hasTitleQuery)
+    if err != nil {
+        hasTitle = false
     }
 
     if theme == "" {
@@ -108,7 +114,7 @@ func GetSkillIcons(w http.ResponseWriter, r *http.Request) {
         skillNames[i] = resolveSkillAlias(skill)
     }
 
-    svg := GenerateSVG(skillNames, theme, perLine)
+    svg := GenerateSVG(skillNames, theme, hasTitle, perLine)
 
     w.Header().Set("Content-type", "image/svg+xml")
     w.WriteHeader(http.StatusOK)
@@ -122,7 +128,7 @@ const (
     Scale        = 0.1875
 )
 
-func GenerateSVG(iconNames []string, theme string, perLine int) string {
+func GenerateSVG(iconNames []string, theme string, hasTitle bool, perLine int) string {
     var svg strings.Builder
 
     length := math.Min(float64(perLine * 300), float64(len(iconNames) * 300)) - 44
@@ -143,14 +149,20 @@ func GenerateSVG(iconNames []string, theme string, perLine int) string {
             }
         }
 
+        var title string
+        if hasTitle {
+            title = fmt.Sprintf("<title>%s</title>", iconName)
+        }
+
         transformX := (idx % perLine) * 300
         transformY := (idx / perLine) * 300
 
         svg.WriteString(fmt.Sprintf(`
             <g transform="translate(%d, %d)">
                 %s
+                %s
             </g>
-        `, transformX, transformY, string(svgContent)))
+        `, transformX, transformY, title, string(svgContent)))
     }
 
     svg.WriteString(`</svg>`)
