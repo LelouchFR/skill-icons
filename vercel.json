@@ -1,6 +1,5 @@
 {
     "trailingSlash": false,
-    "includeFiles": ["assets/*"],
     "rewrites": [
       {
         "source": "/api(.*)",
