@@ -24,10 +24,10 @@ Copy and paste the code block below into your readme to add the skills icon elem
 Change the `?i=js,html,css` to a list of your skills separated by ","s! You can find a full list of icons [here](#icons-list).
 
 ```md
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?i=js,html,css,wasm)](https://go-skill-icons.vercel.app/)
 ```
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?i=js,html,css,wasm)](https://skillicons.dev)
 
 # Themed Icons
 
@@ -40,10 +40,10 @@ Change the `&theme=light` to either `dark` or `light`. The theme is the backgrou
 **Light Theme Example:**
 
 ```md
-[![My Skills](https://skillicons.dev/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skillicons.dev)
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?i=java,kotlin,nodejs,figma&theme=light)](https://go-skill-icons.vercel.app/)
 ```
 
-[![My Skills](https://skillicons.dev/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skillicons.dev)
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?i=java,kotlin,nodejs&theme=light)](https://go-skill-icons.vercel.app/)
 
 # Icons Per Line
 
@@ -52,10 +52,10 @@ You can specify how many icons you would like per line! It's an optional argumen
 Change the `&perline=3` to any number between 1 and 50.
 
 ```md
-[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://go-skill-icons.vercel.app/)
 ```
 
-[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
 
 # Centering Icons
 
@@ -63,15 +63,15 @@ Want to center the icons in your readme? The SVGs are automatically resized, so 
 
 ```html
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+  <a href="https://go-skill-icons.vercel.app/">
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=git,kubernetes,docker,c,vim" />
   </a>
 </p>
 ```
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+  <a href="https://go-skill-icons.vercel.app/">
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=git,kubernetes,docker,c,vim" />
   </a>
 </p>
 
@@ -162,7 +162,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `ember`       |        <img src="./assets/ember.svg" width="48">         |
 |      `emotion`      |     <img src="./assets/emotion-dark.svg" width="48">     |
 |       `excel`       |     <img src="./assets/excel-dark.svg" width="48">       |
-|      `express`      |    <img src="./assets/expressJS-dark.svg" width="48">    |
+|      `express`      |    <img src="./assets/expressjs-dark.svg" width="48">    |
 |      `fastapi`      |       <img src="./assets/fastapi.svg" width="48">        |
 |     `fediverse`     |    <img src="./assets/fediverse-dark.svg" width="48">    |
 |       `figma`       |      <img src="./assets/figma-dark.svg" width="48">      |
@@ -283,7 +283,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `pnpm`       |      <img src="./assets/pnpm-dark.svg" width="48">       |
 |     `pocketbase`    |   <img src="./assets/pocketbase-dark.svg" width="48">    |
 |         `pf`        |       <img src="./assets/portfolio.svg" width="48">      |
-|      `postgres`     |   <img src="./assets/postgrsql-dark.svg" width="48">    |
+|      `postgres`     |   <img src="./assets/postgresql-dark.svg" width="48">    |
 |      `postman`      |       <img src="./assets/postman.svg" width="48">        |
 |     `powerpoint`    |   <img src="./assets/powerpoint-dark.svg" width="48">    |
 |     `powershell`    |   <img src="./assets/powershell-dark.svg" width="48">    |
@@ -319,7 +319,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `ros`        |       <img src="./assets/ros-dark.svg" width="48">       |
 |        `ruby`       |         <img src="./assets/ruby.svg" width="48">         |
 |        `rust`       |         <img src="./assets/rust-dark.svg" width="48">    |
-|      `safari`       |       <img src="./assets/rafari-dark.svg" width="48">    |
+|      `safari`       |       <img src="./assets/safari-dark.svg" width="48">    |
 |        `sass`       |         <img src="./assets/sass.svg" width="48">         |
 |       `spring`      |     <img src="./assets/spring-dark.svg" width="48">      |
 |       `sqlite`      |        <img src="./assets/sqlite.svg" width="48">        |
