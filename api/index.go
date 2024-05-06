@@ -95,7 +95,7 @@ const (
 	SCALE          = float64(ONE_ICON) / float64(300-44)
 )
 
-func generateSvg(iconNames []string, perLine int) string {
+func generateSvg(iconNames []string, perLine int, hasTitlesEnabled bool) string {
 	iconSvgList := make([]string, len(iconNames))
 
 	for i, name := range iconNames {
@@ -112,13 +112,20 @@ func generateSvg(iconNames []string, perLine int) string {
 	`, scaledWidth, scaledHeight, length, height)
 
 	for index, i := range iconSvgList {
+        var title string
+        if hasTitlesEnabled {
+            title = fmt.Sprintf("<title>%s</title>", i)
+        }
+
+
 		x := (index % perLine) * 300
 		y := (index / perLine) * 300
 		svg += fmt.Sprintf(`
 		<g transform="translate(%d, %d)">
+            %s
 			%s
 		</g>
-		`, x, y, i)
+		`, x, y, title, i)
 	}
 
 	svg += "</svg>"
@@ -171,6 +178,14 @@ func iconRoute(r *gin.RouterGroup) {
 			perLineStr = "15"
 		}
 
+        hasTitles := ctx.Request.Form.Get("titles")
+        var hasTitlesEnabled bool
+        if hasTitles == "" {
+            hasTitlesEnabled = false
+        } else {
+            hasTitlesEnabled = true
+        }
+
 		if iconParam == "" {
 			ctx.String(http.StatusBadRequest, "You didn't specify any icons!")
 			return
@@ -200,7 +215,7 @@ func iconRoute(r *gin.RouterGroup) {
 			return
 		}
 
-		svg := generateSvg(iconNames, perLine)
+		svg := generateSvg(iconNames, perLine, hasTitlesEnabled)
 
 		ctx.Header("Content-Type", "image/svg+xml")
 		ctx.String(http.StatusOK, svg)
