@@ -161,7 +161,7 @@ func iconRoute(r *gin.RouterGroup) {
 		ctx.Request.ParseForm()
 		iconParam := ctx.Request.Form.Get("i")
 
-		theme := ctx.Request.Form.Get("t")
+		theme := ctx.Request.Form.Get("theme")
 		if theme == "" {
 			theme = "dark"
 		}
