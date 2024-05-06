@@ -15,8 +15,6 @@ var icons map[string]string = make(map[string]string)
 var iconNameList []string
 var themedIcons []string
 
-
-
 var shortNames = map[string]string{
 	"js":                "javascript",
 	"ts":                "typescript",
@@ -83,6 +81,7 @@ var shortNames = map[string]string{
 	"st":                "stock",
 	"be":                "behance",
 	"br":                "bridge",
+    "million":           "millionjs",
 }
 
 var (
@@ -116,7 +115,6 @@ func generateSvg(iconNames []string, perLine int, hasTitlesEnabled bool) string 
         if hasTitlesEnabled {
             title = fmt.Sprintf("<title>%s</title>", i)
         }
-
 
 		x := (index % perLine) * 300
 		y := (index / perLine) * 300
