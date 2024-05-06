@@ -24,7 +24,7 @@ Copy and paste the code block below into your readme to add the skills icon elem
 Change the `?i=js,html,css` to a list of your skills separated by ","s! You can find a full list of icons [here](#icons-list).
 
 ```md
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=js,html,css,wasm)]
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=js,html,css,wasm)
 ```
 
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=js,html,css,wasm)
@@ -40,10 +40,10 @@ Change the `&theme=light` to either `dark` or `light`. The theme is the backgrou
 **Light Theme Example:**
 
 ```md
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=java,kotlin,nodejs,figma&theme=light)]
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=java,kotlin,nodejs,figma&theme=light)
 ```
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=java,kotlin,nodejs&theme=light)]
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=java,kotlin,nodejs&theme=light)
 
 # Icons Per Line
 
