@@ -57,6 +57,18 @@ Change the `&perline=3` to any number between 1 and 50.
 
 [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
 
+# Get Icons Names
+
+You can get the possiblity to add the name of the icons you put to help others that doesnt know what they are by using `&titles`.
+
+The value of `titles` is a boolean, so it should be `true` or `false`, default is `false`
+
+```md
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?i=rust,surrealdb,actix,yew&titles=true)](https://skillicons.dev)
+```
+
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?i=rust,surrealdb,actix,yew&titles=true)](https://skillicons.dev)
+
 # Centering Icons
 
 Want to center the icons in your readme? The SVGs are automatically resized, so you can do it the same way you'd normally center an image.
@@ -299,7 +311,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `pupeteer`     |     <img src="./assets/pupeteer-dark.svg" width="48">    |
 |      `pycharm`      |     <img src="./assets/pycharm-dark.svg" width="48">     |
 |         `py`        |     <img src="./assets/python-dark.svg" width="48">      |
-|      `pytorch`      |     <img src="./assets/python-dark.svg" width="48">     |
+|      `pytorch`      |     <img src="./assets/pytorch-dark.svg" width="48">     |
 |         `qt`        |       <img src="./assets/qt-dark.svg" width="48">        |
 |         `r`         |        <img src="./assets/r-dark.svg" width="48">        |
 |      `rabbitmq`     |    <img src="./assets/rabbitmq-dark.svg" width="48">     |
