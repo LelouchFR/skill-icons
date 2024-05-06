@@ -115,7 +115,7 @@ func generateSvg(iconNames []string, perLine int, hasTitlesEnabled bool) string 
 	for index, i := range iconSvgList {
         var title string
         if hasTitlesEnabled {
-            title = fmt.Sprintf("<title>%s</title>", i)
+            title = fmt.Sprintf("<title>%s</title>", iconNames[index])
         }
 
 		x := (index % perLine) * 300
