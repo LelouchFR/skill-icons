@@ -235,6 +235,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |     `kubernetes`    |      <img src="./assets/kubernetes.svg" width="48">      |
 |      `laravel`      |     <img src="./assets/laravel-dark.svg" width="48">     |
 |       `latex`       |      <img src="./assets/latex-dark.svg" width="48">      |
+|      `leetcode`     |    <img src="./assets/leetcode-dark.svg" width="48">     |
 |        `less`       |      <img src="./assets/less-dark.svg" width="48">       |
 |         `lr`        |      <img src="./assets/lightroom.svg" width="48">       |
 |         `lrc`       |  <img src="./assets/lightroomclassic.svg" width="48">    |
