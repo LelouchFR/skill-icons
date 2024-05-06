@@ -330,7 +330,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |  `styledcomponents` |   <img src="./assets/styledcomponents.svg" width="48">   |
 |      `sublime`      |     <img src="./assets/sublime-dark.svg" width="48">     |
 |      `supabase`     |    <img src="./assets/supabase-dark.svg" width="48">     |
-|     `surrealdb`     |   <img src="./assets/surrealDB-dark.svg" width="48">     |
+|     `surrealdb`     |   <img src="./assets/surrealdb-dark.svg" width="48">     |
 |       `scala`       |      <img src="./assets/scala-dark.svg" width="48">      |
 |        `scipy`      |       <img src="./assets/scipy-dark.svg" width="48">     |
 |      `scratch`      |       <img src="./assets/scratch.svg" width="48">        |
