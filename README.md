@@ -297,7 +297,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `pkl`        |       <img src="./assets/pkl-dark.svg" width="48">       |
 |       `plan9`       |      <img src="./assets/plan9-dark.svg" width="48">      |
 |    `planetscale`    |   <img src="./assets/planetscale-dark.svg" width="48">   |
-|    `playwright`    |   <img src="./icons/PlayWright-Dark.svg" width="48">  |
+|     `playwright`    |   <img src="./icons/PlayWright-Dark.svg" width="48">  |
 |        `pnpm`       |      <img src="./assets/pnpm-dark.svg" width="48">       |
 |     `pocketbase`    |   <img src="./assets/pocketbase-dark.svg" width="48">    |
 |         `pf`        |       <img src="./assets/portfolio.svg" width="48">      |
@@ -345,7 +345,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `sqlserver`    |      <img src="./assets/sqlserver-dark.svg" width="48">  |
 |   `stackoverflow`   |  <img src="./assets/stackoverflow-dark.svg" width="48">  |
 |       `stock`       |         <img src="./assets/stock.svg" width="48">        |
-|    `storybook`     |    <img src="./icons/StoryBook-Dark.svg" width="48">  |
+|     `storybook`     |    <img src="./icons/StoryBook-Dark.svg" width="48">  |
 |  `styledcomponents` |   <img src="./assets/styledcomponents.svg" width="48">   |
 |      `sublime`      |     <img src="./assets/sublime-dark.svg" width="48">     |
 |      `supabase`     |    <img src="./assets/supabase-dark.svg" width="48">     |
