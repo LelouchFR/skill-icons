@@ -324,6 +324,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |    `raspberrypi`    |   <img src="./assets/raspberrypi-dark.svg" width="48">   |
 |       `react`       |      <img src="./assets/react-dark.svg" width="48">      |
 |     `reactivex`     |    <img src="./assets/reactivex-dark.svg" width="48">    |
+|    `reactquery`     |  <img src="./icons/ReactQuery-Dark.svg" width="48">   |
 |       `redhat`      |     <img src="./assets/redhat-dark.svg" width="48">      |
 |       `redis`       |      <img src="./assets/redis-dark.svg" width="48">      |
 |       `redux`       |        <img src="./assets/redux.svg" width="48">         |
@@ -372,6 +373,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `teams`       |      <img src="./assets/teams-dark.svg" width="48">      |
 |     `tensorflow`    |   <img src="./assets/tensorflow-dark.svg" width="48">    |
 |     `terraform`     |    <img src="./assets/terraform-dark.svg" width="48">    |
+|   `testinglibrary`  | <img src="./icons/TestingLibrary-Dark.svg" width="48">|
 |      `threejs`      |     <img src="./assets/threejs-dark.svg" width="48">     |
 |        `tor`        |       <img src="./assets/tor-dark.svg" width="48">       |
 |      `twitter`      |       <img src="./assets/twitter.svg" width="48">        |
