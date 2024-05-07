@@ -5,12 +5,15 @@
 
 # Docs
 
+- [Docs](#docs)
 - [Example](#example)
 - [Specifying Icons](#specifying-icons)
 - [Themed Icons](#themed-icons)
 - [Icons Per Line](#icons-per-line)
+- [Get Icons Names](#get-icons-names)
 - [Centering Icons](#centering-icons)
 - [Icons List](#icons-list)
+  - [💖 Support the Project](#-support-the-project)
 
 # Example
 
@@ -294,6 +297,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `pkl`        |       <img src="./assets/pkl-dark.svg" width="48">       |
 |       `plan9`       |      <img src="./assets/plan9-dark.svg" width="48">      |
 |    `planetscale`    |   <img src="./assets/planetscale-dark.svg" width="48">   |
+|    `playwright`    |   <img src="./icons/PlayWright-Dark.svg" width="48">  |
 |        `pnpm`       |      <img src="./assets/pnpm-dark.svg" width="48">       |
 |     `pocketbase`    |   <img src="./assets/pocketbase-dark.svg" width="48">    |
 |         `pf`        |       <img src="./assets/portfolio.svg" width="48">      |
