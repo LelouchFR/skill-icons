@@ -344,6 +344,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `sqlserver`    |      <img src="./assets/sqlserver-dark.svg" width="48">  |
 |   `stackoverflow`   |  <img src="./assets/stackoverflow-dark.svg" width="48">  |
 |       `stock`       |         <img src="./assets/stock.svg" width="48">        |
+|    `storybook`     |    <img src="./icons/StoryBook-Dark.svg" width="48">  |
 |  `styledcomponents` |   <img src="./assets/styledcomponents.svg" width="48">   |
 |      `sublime`      |     <img src="./assets/sublime-dark.svg" width="48">     |
 |      `supabase`     |    <img src="./assets/supabase-dark.svg" width="48">     |
