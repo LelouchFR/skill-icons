@@ -113,6 +113,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `appwrite`     |       <img src="./assets/appwrite.svg" width="48">       |
 |        `arch`       |      <img src="./assets/arch-dark.svg" width="48">       |
 |      `arduino`      |       <img src="./assets/arduino.svg" width="48">        |
+|        `asm`        |       <img src="./assets/assembly.svg" width="48">       |
 |       `astro`       |        <img src="./assets/astro.svg" width="48">         |
 |        `atom`       |         <img src="./assets/atom.svg" width="48">         |
 |         `au`        |       <img src="./assets/audition.svg" width="48">       |
@@ -162,9 +163,9 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `django`      |        <img src="./assets/django.svg" width="48">        |
 |       `docker`      |        <img src="./assets/docker.svg" width="48">        |
 |      `docksal`      |     <img src="./assets/docksal-dark.svg" width="48">     |
-|       `drupal`      |      <img src="./assets/drupal-dark.svg" width="48">     |
 |       `dotnet`      |        <img src="./assets/dotnet.svg" width="48">        |
 |         `dw`        |     <img src="./assets/dreamweaver.svg" width="48">      |
+|       `drupal`      |      <img src="./assets/drupal-dark.svg" width="48">     |
 |      `dynamodb`     |    <img src="./assets/dynamodb-dark.svg" width="48">     |
 |      `eclipse`      |     <img src="./assets/eclipse-dark.svg" width="48">     |
 |        `edge`       |       <img src="./assets/edge-dark.svg" width="48">      |
