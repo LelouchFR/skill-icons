@@ -161,6 +161,8 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |     `discordjs`     |    <img src="./assets/discordjs-dark.svg" width="48">    |
 |       `django`      |        <img src="./assets/django.svg" width="48">        |
 |       `docker`      |        <img src="./assets/docker.svg" width="48">        |
+|      `docksal`      |     <img src="./assets/docksal-dark.svg" width="48">     |
+|       `drupal`      |      <img src="./assets/drupal-dark.svg" width="48">     |
 |       `dotnet`      |        <img src="./assets/dotnet.svg" width="48">        |
 |         `dw`        |     <img src="./assets/dreamweaver.svg" width="48">      |
 |      `dynamodb`     |    <img src="./assets/dynamodb-dark.svg" width="48">     |
