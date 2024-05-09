@@ -316,7 +316,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |     `processing`    |   <img src="./assets/processing-dark.svg" width="48">    |
 |     `prometheus`    |      <img src="./assets/prometheus.svg" width="48">      |
 |        `pug`        |       <img src="./assets/pug-dark.svg" width="48">       |
-|      `pupeteer`     |     <img src="./assets/pupeteer-dark.svg" width="48">    |
+|      `puppeteer`    |    <img src="./assets/puppeteer-dark.svg" width="48">    |
 |      `pycharm`      |     <img src="./assets/pycharm-dark.svg" width="48">     |
 |         `py`        |     <img src="./assets/python-dark.svg" width="48">      |
 |      `pytorch`      |     <img src="./assets/pytorch-dark.svg" width="48">     |
