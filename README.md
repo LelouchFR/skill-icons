@@ -5,12 +5,15 @@
 
 # Docs
 
+- [Docs](#docs)
 - [Example](#example)
 - [Specifying Icons](#specifying-icons)
 - [Themed Icons](#themed-icons)
 - [Icons Per Line](#icons-per-line)
+- [Get Icons Names](#get-icons-names)
 - [Centering Icons](#centering-icons)
 - [Icons List](#icons-list)
+  - [💖 Support the Project](#-support-the-project)
 
 # Example
 
@@ -297,6 +300,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `pkl`        |       <img src="./assets/pkl-dark.svg" width="48">       |
 |       `plan9`       |      <img src="./assets/plan9-dark.svg" width="48">      |
 |    `planetscale`    |   <img src="./assets/planetscale-dark.svg" width="48">   |
+|     `playwright`    |   <img src="./icons/PlayWright-Dark.svg" width="48">  |
 |        `pnpm`       |      <img src="./assets/pnpm-dark.svg" width="48">       |
 |     `pocketbase`    |   <img src="./assets/pocketbase-dark.svg" width="48">    |
 |         `pf`        |       <img src="./assets/portfolio.svg" width="48">      |
@@ -323,6 +327,8 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |    `raspberrypi`    |   <img src="./assets/raspberrypi-dark.svg" width="48">   |
 |       `react`       |      <img src="./assets/react-dark.svg" width="48">      |
 |     `reactivex`     |    <img src="./assets/reactivex-dark.svg" width="48">    |
+|    `reactquery`     |  <img src="./icons/ReactQuery-Dark.svg" width="48">   |
+|      `recoil`       |       <img src="./icons/Recoil.svg" width="48">       |
 |       `redhat`      |     <img src="./assets/redhat-dark.svg" width="48">      |
 |       `redis`       |      <img src="./assets/redis-dark.svg" width="48">      |
 |       `redux`       |        <img src="./assets/redux.svg" width="48">         |
@@ -343,6 +349,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `sqlserver`    |      <img src="./assets/sqlserver-dark.svg" width="48">  |
 |   `stackoverflow`   |  <img src="./assets/stackoverflow-dark.svg" width="48">  |
 |       `stock`       |         <img src="./assets/stock.svg" width="48">        |
+|     `storybook`     |    <img src="./icons/StoryBook-Dark.svg" width="48">  |
 |  `styledcomponents` |   <img src="./assets/styledcomponents.svg" width="48">   |
 |      `sublime`      |     <img src="./assets/sublime-dark.svg" width="48">     |
 |      `supabase`     |    <img src="./assets/supabase-dark.svg" width="48">     |
@@ -370,6 +377,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `teams`       |      <img src="./assets/teams-dark.svg" width="48">      |
 |     `tensorflow`    |   <img src="./assets/tensorflow-dark.svg" width="48">    |
 |     `terraform`     |    <img src="./assets/terraform-dark.svg" width="48">    |
+|   `testinglibrary`  | <img src="./icons/TestingLibrary-Dark.svg" width="48">|
 |      `threejs`      |     <img src="./assets/threejs-dark.svg" width="48">     |
 |        `tor`        |       <img src="./assets/tor-dark.svg" width="48">       |
 |      `twitter`      |       <img src="./assets/twitter.svg" width="48">        |
