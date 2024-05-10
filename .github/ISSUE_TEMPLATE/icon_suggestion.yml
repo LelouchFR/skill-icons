@@ -1,7 +1,7 @@
 name: 🚀 Suggest an Icon
-title: '[NEW ICON] Skill Name'
+title: "[NEW ICON]: "
 description: Suggest an icon to be added to the list!
-labels: 'icon suggestion'
+labels: ["icon suggestion"]
 body:
   - type: input
     id: skill-name

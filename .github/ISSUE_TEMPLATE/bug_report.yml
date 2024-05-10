@@ -1,6 +1,6 @@
-name: Bug Report
-description: File a bug report here
+name: 🐛 Bug Report
 title: "[BUG]: "
+description: File a bug report here
 labels: ["bug"]
 assignees: ["LelouchFR"]
 body:

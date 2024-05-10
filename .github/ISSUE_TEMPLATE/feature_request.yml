@@ -1,7 +1,7 @@
-name: Feature Request
+name: 💡 Feature Request
+title: "[FEAT]: "
 description: Request a new feature
 labels: ["feature"]
-title: "[FEAT]: "
 body:
   - type: markdown
     attributes:

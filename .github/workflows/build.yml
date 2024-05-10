@@ -1,0 +1,20 @@
+name: Build
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  Build-Attempt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.18'
+      
+      - name: Install Go Packages
+        run: go mod tidy
+      - name: Add IconsJSON Variable
+        run: go run build.go
+      - name: Build index.go
+        run: go build ./api/index.go
