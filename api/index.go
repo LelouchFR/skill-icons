@@ -14,9 +14,6 @@ import (
 var icons map[string]string = make(map[string]string)
 var iconNameList []string
 var themedIcons []string
-
-
-
 var shortNames = map[string]string{
 	"js":                "javascript",
 	"ts":                "typescript",
@@ -232,7 +229,7 @@ func init() {
 }
 
 func Handler(w http.ResponseWriter, r *http.Request) {
-	decoder := json.NewDecoder(strings.NewReader(iconsJSON))
+	decoder := json.NewDecoder(strings.NewReader(IconsJSON))
 	if err := decoder.Decode(&icons); err != nil {
 		panic(err)
 	}
