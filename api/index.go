@@ -14,9 +14,6 @@ import (
 var icons map[string]string = make(map[string]string)
 var iconNameList []string
 var themedIcons []string
-
-
-
 var shortNames = map[string]string{
 	"js":                "javascript",
 	"ts":                "typescript",
