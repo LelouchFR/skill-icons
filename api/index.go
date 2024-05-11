@@ -232,7 +232,7 @@ func init() {
 }
 
 func Handler(w http.ResponseWriter, r *http.Request) {
-	decoder := json.NewDecoder(strings.NewReader(iconsJSON))
+	decoder := json.NewDecoder(strings.NewReader(IconsJSON))
 	if err := decoder.Decode(&icons); err != nil {
 		panic(err)
 	}
