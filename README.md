@@ -302,6 +302,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |    `planetscale`    |   <img src="./assets/planetscale-dark.svg" width="48">   |
 |     `playwright`    |     <img src="./assets/playwright-dark.svg" width="48">  |
 |        `pnpm`       |      <img src="./assets/pnpm-dark.svg" width="48">       |
+|        `pop`        |         <img src="./assets/popos.svg" width="48">        |
 |     `pocketbase`    |   <img src="./assets/pocketbase-dark.svg" width="48">    |
 |         `pf`        |       <img src="./assets/portfolio.svg" width="48">      |
 |      `postgres`     |   <img src="./assets/postgresql-dark.svg" width="48">    |
