@@ -271,7 +271,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `nextjs`      |     <img src="./assets/nextjs-dark.svg" width="48">      |
 |       `nginx`       |        <img src="./assets/nginx.svg" width="48">         |
 |        `nim`        |       <img src="./assets/nim-dark.svg" width="48">       |
-|        `nix`        |       <img src="./assets/nix-dark.svg" width="48">       |
+|        `nix`        |      <img src="./assets/nixos-dark.svg" width="48">      |
 |       `nodejs`      |     <img src="./assets/nodejs-dark.svg" width="48">      |
 |       `notion`      |     <img src="./assets/notion-dark.svg" width="48">      |
 |        `npm`        |       <img src="./assets/npm-dark.svg" width="48">       |
