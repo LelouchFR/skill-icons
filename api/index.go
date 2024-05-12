@@ -86,6 +86,7 @@ var shortNames = map[string]string{
     "million":           "millionjs",
     "asm":               "assembly",
     "pop":               "popos",
+    "nix":               "nixos",
 }
 
 var (
