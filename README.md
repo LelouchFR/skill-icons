@@ -155,7 +155,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `cypress`      |     <img src="./assets/cypress-dark.svg" width="48">     |
 |         `d3`        |       <img src="./assets/d3-dark.svg" width="48">        |
 |        `dart`       |      <img src="./assets/dart-dark.svg" width="48">       |
-|       `debian`      |     <img src="./assets/debian-dark.svg" width="48">      |
+|       `debian`      |        <img src="./assets/debian.svg" width="48">        |
 |      `defold`       |     <img src="./assets/defold-dark.svg" width="48">      |
 |        `deno`       |      <img src="./assets/deno-dark.svg" width="48">       |
 |       `devto`       |      <img src="./assets/devto-dark.svg" width="48">      |
@@ -383,7 +383,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `tor`        |       <img src="./assets/tor-dark.svg" width="48">       |
 |      `twitter`      |       <img src="./assets/twitter.svg" width="48">        |
 |         `ts`        |      <img src="./assets/typescript.svg" width="48">      |
-|       `ubuntu`      |     <img src="./assets/ubuntu-dark.svg" width="48">      |
+|       `ubuntu`      |        <img src="./assets/ubuntu.svg" width="48">        |
 |       `unity`       |      <img src="./assets/unity-dark.svg" width="48">      |
 |       `unreal`      |     <img src="./assets/unrealengine.svg" width="48">     |
 |         `v`         |        <img src="./assets/v-dark.svg" width="48">        |
