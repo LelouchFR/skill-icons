@@ -116,6 +116,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `appwrite`     |       <img src="./assets/appwrite.svg" width="48">       |
 |        `arch`       |      <img src="./assets/arch-auto.svg" width="48">       |
 |      `arduino`      |       <img src="./assets/arduino.svg" width="48">        |
+|       `argocd`      |     <img src="./assets/argocd-dark.svg" width="48">      |
 |        `asm`        |       <img src="./assets/assembly.svg" width="48">       |
 |       `astro`       |        <img src="./assets/astro.svg" width="48">         |
 |        `atom`       |         <img src="./assets/atom.svg" width="48">         |
