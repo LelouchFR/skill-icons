@@ -211,6 +211,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `godot`       |      <img src="./assets/godot-dark.svg" width="48">      |
 |      `grafana`      |     <img src="./assets/grafana-dark.svg" width="48">     |
 |      `graphql`      |     <img src="./assets/graphql-dark.svg" width="48">     |
+|        `gsap`       |       <img src="./assets/gsap-dark.svg" width="48">      |
 |        `gtk`        |       <img src="./assets/gtk-dark.svg" width="48">       |
 |        `gulp`       |         <img src="./assets/gulp.svg" width="48">         |
 |      `haskell`      |     <img src="./assets/haskell-dark.svg" width="48">     |
@@ -232,6 +233,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |         `js`        |      <img src="./assets/javascript.svg" width="48">      |
 |      `jenkins`      |     <img src="./assets/jenkins-dark.svg" width="48">     |
 |        `jest`       |         <img src="./assets/jest.svg" width="48">         |
+|        `jira`       |      <img src="./assets/jira-dark.svg" width="48">       |
 |       `jquery`      |        <img src="./assets/jquery.svg" width="48">        |
 |       `julia`       |        <img src="./assets/julia-dark.svg" width="48">    |
 |      `kakoune`      |       <img src="./assets/kakoune-dark.svg" width="48">   |
