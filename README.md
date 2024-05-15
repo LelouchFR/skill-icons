@@ -206,6 +206,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `gleam`       |      <img src="./assets/gleam-dark.svg" width="48">      |
 |      `gherkin`      |     <img src="./assets/gherkin-dark.svg" width="48">     |
 |         `go`        |        <img src="./assets/golang.svg" width="48">        |
+|      `goland`       |     <img src="./assets/goland-dark.svg" width="48">      |
 |  `googleanalytics`  | <img src="./assets/googleanalytics-dark.svg" width="48"> |
 | `googleappsscript`  |<img src="./assets/googleappsscript-dark.svg" width="48"> |
 |       `gradle`      |     <img src="./assets/gradle-dark.svg" width="48">      |
@@ -346,6 +347,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `rollupjs`     |    <img src="./assets/rollupjs-dark.svg" width="48">     |
 |        `ros`        |       <img src="./assets/ros-dark.svg" width="48">       |
 |        `ruby`       |         <img src="./assets/ruby.svg" width="48">         |
+|     `rubymine`      |    <img src="./assets/rubymine-dark.svg" width="48">     |
 |        `rust`       |         <img src="./assets/rust-dark.svg" width="48">    |
 |      `safari`       |       <img src="./assets/safari-dark.svg" width="48">    |
 |        `sass`       |         <img src="./assets/sass.svg" width="48">         |
