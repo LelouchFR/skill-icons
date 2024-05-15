@@ -163,6 +163,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |         `dn`        |       <img src="./assets/dimension.svg" width="48">      |
 |      `discord`      |       <img src="./assets/discord.svg" width="48">        |
 |        `bots`       |     <img src="./assets/discordbots.svg" width="48">      |
+|    `digitalocean`   |  <img src="./assets/digitalocean-light.svg" width="48">  |
 |     `discordjs`     |    <img src="./assets/discordjs-dark.svg" width="48">    |
 |       `django`      |        <img src="./assets/django.svg" width="48">        |
 |       `docker`      |        <img src="./assets/docker.svg" width="48">        |
