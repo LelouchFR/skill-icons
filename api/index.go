@@ -87,7 +87,7 @@ var shortNames = map[string]string{
     "asm":               "assembly",
     "pop":               "popos",
     "nix":               "nixos",
-	"digitalocean":		 "digitalocean",
+    "digitalocean":      "digitalocean",
 }
 
 var (
