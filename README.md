@@ -122,6 +122,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `atom`       |         <img src="./assets/atom.svg" width="48">         |
 |         `au`        |       <img src="./assets/audition.svg" width="48">       |
 |      `autocad`      |     <img src="./assets/autocad-dark.svg" width="48">     |
+|       `aqua`        |       <img src="./assets/aqua-dark.svg" width="48">      |
 |        `aws`        |       <img src="./assets/aws-dark.svg" width="48">       |
 |        `azul`       |         <img src="./assets/azul.svg" width="48">         |
 |       `azure`       |      <img src="./assets/azure-dark.svg" width="48">      |
@@ -155,6 +156,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `css`        |         <img src="./assets/css.svg" width="48">          |
 |      `cypress`      |     <img src="./assets/cypress-dark.svg" width="48">     |
 |         `d3`        |       <img src="./assets/d3-dark.svg" width="48">        |
+|     `datagrip`      |   <img src="./assets/datagrip-dark.svg" width="48">      |
 |        `dart`       |      <img src="./assets/dart-dark.svg" width="48">       |
 |       `debian`      |        <img src="./assets/debian.svg" width="48">        |
 |      `defold`       |     <img src="./assets/defold-dark.svg" width="48">      |
@@ -189,6 +191,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `firebase`     |    <img src="./assets/firebase-dark.svg" width="48">     |
 |      `firefox`      |      <img src="./assets/firefox-dark.svg" width="48">    |
 |       `flask`       |      <img src="./assets/flask-dark.svg" width="48">      |
+|       `fleet`       |       <img src="./assets/fleet-dark.svg" width="48">     |
 |      `flutter`      |     <img src="./assets/flutter-dark.svg" width="48">     |
 |       `fonts`       |        <img src="./assets/fonts.svg" width="48">         |
 |       `forth`       |        <img src="./assets/forth.svg" width="48">         |
@@ -341,6 +344,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `regex`       |      <img src="./assets/regex-dark.svg" width="48">      |
 |       `remix`       |      <img src="./assets/remix-dark.svg" width="48">      |
 |       `replit`      |     <img src="./assets/replit-dark.svg" width="48">      |
+|     `resharper`     |   <img src="./assets/resharper-dark.svg" width="48">     |
 |       `rider`       |      <img src="./assets/rider-dark.svg" width="48">      |
 |    `robloxstudio`   |     <img src="./assets/robloxstudio.svg" width="48">     |
 |       `rocket`      |        <img src="./assets/rocket.svg" width="48">        |
@@ -349,6 +353,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `ruby`       |         <img src="./assets/ruby.svg" width="48">         |
 |     `rubymine`      |    <img src="./assets/rubymine-dark.svg" width="48">     |
 |        `rust`       |         <img src="./assets/rust-dark.svg" width="48">    |
+|     `rustrover`     |     <img src="./assets/rustrover-dark.svg" width="48">   |
 |      `safari`       |       <img src="./assets/safari-dark.svg" width="48">    |
 |        `sass`       |         <img src="./assets/sass.svg" width="48">         |
 |       `spring`      |     <img src="./assets/spring-dark.svg" width="48">      |
