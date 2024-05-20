@@ -326,6 +326,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `pycharm`      |     <img src="./assets/pycharm-dark.svg" width="48">     |
 |         `py`        |     <img src="./assets/python-dark.svg" width="48">      |
 |      `pytorch`      |     <img src="./assets/pytorch-dark.svg" width="48">     |
+|       `pyxel`       |       <img src="./assets/pyxel-dark.svg" width="48">     |
 |         `qt`        |       <img src="./assets/qt-dark.svg" width="48">        |
 |         `r`         |        <img src="./assets/r-dark.svg" width="48">        |
 |      `rabbitmq`     |    <img src="./assets/rabbitmq-dark.svg" width="48">     |
