@@ -423,6 +423,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `workers`      |     <img src="./assets/workers-dark.svg" width="48">     |
 |       `xcode`       |       <img src="./assets/xcode-dark.svg" width="48">     |
 |         `xd`        |          <img src="./assets/xd.svg" width="48">          |
+|        `yaml`       |     <img src="./assets/yaml-dark.svg" width="48">        |
 |       `yammer`      |     <img src="./assets/yammer-dark.svg" width="48">      |
 |        `yarn`       |      <img src="./assets/yarn-dark.svg" width="48">       |
 |        `yew`        |       <img src="./assets/yew-dark.svg" width="48">       |
