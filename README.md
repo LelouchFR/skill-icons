@@ -225,6 +225,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `helix`       |       <img src="./assets/helix-dark.svg" width="48">     |
 |       `heroku`      |        <img src="./assets/heroku.svg" width="48">        |
 |     `hibernate`     |    <img src="./assets/hibernate-dark.svg" width="48">    |
+|         `hc`        |         <img src="./assets/holyc.svg" width="48">        |
 |        `html`       |         <img src="./assets/html.svg" width="48">         |
 |        `htmx`       |      <img src="./assets/htmx-dark.svg" width="48">       |
 |      `hydrogen`     |      <img src="./assets/hydrogen-dark.svg" width="48">   |
@@ -279,7 +280,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `nextjs`      |     <img src="./assets/nextjs-dark.svg" width="48">      |
 |       `nginx`       |        <img src="./assets/nginx.svg" width="48">         |
 |        `nim`        |       <img src="./assets/nim-dark.svg" width="48">       |
-|        `nix`        |       <img src="./assets/nix-dark.svg" width="48">       |
+|        `nix`        |      <img src="./assets/nixos-dark.svg" width="48">      |
 |       `nodejs`      |     <img src="./assets/nodejs-dark.svg" width="48">      |
 |       `notion`      |     <img src="./assets/notion-dark.svg" width="48">      |
 |        `npm`        |       <img src="./assets/npm-dark.svg" width="48">       |
@@ -393,6 +394,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |   `testinglibrary`  |  <img src="./assets/testinglibrary-dark.svg" width="48"> |
 |      `threejs`      |     <img src="./assets/threejs-dark.svg" width="48">     |
 |        `tor`        |       <img src="./assets/tor-dark.svg" width="48">       |
+|       `trpc`        |       <img src="./assets/trpc.svg" width="48">           |
 |      `twitter`      |       <img src="./assets/twitter.svg" width="48">        |
 |         `ts`        |      <img src="./assets/typescript.svg" width="48">      |
 |       `ubuntu`      |        <img src="./assets/ubuntu.svg" width="48">        |
