@@ -161,6 +161,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `debian`      |        <img src="./assets/debian.svg" width="48">        |
 |      `defold`       |     <img src="./assets/defold-dark.svg" width="48">      |
 |        `deno`       |      <img src="./assets/deno-dark.svg" width="48">       |
+|      `desmos`       |        <img src="./assets/desmos.svg" width="48">        |
 |       `devto`       |      <img src="./assets/devto-dark.svg" width="48">      |
 |         `dn`        |       <img src="./assets/dimension.svg" width="48">      |
 |      `discord`      |       <img src="./assets/discord.svg" width="48">        |
@@ -270,6 +271,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |         `me`        |     <img src="./assets/mediaencoder.svg" width="48">     |
 |      `million`      |    <img src="./assets/millionjs-dark.svg" width="48">    |
 |        `mint`       |      <img src="./assets/mint-dark.svg" width="48">       |
+|        `miro`       |         <img src="./assets/miro.svg" width="48">         |
 |      `misskey`      |     <img src="./assets/misskey-dark.svg" width="48">     |
 |        `mjml`       |        <img src="./assets/mjml-dark.svg" width="48">     |
 |        `ml5`        |     <img src="./assets/ml5-dark.svg" width="48">         |
