@@ -185,6 +185,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `emotion`      |     <img src="./assets/emotion-dark.svg" width="48">     |
 |       `excel`       |     <img src="./assets/excel-dark.svg" width="48">       |
 |      `express`      |    <img src="./assets/expressjs-dark.svg" width="48">    |
+|     `facebook`      |       <img src="./assets/facebook.svg" width="48">       |
 |      `fastapi`      |       <img src="./assets/fastapi.svg" width="48">        |
 |     `fediverse`     |    <img src="./assets/fediverse-dark.svg" width="48">    |
 |       `figma`       |      <img src="./assets/figma-dark.svg" width="48">      |
@@ -395,7 +396,6 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `threejs`      |     <img src="./assets/threejs-dark.svg" width="48">     |
 |        `tor`        |       <img src="./assets/tor-dark.svg" width="48">       |
 |       `trpc`        |       <img src="./assets/trpc.svg" width="48">           |
-|      `twitter`      |       <img src="./assets/twitter.svg" width="48">        |
 |         `ts`        |      <img src="./assets/typescript.svg" width="48">      |
 |       `ubuntu`      |        <img src="./assets/ubuntu.svg" width="48">        |
 |       `unity`       |      <img src="./assets/unity-dark.svg" width="48">      |
@@ -421,6 +421,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `word`       |       <img src="./assets/word-dark.svg" width="48">      |
 |     `wordpress`     |      <img src="./assets/wordpress.svg" width="48">       |
 |      `workers`      |     <img src="./assets/workers-dark.svg" width="48">     |
+|         `x`         |         <img src="./assets/x-dark.svg" width="48">       |
 |       `xcode`       |       <img src="./assets/xcode-dark.svg" width="48">     |
 |         `xd`        |          <img src="./assets/xd.svg" width="48">          |
 |        `yaml`       |     <img src="./assets/yaml-dark.svg" width="48">        |
