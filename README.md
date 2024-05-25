@@ -207,8 +207,9 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `github`      |     <img src="./assets/github-dark.svg" width="48">      |
 |   `githubactions`   |  <img src="./assets/githubactions-dark.svg" width="48">  |
 |       `gitlab`      |     <img src="./assets/gitlab-dark.svg" width="48">      |
-|       `gmail`       |      <img src="./assets/gmail-dark.svg" width="48">      |
 |       `gleam`       |      <img src="./assets/gleam-dark.svg" width="48">      |
+|       `gmail`       |      <img src="./assets/gmail-dark.svg" width="48">      |
+|       `gnome`       |      <img src="./assets/gnome-dark.svg" width="48">      |
 |      `gherkin`      |     <img src="./assets/gherkin-dark.svg" width="48">     |
 |         `go`        |        <img src="./assets/golang.svg" width="48">        |
 |      `goland`       |     <img src="./assets/goland-dark.svg" width="48">      |
@@ -231,6 +232,8 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `html`       |         <img src="./assets/html.svg" width="48">         |
 |        `htmx`       |      <img src="./assets/htmx-dark.svg" width="48">       |
 |      `hydrogen`     |      <img src="./assets/hydrogen-dark.svg" width="48">   |
+|      `hyprland`     |      <img src="./assets/hyprland-dark.svg" width="48">   |
+|         `i3`        |       <img src="./assets/i3-dark.svg" width="48">        |
 |        `idea`       |      <img src="./assets/idea-dark.svg" width="48">       |
 |         `ai`        |     <img src="./assets/illustrator.svg" width="48">      |
 |         `ic`        |        <img src="./assets/incopy.svg" width="48">        |
@@ -247,6 +250,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `kakoune`      |       <img src="./assets/kakoune-dark.svg" width="48">   |
 |       `kafka`       |        <img src="./assets/kafka.svg" width="48">         |
 |        `kali`       |      <img src="./assets/kali-dark.svg" width="48">       |
+|        `kde`        |       <img src="./assets/kde-dark.svg" width="48">       |
 |       `kotlin`      |     <img src="./assets/kotlin-dark.svg" width="48">      |
 |        `ktor`       |      <img src="./assets/ktor-dark.svg" width="48">       |
 |     `kubernetes`    |      <img src="./assets/kubernetes.svg" width="48">      |
