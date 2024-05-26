@@ -16,6 +16,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: set permission to security script
+        run: chmod +x ./.github/security.sh
       - name: check icons formatting
         run: ./.github/security.sh 0
       - name: check for xss attack
