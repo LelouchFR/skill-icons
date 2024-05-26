@@ -26,7 +26,7 @@ jobs:
           else
             echo "image found in svg, please reformat you svg to have no image"
             echo "$has_img"
-            exit 1
+            exit 2
           fi
         shell: bash
 
@@ -40,6 +40,6 @@ jobs:
           else
             echo "xss attack detected in following file:"
             echo "$has_js_tag"
-            exit 1
+            exit 2
           fi
         shell: bash
