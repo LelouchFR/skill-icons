@@ -273,6 +273,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |     `matplotlib`    |    <img src="./assets/matplotlib-dark.svg" width="48">   |
 |       `maven`       |      <img src="./assets/maven-dark.svg" width="48">      |
 |         `me`        |     <img src="./assets/mediaencoder.svg" width="48">     |
+|       `mermaid`     |       <img src="./assets/mermaid.svg" width="48">        |
 |      `million`      |    <img src="./assets/millionjs-dark.svg" width="48">    |
 |        `mint`       |      <img src="./assets/mint-dark.svg" width="48">       |
 |        `miro`       |         <img src="./assets/miro.svg" width="48">         |
