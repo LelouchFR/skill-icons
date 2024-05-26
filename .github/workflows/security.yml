@@ -19,7 +19,7 @@ jobs:
       - name: check icons formatting
         continue-on-error: true
         run: |
-          has_img=$(grep -rl "data:image/png;base64" ./assets/*.svg)
+          has_img=$(grep -l "data:image/png;base64" ./assets/*.svg)
           if [ -z "$has_img" ]; then
             echo "no image found in svg"
           else
@@ -32,7 +32,7 @@ jobs:
       - name: check for xss attack
         continue-on-error: true
         run: |
-          has_js_tag=$(grep -rl "script" ./assets/*.svg)
+          has_js_tag=$(grep -l "script" ./assets/*.svg)
           if [[ -z "$has_js_tag" ]]; then
             echo "no xss attack found"
           else
