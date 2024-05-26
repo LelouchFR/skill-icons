@@ -1,0 +1,37 @@
+name: Security
+on:
+  push:
+    branches:
+      - main
+      - '**'
+
+  pull_request:
+    branches:
+      - main
+      - '**'
+
+jobs:
+  Security:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: check icons formatting
+        run: |
+          has_img=$(grep -l "data:image/png;base64" ./assets)
+          if [[ ${#has_img[@]} -eq 0 ]]; then
+            echo "no image found in svg"
+          else
+            echo "image found in svg, please reformat you svg to have no image"
+            exit 1
+          fi
+      - name: check for xss attack
+        run: |
+          has_js_tag=$(grep -l "script" ./assets)
+          if [[ ${#has_js_tag[@]} -eq 0 ]]; then
+            echo "no xss attack found"
+          else
+            echo "xss attack detected"
+            exit 1
+          fi
