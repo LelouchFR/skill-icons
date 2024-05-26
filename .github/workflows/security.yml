@@ -19,7 +19,7 @@ jobs:
       
       - name: check icons formatting
         run: |
-          !#/usr/bin/bash
+          !#/bin/bash
           has_img=$(grep -rl "data:image/png;base64" ./assets/*.svg)
           if [ -z "$has_img" ]; then
             echo "no image found in svg"
@@ -30,7 +30,7 @@ jobs:
           fi
       - name: check for xss attack
         run: |
-          !#/usr/bin/bash
+          !#/bin/bash
           has_js_tag=$(grep -rl "script" ./assets/*.svg)
           if [[ -z "$has_js_tag" ]]; then
             echo "no xss attack found"
