@@ -21,3 +21,11 @@ body:
     attributes:
       label: Additional Information
       description: Give us some additional information on the feature request like proposed solutions, links, screenshots, etc.
+
+  - type: checkboxes
+    id: coc-acknowledgment
+    attributes:
+      label: Code of Conduct Aknowledgment
+      description: "Please confirm you have read and agree to abide by our [Code of Conduct](https://github.com/LelouchFR/skill-icons/blob/main/.github/CODE_OF_CONDUCT.md)"
+      options:
+        - label: "I have read and agree to the Code of Conduct."

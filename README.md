@@ -122,6 +122,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `atom`       |         <img src="./assets/atom.svg" width="48">         |
 |         `au`        |       <img src="./assets/audition.svg" width="48">       |
 |      `autocad`      |     <img src="./assets/autocad-dark.svg" width="48">     |
+|       `aqua`        |       <img src="./assets/aqua-dark.svg" width="48">      |
 |        `aws`        |       <img src="./assets/aws-dark.svg" width="48">       |
 |        `azul`       |         <img src="./assets/azul.svg" width="48">         |
 |       `azure`       |      <img src="./assets/azure-dark.svg" width="48">      |
@@ -155,14 +156,17 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `css`        |         <img src="./assets/css.svg" width="48">          |
 |      `cypress`      |     <img src="./assets/cypress-dark.svg" width="48">     |
 |         `d3`        |       <img src="./assets/d3-dark.svg" width="48">        |
+|     `datagrip`      |   <img src="./assets/datagrip-dark.svg" width="48">      |
 |        `dart`       |      <img src="./assets/dart-dark.svg" width="48">       |
 |       `debian`      |        <img src="./assets/debian.svg" width="48">        |
 |      `defold`       |     <img src="./assets/defold-dark.svg" width="48">      |
 |        `deno`       |      <img src="./assets/deno-dark.svg" width="48">       |
+|      `desmos`       |        <img src="./assets/desmos.svg" width="48">        |
 |       `devto`       |      <img src="./assets/devto-dark.svg" width="48">      |
 |         `dn`        |       <img src="./assets/dimension.svg" width="48">      |
 |      `discord`      |       <img src="./assets/discord.svg" width="48">        |
 |        `bots`       |     <img src="./assets/discordbots.svg" width="48">      |
+|    `digitalocean`   |  <img src="./assets/digitalocean-light.svg" width="48">  |
 |     `discordjs`     |    <img src="./assets/discordjs-dark.svg" width="48">    |
 |       `django`      |        <img src="./assets/django.svg" width="48">        |
 |       `docker`      |        <img src="./assets/docker.svg" width="48">        |
@@ -182,12 +186,14 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `emotion`      |     <img src="./assets/emotion-dark.svg" width="48">     |
 |       `excel`       |     <img src="./assets/excel-dark.svg" width="48">       |
 |      `express`      |    <img src="./assets/expressjs-dark.svg" width="48">    |
+|     `facebook`      |       <img src="./assets/facebook.svg" width="48">       |
 |      `fastapi`      |       <img src="./assets/fastapi.svg" width="48">        |
 |     `fediverse`     |    <img src="./assets/fediverse-dark.svg" width="48">    |
 |       `figma`       |      <img src="./assets/figma-dark.svg" width="48">      |
 |      `firebase`     |    <img src="./assets/firebase-dark.svg" width="48">     |
 |      `firefox`      |      <img src="./assets/firefox-dark.svg" width="48">    |
 |       `flask`       |      <img src="./assets/flask-dark.svg" width="48">      |
+|       `fleet`       |       <img src="./assets/fleet-dark.svg" width="48">     |
 |      `flutter`      |     <img src="./assets/flutter-dark.svg" width="48">     |
 |       `fonts`       |        <img src="./assets/fonts.svg" width="48">         |
 |       `forth`       |        <img src="./assets/forth.svg" width="48">         |
@@ -201,8 +207,9 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `github`      |     <img src="./assets/github-dark.svg" width="48">      |
 |   `githubactions`   |  <img src="./assets/githubactions-dark.svg" width="48">  |
 |       `gitlab`      |     <img src="./assets/gitlab-dark.svg" width="48">      |
-|       `gmail`       |      <img src="./assets/gmail-dark.svg" width="48">      |
 |       `gleam`       |      <img src="./assets/gleam-dark.svg" width="48">      |
+|       `gmail`       |      <img src="./assets/gmail-dark.svg" width="48">      |
+|       `gnome`       |      <img src="./assets/gnome-dark.svg" width="48">      |
 |      `gherkin`      |     <img src="./assets/gherkin-dark.svg" width="48">     |
 |         `go`        |        <img src="./assets/golang.svg" width="48">        |
 |      `goland`       |     <img src="./assets/goland-dark.svg" width="48">      |
@@ -221,9 +228,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `helix`       |       <img src="./assets/helix-dark.svg" width="48">     |
 |       `heroku`      |        <img src="./assets/heroku.svg" width="48">        |
 |     `hibernate`     |    <img src="./assets/hibernate-dark.svg" width="48">    |
+|         `hc`        |         <img src="./assets/holyc.svg" width="48">        |
 |        `html`       |         <img src="./assets/html.svg" width="48">         |
 |        `htmx`       |      <img src="./assets/htmx-dark.svg" width="48">       |
 |      `hydrogen`     |      <img src="./assets/hydrogen-dark.svg" width="48">   |
+|      `hyprland`     |      <img src="./assets/hyprland-dark.svg" width="48">   |
+|         `i3`        |       <img src="./assets/i3-dark.svg" width="48">        |
 |        `idea`       |      <img src="./assets/idea-dark.svg" width="48">       |
 |         `ai`        |     <img src="./assets/illustrator.svg" width="48">      |
 |         `ic`        |        <img src="./assets/incopy.svg" width="48">        |
@@ -240,6 +250,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `kakoune`      |       <img src="./assets/kakoune-dark.svg" width="48">   |
 |       `kafka`       |        <img src="./assets/kafka.svg" width="48">         |
 |        `kali`       |      <img src="./assets/kali-dark.svg" width="48">       |
+|        `kde`        |       <img src="./assets/kde-dark.svg" width="48">       |
 |       `kotlin`      |     <img src="./assets/kotlin-dark.svg" width="48">      |
 |        `ktor`       |      <img src="./assets/ktor-dark.svg" width="48">       |
 |     `kubernetes`    |      <img src="./assets/kubernetes.svg" width="48">      |
@@ -264,6 +275,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |         `me`        |     <img src="./assets/mediaencoder.svg" width="48">     |
 |      `million`      |    <img src="./assets/millionjs-dark.svg" width="48">    |
 |        `mint`       |      <img src="./assets/mint-dark.svg" width="48">       |
+|        `miro`       |         <img src="./assets/miro.svg" width="48">         |
 |      `misskey`      |     <img src="./assets/misskey-dark.svg" width="48">     |
 |        `mjml`       |        <img src="./assets/mjml-dark.svg" width="48">     |
 |        `ml5`        |     <img src="./assets/ml5-dark.svg" width="48">         |
@@ -275,7 +287,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `nextjs`      |     <img src="./assets/nextjs-dark.svg" width="48">      |
 |       `nginx`       |        <img src="./assets/nginx.svg" width="48">         |
 |        `nim`        |       <img src="./assets/nim-dark.svg" width="48">       |
-|        `nix`        |       <img src="./assets/nix-dark.svg" width="48">       |
+|        `nix`        |      <img src="./assets/nixos-dark.svg" width="48">      |
 |       `nodejs`      |     <img src="./assets/nodejs-dark.svg" width="48">      |
 |       `notion`      |     <img src="./assets/notion-dark.svg" width="48">      |
 |        `npm`        |       <img src="./assets/npm-dark.svg" width="48">       |
@@ -325,6 +337,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `pycharm`      |     <img src="./assets/pycharm-dark.svg" width="48">     |
 |         `py`        |     <img src="./assets/python-dark.svg" width="48">      |
 |      `pytorch`      |     <img src="./assets/pytorch-dark.svg" width="48">     |
+|       `pyxel`       |       <img src="./assets/pyxel-dark.svg" width="48">     |
 |         `qt`        |       <img src="./assets/qt-dark.svg" width="48">        |
 |         `r`         |        <img src="./assets/r-dark.svg" width="48">        |
 |      `rabbitmq`     |    <img src="./assets/rabbitmq-dark.svg" width="48">     |
@@ -340,6 +353,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `regex`       |      <img src="./assets/regex-dark.svg" width="48">      |
 |       `remix`       |      <img src="./assets/remix-dark.svg" width="48">      |
 |       `replit`      |     <img src="./assets/replit-dark.svg" width="48">      |
+|     `resharper`     |   <img src="./assets/resharper-dark.svg" width="48">     |
 |       `rider`       |      <img src="./assets/rider-dark.svg" width="48">      |
 |    `robloxstudio`   |     <img src="./assets/robloxstudio.svg" width="48">     |
 |       `rocket`      |        <img src="./assets/rocket.svg" width="48">        |
@@ -348,6 +362,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `ruby`       |         <img src="./assets/ruby.svg" width="48">         |
 |     `rubymine`      |    <img src="./assets/rubymine-dark.svg" width="48">     |
 |        `rust`       |         <img src="./assets/rust-dark.svg" width="48">    |
+|     `rustrover`     |     <img src="./assets/rustrover-dark.svg" width="48">   |
 |      `safari`       |       <img src="./assets/safari-dark.svg" width="48">    |
 |        `sass`       |         <img src="./assets/sass.svg" width="48">         |
 |       `spring`      |     <img src="./assets/spring-dark.svg" width="48">      |
@@ -386,7 +401,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |   `testinglibrary`  |  <img src="./assets/testinglibrary-dark.svg" width="48"> |
 |      `threejs`      |     <img src="./assets/threejs-dark.svg" width="48">     |
 |        `tor`        |       <img src="./assets/tor-dark.svg" width="48">       |
-|      `twitter`      |       <img src="./assets/twitter.svg" width="48">        |
+|       `trpc`        |       <img src="./assets/trpc.svg" width="48">           |
 |         `ts`        |      <img src="./assets/typescript.svg" width="48">      |
 |       `ubuntu`      |        <img src="./assets/ubuntu.svg" width="48">        |
 |       `unity`       |      <img src="./assets/unity-dark.svg" width="48">      |
@@ -412,8 +427,10 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `word`       |       <img src="./assets/word-dark.svg" width="48">      |
 |     `wordpress`     |      <img src="./assets/wordpress.svg" width="48">       |
 |      `workers`      |     <img src="./assets/workers-dark.svg" width="48">     |
+|         `x`         |         <img src="./assets/x-dark.svg" width="48">       |
 |       `xcode`       |       <img src="./assets/xcode-dark.svg" width="48">     |
 |         `xd`        |          <img src="./assets/xd.svg" width="48">          |
+|        `yaml`       |     <img src="./assets/yaml-dark.svg" width="48">        |
 |       `yammer`      |     <img src="./assets/yammer-dark.svg" width="48">      |
 |        `yarn`       |      <img src="./assets/yarn-dark.svg" width="48">       |
 |        `yew`        |       <img src="./assets/yew-dark.svg" width="48">       |
