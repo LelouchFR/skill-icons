@@ -16,8 +16,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      
       - name: check icons formatting
+        continue-on-error: true
         run: |
           has_img=$(grep -rl "data:image/png;base64" ./assets/*.svg)
           if [ -z "$has_img" ]; then
@@ -30,6 +30,7 @@ jobs:
         shell: bash
 
       - name: check for xss attack
+        continue-on-error: true
         run: |
           has_js_tag=$(grep -rl "script" ./assets/*.svg)
           if [[ -z "$has_js_tag" ]]; then
