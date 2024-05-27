@@ -226,6 +226,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `haxe`       |      <img src="./assets/haxe-dark.svg" width="48">       |
 |     `haxeflixel`    |   <img src="./assets/haxeflixel-dark.svg" width="48">    |
 |       `helix`       |       <img src="./assets/helix-dark.svg" width="48">     |
+|       `helm`        |       <img src="./assets/helm-dark.svg" width="48">      |
 |       `heroku`      |        <img src="./assets/heroku.svg" width="48">        |
 |     `hibernate`     |    <img src="./assets/hibernate-dark.svg" width="48">    |
 |         `hc`        |         <img src="./assets/holyc.svg" width="48">        |
