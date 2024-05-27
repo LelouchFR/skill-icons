@@ -436,6 +436,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `yammer`      |     <img src="./assets/yammer-dark.svg" width="48">      |
 |        `yarn`       |      <img src="./assets/yarn-dark.svg" width="48">       |
 |        `yew`        |       <img src="./assets/yew-dark.svg" width="48">       |
+|      `youtube`      |        <img src="./assets/youtube.svg" width="48">       |
 |        `zed`        |       <img src="./assets/zed-dark.svg" width="48">       |
 |        `zig`        |       <img src="./assets/zig-dark.svg" width="48">       |
 
