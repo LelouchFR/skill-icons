@@ -1,0 +1,24 @@
+name: Security
+on:
+  push:
+    branches:
+      - main
+      - '**'
+
+  pull_request:
+    branches:
+      - main
+      - '**'
+
+jobs:
+  Security:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: set permission to security script
+        run: chmod +x ./.github/security.sh
+      - name: check icons formatting
+        run: ./.github/security.sh 0
+      - name: check for xss attack
+        run: ./.github/security.sh 1
