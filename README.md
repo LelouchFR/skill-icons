@@ -334,6 +334,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `prisma`      |        <img src="./assets/prisma.svg" width="48">        |
 |     `processing`    |   <img src="./assets/processing-dark.svg" width="48">    |
 |     `prometheus`    |      <img src="./assets/prometheus.svg" width="48">      |
+|       `proton`      |      <img src="./assets/proton-dark.svg" width="48">     |
 |        `pug`        |       <img src="./assets/pug-dark.svg" width="48">       |
 |      `puppeteer`    |    <img src="./assets/puppeteer-dark.svg" width="48">    |
 |      `pycharm`      |     <img src="./assets/pycharm-dark.svg" width="48">     |
