@@ -1,0 +1,16 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="DO" clip-path="url(#clip0_1_54)">
+<path id="Vector" d="M60 0H196C229.1 0 256 26.9 256 60V196C256 229.1 229.1 256 196 256H60C26.9 256 0 229.1 0 196V60C0 26.9 26.9 0 60 0Z" fill="white"/>
+<g id="Group 13">
+<path id="Vector_2" d="M128 222.994V186.194C167 186.194 197.2 147.594 182.3 106.494C176.8 91.2937 164.7 79.1937 149.4 73.6937C108.4 58.7937 69.8 88.9937 69.8 127.994H33C33 65.7937 93.1 17.3937 158.3 37.6937C186.8 46.5937 209.4 69.1937 218.3 97.6937C238.6 162.894 190.2 222.994 128 222.994Z" fill="#0080FF"/>
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M128.1 186.294H91.3999V149.594H128.1V186.294Z" fill="#0080FF"/>
+<path id="Vector_4" fill-rule="evenodd" clip-rule="evenodd" d="M91.4002 214.494H63.2002V186.294H91.4002V214.494Z" fill="#0080FF"/>
+<path id="Vector_5" fill-rule="evenodd" clip-rule="evenodd" d="M63.2001 186.293H39.6001V162.693H63.2001V186.293Z" fill="#0080FF"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1_54">
+<rect width="256" height="256" fill="white"/>
+</clipPath>
+</defs>
+</svg>

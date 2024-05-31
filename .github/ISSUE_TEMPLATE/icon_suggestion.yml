@@ -29,3 +29,11 @@ body:
       placeholder: "Feel free to drag and drop the files here."
     validations:
       required: true
+
+  - type: checkboxes
+    id: coc-acknowledgment
+    attributes:
+      label: Code of Conduct Acknowledgment
+      description: "Please confirm you have read and agree to abide by our [Code of Conduct](https://github.com/LelouchFR/skill-icons/blob/main/.github/CODE_OF_CONDUCT.md)"
+      options:
+        - label: "I have read and agree to the Code of Conduct."
