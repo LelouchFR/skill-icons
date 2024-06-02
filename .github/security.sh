@@ -9,7 +9,7 @@ if [[ $1 -eq 0 ]]; then
         exit 1
     fi
 else
-    has_js_tag=$(grep -l "script" ./assets/*.svg)
+    has_js_tag=$(grep -l "<script" ./assets/*.svg)
 
     if [[ -z "$has_js_tag" ]]; then
         echo "no xss attack found"

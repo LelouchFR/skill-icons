@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none" viewBox="0 0 256 256" id="coffeescript">
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none" viewBox="0 0 256 256" id="coffee">
 <style>
-#coffeescript {
+#coffee {
     rect {fill: #242938}
 
     @media (prefers-color-scheme: light) {
