@@ -104,6 +104,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |         `ar`        |         <img src="./assets/aero.svg" width="48">         |
 |         `ae`        |     <img src="./assets/aftereffects.svg" width="48">     |
 |      `aiscript`     |    <img src="./assets/aiscript-auto.svg" width="48">     |
+|       `alchemy`     |    <img src="./assets/alchemy-auto.svg" width="48">      |
 |      `alpinejs`     |    <img src="./assets/alpinejs-auto.svg" width="48">     |
 |      `anaconda`     |    <img src="./assets/anaconda-auto.svg" width="48">     |
 |   `androidstudio`   |  <img src="./assets/androidstudio-auto.svg" width="48">  |
@@ -201,6 +202,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `fresco`      |        <img src="./assets/fresco.svg" width="48">        |
 |        `fuse`       |        <img src="./assets/fuse.svg" width="48">          |
 |  `gamemakerstudio`  |   <img src="./assets/gamemakerstudio.svg" width="48">    |
+|      `ganache`      |     <img src="./assets/ganache-auto.svg" width="48">     |
 |       `gatsby`      |        <img src="./assets/gatsby.svg" width="48">        |
 |        `gcp`        |       <img src="./assets/gcp-auto.svg" width="48">       |
 |        `git`        |         <img src="./assets/git-auto.svg" width="48">     |
@@ -222,6 +224,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `gsap`       |       <img src="./assets/gsap-auto.svg" width="48">      |
 |        `gtk`        |       <img src="./assets/gtk-auto.svg" width="48">       |
 |        `gulp`       |         <img src="./assets/gulp.svg" width="48">         |
+|      `hardhat`      |     <img src="./assets/hardhat-auto.svg" width="48">     |
 |      `haskell`      |     <img src="./assets/haskell-auto.svg" width="48">     |
 |        `haxe`       |      <img src="./assets/haxe-auto.svg" width="48">       |
 |     `haxeflixel`    |   <img src="./assets/haxeflixel-auto.svg" width="48">    |
@@ -239,6 +242,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |         `ai`        |     <img src="./assets/illustrator.svg" width="48">      |
 |         `ic`        |        <img src="./assets/incopy.svg" width="48">        |
 |         `id`        |       <img src="./assets/indesign.svg" width="48">       |
+|       `infura`      |        <img src="./assets/infura.svg" width="48">        |
 |     `instagram`     |      <img src="./assets/instagram.svg" width="48">       |
 |        `ipfs`       |      <img src="./assets/ipfs-auto.svg" width="48">       |
 |        `java`       |      <img src="./assets/java-auto.svg" width="48">       |
@@ -303,6 +307,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `opencv`      |     <img src="./assets/opencv-auto.svg" width="48">      |
 |     `openshift`     |      <img src="./assets/openshift.svg" width="48">       |
 |     `openstack`     |    <img src="./assets/openstack-auto.svg" width="48">    |
+|    `openzeppelin`   |   <img src="./assets/openzeppelin-auto.svg" width="48">  |
 |       `opera`       |       <img src="./assets/opera-auto.svg" width="48">     |
 |      `outlook`      |       <img src="./assets/outlook-auto.svg" width="48">   |
 |        `p5js`       |         <img src="./assets/p5js.svg" width="48">         |
@@ -405,6 +410,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `threejs`      |     <img src="./assets/threejs-auto.svg" width="48">     |
 |        `tor`        |       <img src="./assets/tor-auto.svg" width="48">       |
 |       `trpc`        |       <img src="./assets/trpc.svg" width="48">           |
+|      `truffle`      |     <img src="./assets/truffle-auto.svg" width="48">     |
 |         `ts`        |      <img src="./assets/typescript.svg" width="48">      |
 |       `ubuntu`      |        <img src="./assets/ubuntu.svg" width="48">        |
 |       `unity`       |      <img src="./assets/unity-auto.svg" width="48">      |
@@ -421,6 +427,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `vscodium`     |    <img src="./assets/vscodium-auto.svg" width="48">     |
 |        `vue`        |      <img src="./assets/vuejs-auto.svg" width="48">      |
 |      `vuetify`      |     <img src="./assets/vuetify-auto.svg" width="48">     |
+|       `vyper`       |      <img src="./assets/vyper-auto.svg" width="48">      |
 |        `wasm`       |     <img src="./assets/webassembly.svg" width="48">      |
 |      `webflow`      |       <img src="./assets/webflow.svg" width="48">        |
 |      `webpack`      |     <img src="./assets/webpack-auto.svg" width="48">     |
