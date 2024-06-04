@@ -147,6 +147,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `crystal`      |     <img src="./assets/crystal-auto.svg" width="48">     |
 |     `cassandra`     |    <img src="./assets/cassandra-auto.svg" width="48">    |
 |         `ch`        |  <img src="./assets/characteranimator.svg" width="48">   |
+|      `chatgpt`      |  <img src="./assets/chatgpt-auto.svg" width="48">        |
 |       `chrome`      |      <img src="./assets/chrome-auto.svg" width="48">     |
 |      `chromium`     |      <img src="./assets/chromium-auto.svg" width="48">   |
 |       `clion`       |      <img src="./assets/clion-auto.svg" width="48">      |
