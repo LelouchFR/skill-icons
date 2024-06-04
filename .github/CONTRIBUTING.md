@@ -21,6 +21,18 @@ Thank you for your interest in contributing to our project! Here are some guidel
 3. **Test your changes:** Ensure your changes are thoroughly tested.
 4. **Submit a pull request:** Open a pull request to the main repository and fill out the appropriate template.
 
+#### Submitting a new Icon
+
+1. Follow the exact same steps than [here](###Submitting_Pull_Requests)
+2. **Icon:** Use the placeholder svg to start your Icon.
+3. **Software:** Use Figma or Illustrator for making svg.
+
+Download placeholders:
+
+<a href="./placeholder-dark.svg" download>placeholder-dark.svg</a>
+
+<a href="./placeholder-light.svg" download>placeholder-light.svg</a>
+
 ### Coding Standards
 
 - **Style:** Follow the coding style used in the project.
