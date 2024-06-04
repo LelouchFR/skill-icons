@@ -309,6 +309,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |     `openstack`     |    <img src="./assets/openstack-auto.svg" width="48">    |
 |    `openzeppelin`   |   <img src="./assets/openzeppelin-auto.svg" width="48">  |
 |       `opera`       |       <img src="./assets/opera-auto.svg" width="48">     |
+|       `oracle`      |       <img src="./assets/oracle-auto.svg" width="48">    |
 |      `outlook`      |       <img src="./assets/outlook-auto.svg" width="48">   |
 |        `p5js`       |         <img src="./assets/p5js.svg" width="48">         |
 |       `pandas`      |      <img src="./assets/pandas-auto.svg" width="48">     |
