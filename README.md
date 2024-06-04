@@ -278,6 +278,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `looker`      |        <img src="./assets/looker-auto.svg" width="48">   |
 |        `lua`        |       <img src="./assets/lua-auto.svg" width="48">       |
 |         `md`        |    <img src="./assets/markdown-auto.svg" width="48">     |
+|      `manjaro`      |       <img src="./assets/manjaro.svg" width="48">        |
 |      `mastodon`     |    <img src="./assets/mastodon-auto.svg" width="48">     |
 |     `materialui`    |   <img src="./assets/materialui-auto.svg" width="48">    |
 |       `matlab`      |     <img src="./assets/matlab-auto.svg" width="48">      |
