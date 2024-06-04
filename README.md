@@ -247,6 +247,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |         `ic`        |        <img src="./assets/incopy.svg" width="48">        |
 |         `id`        |       <img src="./assets/indesign.svg" width="48">       |
 |       `infura`      |        <img src="./assets/infura.svg" width="48">        |
+|      `insomnia`     |       <img src="./assets/insomnia.svg" width="48">       |
 |     `instagram`     |      <img src="./assets/instagram.svg" width="48">       |
 |        `ipfs`       |      <img src="./assets/ipfs-auto.svg" width="48">       |
 |        `java`       |      <img src="./assets/java-auto.svg" width="48">       |
