@@ -176,7 +176,7 @@ func iconRoute(r *gin.RouterGroup) {
 
 		theme := ctx.Request.Form.Get("theme")
 		if theme == "" {
-			theme = "dark"
+			theme = "auto"
 		}
 
 		perLineStr := ctx.Request.Form.Get("perline")
@@ -197,8 +197,8 @@ func iconRoute(r *gin.RouterGroup) {
 			return
 		}
 
-		if theme != "dark" && theme != "light" && theme != "" {
-			ctx.String(http.StatusBadRequest, "Theme must be either 'light' or 'dark'")
+		if theme != "dark" && theme != "light" && theme != "auto" && theme != "" {
+			ctx.String(http.StatusBadRequest, "Theme must be either 'light', 'dark' or 'auto'")
 			return
 		}
 
@@ -244,7 +244,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	// Populate iconNameList and themedIcons
 	for key := range icons {
 		iconNameList = append(iconNameList, strings.Split(key, "-")[0])
-		if strings.Contains(key, "-light") || strings.Contains(key, "-dark") {
+		if strings.Contains(key, "-light") || strings.Contains(key, "-dark") || strings.Contains(key, "-auto") {
 			themedIcons = append(themedIcons, strings.Split(key, "-")[0])
 		}
 	}
