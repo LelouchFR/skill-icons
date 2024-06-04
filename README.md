@@ -132,6 +132,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |         `be`        |        <img src="./assets/behance.svg" width="48">       |
 |        `bevy`       |      <img src="./assets/bevy-auto.svg" width="48">       |
 |     `bitbucket`     |    <img src="./assets/bitbucket-auto.svg" width="48">    |
+|       `blazor`      |     <img src="./assets/blazor-auto.svg" width="48">      |
 |      `blender`      |     <img src="./assets/blender-auto.svg" width="48">     |
 |     `bootstrap`     |      <img src="./assets/bootstrap.svg" width="48">       |
 |       `brave`       |       <img src="./assets/brave-auto.svg" width="48">     |
@@ -157,6 +158,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `css`        |         <img src="./assets/css.svg" width="48">          |
 |      `cypress`      |     <img src="./assets/cypress-auto.svg" width="48">     |
 |         `d3`        |       <img src="./assets/d3-auto.svg" width="48">        |
+|     `dailydev`      |     <img src="./assets/dailydev-auto.svg" width="48">    |
 |     `datagrip`      |   <img src="./assets/datagrip-auto.svg" width="48">      |
 |        `dart`       |      <img src="./assets/dart-auto.svg" width="48">       |
 |       `debian`      |        <img src="./assets/debian.svg" width="48">        |
@@ -188,6 +190,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `excel`       |     <img src="./assets/excel-auto.svg" width="48">       |
 |      `express`      |    <img src="./assets/expressjs-auto.svg" width="48">    |
 |     `facebook`      |       <img src="./assets/facebook.svg" width="48">       |
+|       `fastai`      |      <img src="./assets/fastai-auto.svg" width="48">     |
 |      `fastapi`      |       <img src="./assets/fastapi.svg" width="48">        |
 |     `fediverse`     |    <img src="./assets/fediverse-auto.svg" width="48">    |
 |       `figma`       |      <img src="./assets/figma-auto.svg" width="48">      |
@@ -239,6 +242,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `hyprland`     |      <img src="./assets/hyprland-auto.svg" width="48">   |
 |         `i3`        |       <img src="./assets/i3-auto.svg" width="48">        |
 |        `idea`       |      <img src="./assets/idea-auto.svg" width="48">       |
+|       `ignite`      |      <img src="./assets/ignite-auto.svg" width="48">     |
 |         `ai`        |     <img src="./assets/illustrator.svg" width="48">      |
 |         `ic`        |        <img src="./assets/incopy.svg" width="48">        |
 |         `id`        |       <img src="./assets/indesign.svg" width="48">       |
@@ -263,6 +267,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `latex`       |      <img src="./assets/latex-auto.svg" width="48">      |
 |      `leetcode`     |    <img src="./assets/leetcode-auto.svg" width="48">     |
 |        `less`       |      <img src="./assets/less-auto.svg" width="48">       |
+|     `lightning`     |    <img src="./assets/lightning-auto.svg" width="48">    |
 |         `lr`        |      <img src="./assets/lightroom.svg" width="48">       |
 |         `lrc`       |  <img src="./assets/lightroomclassic.svg" width="48">    |
 |      `linkedin`     |       <img src="./assets/linkedin.svg" width="48">       |
@@ -285,6 +290,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `misskey`      |     <img src="./assets/misskey-auto.svg" width="48">     |
 |        `mjml`       |        <img src="./assets/mjml-auto.svg" width="48">     |
 |        `ml5`        |     <img src="./assets/ml5-auto.svg" width="48">         |
+|        `mojo`        |     <img src="./assets/mojo-auto.svg" width="48">       |
 |      `mongodb`      |       <img src="./assets/mongodb.svg" width="48">        |
 |       `mysql`       |      <img src="./assets/mysql-auto.svg" width="48">      |
 |       `neovim`      |     <img src="./assets/neovim-auto.svg" width="48">      |
@@ -398,6 +404,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `spark`       |         <img src="./assets/spark.svg" width="48">        |
 |       `svelte`      |        <img src="./assets/svelte.svg" width="48">        |
 |        `svg`        |       <img src="./assets/svg-auto.svg" width="48">       |
+|        `svn`        |         <img src="./assets/svn.svg" width="48">          |
 |       `swift`       |        <img src="./assets/swift.svg" width="48">         |
 |      `symfony`      |     <img src="./assets/symfony-auto.svg" width="48">     |
 |      `tableau`      |      <img src="./assets/tableau-auto.svg" width="48">    |
