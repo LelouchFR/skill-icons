@@ -398,6 +398,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `spark`       |         <img src="./assets/spark.svg" width="48">        |
 |       `svelte`      |        <img src="./assets/svelte.svg" width="48">        |
 |        `svg`        |       <img src="./assets/svg-auto.svg" width="48">       |
+|      `swagger`      |       <img src="./assets/swagger-auto.svg" width="48">   |
 |       `swift`       |        <img src="./assets/swift.svg" width="48">         |
 |      `symfony`      |     <img src="./assets/symfony-auto.svg" width="48">     |
 |      `tableau`      |      <img src="./assets/tableau-auto.svg" width="48">    |
