@@ -141,6 +141,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `bun`        |       <img src="./assets/bun-auto.svg" width="48">       |
 |         `c`         |          <img src="./assets/c.svg" width="48">           |
 |         `ca`        |       <img src="./assets/capture.svg" width="48">        |
+|       `canva`       |     <img src="./assets/canva-auto.svg" width="48">      |
 |         `cs`        |          <img src="./assets/cs.svg" width="48">          |
 |        `cpp`        |         <img src="./assets/cpp.svg" width="48">          |
 |         `cc`        |     <img src="./assets/creativecloud.svg" width="48">    |
@@ -413,6 +414,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `symfony`      |     <img src="./assets/symfony-auto.svg" width="48">     |
 |      `tableau`      |      <img src="./assets/tableau-auto.svg" width="48">    |
 |      `tailwind`     |   <img src="./assets/tailwindcss-auto.svg" width="48">   |
+|     `tallyprime`    |      <img src="./assets/tallyprime.svg" width="48">      |
 |       `tauri`       |      <img src="./assets/tauri-auto.svg" width="48">      |
 |       `teams`       |      <img src="./assets/teams-auto.svg" width="48">      |
 |     `tensorflow`    |   <img src="./assets/tensorflow-auto.svg" width="48">    |
