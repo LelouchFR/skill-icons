@@ -1,0 +1,10 @@
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="manjaro-linux" fill-rule="nonzero">
+            <path d="M196,0 L60,0 C26.8629,0 0,26.8629 0,60 L0,196 C0,229.137 26.8629,256 60,256 L196,256 C229.137,256 256,229.137 256,196 L256,60 C256,26.8629 229.137,0 196,0 Z" id="Path" fill="#35BFA4"></path>
+            <g id="group" transform="translate(40, 40)" fill="#000000">
+                <path d="M0,0 L0,177 L49.7326829,177 L49.7326829,49.78125 L113.28,49.78125 L113.28,0 L0,0 Z M63.72,63.72 L63.72,177 L113.28,177 L113.28,63.72 L63.72,63.72 Z M127.44,0 L127.44,177 L177,177 L177,0 L127.44,0 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -280,6 +280,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `looker`      |        <img src="./assets/looker-auto.svg" width="48">   |
 |        `lua`        |       <img src="./assets/lua-auto.svg" width="48">       |
 |         `md`        |    <img src="./assets/markdown-auto.svg" width="48">     |
+|      `manjaro`      |       <img src="./assets/manjaro.svg" width="48">        |
 |      `mastodon`     |    <img src="./assets/mastodon-auto.svg" width="48">     |
 |     `materialui`    |   <img src="./assets/materialui-auto.svg" width="48">    |
 |       `matlab`      |     <img src="./assets/matlab-auto.svg" width="48">      |
@@ -330,6 +331,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `psx`        |  <img src="./assets/photoshopexpress.svg" width="48">    |
 |        `php`        |       <img src="./assets/php-auto.svg" width="48">       |
 |      `phpstorm`     |    <img src="./assets/phpstorm-auto.svg" width="48">     |
+|      `picocss`      |    <img src="./assets/picocss-auto.svg" width="48">      |
 |       `pinia`       |      <img src="./assets/pinia-auto.svg" width="48">      |
 |        `pkl`        |       <img src="./assets/pkl-auto.svg" width="48">       |
 |       `plan9`       |      <img src="./assets/plan9-auto.svg" width="48">      |
