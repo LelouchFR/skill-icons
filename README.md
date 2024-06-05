@@ -141,7 +141,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `bun`        |       <img src="./assets/bun-auto.svg" width="48">       |
 |         `c`         |          <img src="./assets/c.svg" width="48">           |
 |         `ca`        |       <img src="./assets/capture.svg" width="48">        |
-|       `canva`       |     <img src="./assets/canva-auto.svg" width="48">      |
+|       `canva`       |      <img src="./assets/canva-auto.svg" width="48">      |
 |         `cs`        |          <img src="./assets/cs.svg" width="48">          |
 |        `cpp`        |         <img src="./assets/cpp.svg" width="48">          |
 |         `cc`        |     <img src="./assets/creativecloud.svg" width="48">    |
