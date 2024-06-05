@@ -295,7 +295,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `misskey`      |     <img src="./assets/misskey-auto.svg" width="48">     |
 |        `mjml`       |        <img src="./assets/mjml-auto.svg" width="48">     |
 |        `ml5`        |     <img src="./assets/ml5-auto.svg" width="48">         |
-|        `mojo`       |     <img src="./assets/mojo-auto.svg" width="48">       |
+|        `mojo`       |     <img src="./assets/mojo-auto.svg" width="48">        |
 |      `mongodb`      |       <img src="./assets/mongodb.svg" width="48">        |
 |       `mysql`       |      <img src="./assets/mysql-auto.svg" width="48">      |
 |       `neovim`      |     <img src="./assets/neovim-auto.svg" width="48">      |
