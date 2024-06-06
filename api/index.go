@@ -8,14 +8,21 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gin-gonic/gin"
+	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/fiber/v2/middleware/adaptor"
 )
 
 var icons map[string]string = make(map[string]string)
 var iconNameList []string
 var themedIcons []string
 
+/*
+Say hi to the bob line, why he exists without any icons? Well, the icons are added when actions are run, we make this so the code can keep being clean, because of IDEs not coping with the bob line, I decided to put the line down below, you can run `vercel dev` after running `go run build.go`, happy coding.
 
+-hawl1
+*/
+
+var iconsJSON string
 
 var shortNames = map[string]string{
 	"js":                "javascript",
@@ -83,18 +90,14 @@ var shortNames = map[string]string{
 	"st":                "stock",
 	"be":                "behance",
 	"br":                "bridge",
-    "million":           "millionjs",
-    "asm":               "assembly",
-    "pop":               "popos",
-    "nix":               "nixos",
-    "hc":                "holyc",
-    "yml":               "yaml",
-    "twitter":           "x",
+	"million":           "millionjs",
+	"asm":               "assembly",
+	"pop":               "popos",
+	"nix":               "nixos",
+	"hc":                "holyc",
+	"yml":               "yaml",
+	"twitter":           "x",
 }
-
-var (
-	app *gin.Engine
-)
 
 const (
 	ICONS_PER_LINE = 15
@@ -119,10 +122,10 @@ func generateSvg(iconNames []string, perLine int, hasTitlesEnabled bool) string 
 	`, scaledWidth, scaledHeight, length, height)
 
 	for index, i := range iconSvgList {
-        var title string
-        if hasTitlesEnabled {
-            title = fmt.Sprintf("<title>%s</title>", iconNames[index])
-        }
+		var title string
+		if hasTitlesEnabled {
+			title = fmt.Sprintf("<title>%s</title>", iconNames[index])
+		}
 
 		x := (index % perLine) * 300
 		y := (index / perLine) * 300
@@ -168,44 +171,44 @@ func contains(arr []string, str string) bool {
 	return false
 }
 
-func iconRoute(r *gin.RouterGroup) {
-	r.GET("/icons", func(ctx *gin.Context) {
+func handler() http.HandlerFunc {
+	app := fiber.New()
 
-		ctx.Request.ParseForm()
-		iconParam := ctx.Request.Form.Get("i")
+	app.Get("/api/icons", func(ctx *fiber.Ctx) error {
+		iconParam := ctx.Query("i")
 
-		theme := ctx.Request.Form.Get("theme")
+		theme := ctx.Query("theme")
 		if theme == "" {
 			theme = "auto"
 		}
 
-		perLineStr := ctx.Request.Form.Get("perline")
+		perLineStr := ctx.Query("perline")
 		if perLineStr == "" {
 			perLineStr = "15"
 		}
 
-        hasTitles := ctx.Request.Form.Get("titles")
-        var hasTitlesEnabled bool
-        if hasTitles == "" {
-            hasTitlesEnabled = false
-        } else {
-            hasTitlesEnabled = true
-        }
+		hasTitles := ctx.Query("titles")
+		var hasTitlesEnabled bool
+		if hasTitles == "" {
+			hasTitlesEnabled = false
+		} else {
+			hasTitlesEnabled = true
+		}
 
 		if iconParam == "" {
-			ctx.String(http.StatusBadRequest, "You didn't specify any icons!")
-			return
+			ctx.SendString("You didn't specify any icons!")
+			return ctx.SendStatus(400)
 		}
 
 		if theme != "dark" && theme != "light" && theme != "auto" && theme != "" {
-			ctx.String(http.StatusBadRequest, "Theme must be either 'light', 'dark' or 'auto'")
-			return
+			ctx.SendString("Theme must be either 'light', 'dark' or 'auto'")
+			return ctx.SendStatus(400)
 		}
 
 		perLine, err := strconv.Atoi(perLineStr)
 		if err != nil || perLine < -1 || perLine > 50 {
-			ctx.String(http.StatusBadRequest, "Icons per line must be a number between 1 and 50")
-			return
+			ctx.SendString("Icons per line must be a number between 1 and 50")
+			return ctx.SendStatus(400)
 		}
 
 		var iconShortNames []string
@@ -217,22 +220,18 @@ func iconRoute(r *gin.RouterGroup) {
 
 		iconNames := parseShortNames(iconShortNames, theme)
 		if iconNames == nil {
-			ctx.String(http.StatusBadRequest, "You didn't format the icons param correctly!")
-			return
+			ctx.SendString("You didn't format the icons param correctly!")
+			return ctx.SendStatus(400)
 		}
 
 		svg := generateSvg(iconNames, perLine, hasTitlesEnabled)
 
-		ctx.Header("Content-Type", "image/svg+xml")
-		ctx.String(http.StatusOK, svg)
+		ctx.Append("Content-Type", "image/svg+xml")
+		ctx.SendString(svg)
+		return ctx.SendStatus(200)
 	})
-}
 
-func init() {
-	app = gin.New()
-	r := app.Group("/api")
-
-	iconRoute(r)
+	return adaptor.FiberApp(app)
 }
 
 func Handler(w http.ResponseWriter, r *http.Request) {
@@ -240,6 +239,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	if err := decoder.Decode(&icons); err != nil {
 		panic(err)
 	}
+	r.RequestURI = r.URL.String()
 
 	// Populate iconNameList and themedIcons
 	for key := range icons {
@@ -249,5 +249,5 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
-	app.ServeHTTP(w, r)
+	handler().ServeHTTP(w, r)
 }
