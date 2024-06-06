@@ -238,6 +238,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `heroku`      |        <img src="./assets/heroku.svg" width="48">        |
 |     `hibernate`     |    <img src="./assets/hibernate-auto.svg" width="48">    |
 |         `hc`        |         <img src="./assets/holyc.svg" width="48">        |
+|        `hono`       |       <img src="./assets/hono-auto.svg" width="48">      |
 |        `html`       |         <img src="./assets/html.svg" width="48">         |
 |        `htmx`       |      <img src="./assets/htmx-auto.svg" width="48">       |
 |      `hydrogen`     |      <img src="./assets/hydrogen-auto.svg" width="48">   |
