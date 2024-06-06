@@ -177,74 +177,68 @@ func contains(arr []string, str string) bool {
 	return false
 }
 
+func iconsHandler(ctx *fiber.Ctx) error {
+	iconParam := ctx.Query("i")
+
+	theme := ctx.Query("theme")
+	if theme == "" {
+		theme = "auto"
+	}
+
+	perLineStr := ctx.Query("perline")
+	if perLineStr == "" {
+		perLineStr = "15"
+	}
+
+	hasTitles := ctx.Query("titles")
+	var hasTitlesEnabled bool
+	if hasTitles == "" {
+		hasTitlesEnabled = false
+	} else {
+		hasTitlesEnabled = true
+	}
+
+	if iconParam == "" {
+		ctx.SendString("You didn't specify any icons!")
+		return ctx.SendStatus(400)
+	}
+
+	if theme != "dark" && theme != "light" && theme != "auto" && theme != "" {
+		ctx.SendString("Theme must be either 'light', 'dark' or 'auto'")
+		return ctx.SendStatus(400)
+	}
+
+	perLine, err := strconv.Atoi(perLineStr)
+	if err != nil || perLine < -1 || perLine > 50 {
+		ctx.SendString("Icons per line must be a number between 1 and 50")
+		return ctx.SendStatus(400)
+	}
+
+	var iconShortNames []string
+	if iconParam == "all" {
+		iconShortNames = iconNameList
+	} else {
+		iconShortNames = strings.Split(iconParam, ",")
+	}
+
+	iconNames := parseShortNames(iconShortNames, theme)
+	if iconNames == nil {
+		ctx.SendString("You didn't format the icons param correctly!")
+		return ctx.SendStatus(400)
+	}
+
+	svg := generateSvg(iconNames, perLine, hasTitlesEnabled)
+
+	ctx.Append("Content-Type", "image/svg+xml")
+	ctx.SendString(svg)
+	return ctx.SendStatus(200)
+}
+
 func handler() http.HandlerFunc {
 	app := fiber.New()
 
-
-	/*
-	This isn't working, WHY IT IS NOT WORKING????
-
-	app.Get("/", func(ctx *fiber.Ctx) error {
-		return ctx.Redirect("https://github.com/LelouchFR/skill-icons")
-	})
-	*/
-
-	app.Get("/api/icons", func(ctx *fiber.Ctx) error {
-		iconParam := ctx.Query("i")
-
-		theme := ctx.Query("theme")
-		if theme == "" {
-			theme = "auto"
-		}
-
-		perLineStr := ctx.Query("perline")
-		if perLineStr == "" {
-			perLineStr = "15"
-		}
-
-		hasTitles := ctx.Query("titles")
-		var hasTitlesEnabled bool
-		if hasTitles == "" {
-			hasTitlesEnabled = false
-		} else {
-			hasTitlesEnabled = true
-		}
-
-		if iconParam == "" {
-			ctx.SendString("You didn't specify any icons!")
-			return ctx.SendStatus(400)
-		}
-
-		if theme != "dark" && theme != "light" && theme != "auto" && theme != "" {
-			ctx.SendString("Theme must be either 'light', 'dark' or 'auto'")
-			return ctx.SendStatus(400)
-		}
-
-		perLine, err := strconv.Atoi(perLineStr)
-		if err != nil || perLine < -1 || perLine > 50 {
-			ctx.SendString("Icons per line must be a number between 1 and 50")
-			return ctx.SendStatus(400)
-		}
-
-		var iconShortNames []string
-		if iconParam == "all" {
-			iconShortNames = iconNameList
-		} else {
-			iconShortNames = strings.Split(iconParam, ",")
-		}
-
-		iconNames := parseShortNames(iconShortNames, theme)
-		if iconNames == nil {
-			ctx.SendString("You didn't format the icons param correctly!")
-			return ctx.SendStatus(400)
-		}
-
-		svg := generateSvg(iconNames, perLine, hasTitlesEnabled)
-
-		ctx.Append("Content-Type", "image/svg+xml")
-		ctx.SendString(svg)
-		return ctx.SendStatus(200)
-	})
+	app.Get("/icons", iconsHandler)
+	app.Get("/api/icons", iconsHandler)
 
 	return adaptor.FiberApp(app)
 }
