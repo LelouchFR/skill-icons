@@ -180,9 +180,14 @@ func contains(arr []string, str string) bool {
 func handler() http.HandlerFunc {
 	app := fiber.New()
 
-	app.Get("/", func(c *fiber.Ctx) error {
-		return c.Redirect("https://github.com/LelouchFR/skill-icons")
+
+	/*
+	This isn't working, WHY IT IS NOT WORKING????
+
+	app.Get("/", func(ctx *fiber.Ctx) error {
+		return ctx.Redirect("https://github.com/LelouchFR/skill-icons")
 	})
+	*/
 
 	app.Get("/api/icons", func(ctx *fiber.Ctx) error {
 		iconParam := ctx.Query("i")
