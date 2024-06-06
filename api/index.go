@@ -17,7 +17,13 @@ var iconNameList []string
 var themedIcons []string
 
 /*
-Say hi to the bob line, why he exists without any icons? Well, the icons are added when actions are run, we make this so the code can keep being clean, because of IDEs not coping with the bob line, I decided to put the line down below, you can run `vercel dev` after running `go run build.go`, happy coding.
+Say hi to the bob line.
+
+"Why he exists without any icons?""
+- Well, the icons are added when actions are run, we make this so the code can keep being clean.
+
+Because of IDEs not coping with the bob line, I decided to put the line down below.
+you can run `vercel dev` after running `go run build.go`, happy coding.
 
 -hawl1
 */
@@ -173,6 +179,10 @@ func contains(arr []string, str string) bool {
 
 func handler() http.HandlerFunc {
 	app := fiber.New()
+
+	app.Get("/", func(c *fiber.Ctx) error {
+		return c.Redirect("https://github.com/LelouchFR/skill-icons")
+	})
 
 	app.Get("/api/icons", func(ctx *fiber.Ctx) error {
 		iconParam := ctx.Query("i")
