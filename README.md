@@ -238,6 +238,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `heroku`      |        <img src="./assets/heroku.svg" width="48">        |
 |     `hibernate`     |    <img src="./assets/hibernate-auto.svg" width="48">    |
 |         `hc`        |         <img src="./assets/holyc.svg" width="48">        |
+|        `hono`       |       <img src="./assets/hono-auto.svg" width="48">      |
 |        `html`       |         <img src="./assets/html.svg" width="48">         |
 |        `htmx`       |      <img src="./assets/htmx-auto.svg" width="48">       |
 |      `hydrogen`     |      <img src="./assets/hydrogen-auto.svg" width="48">   |
@@ -303,6 +304,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `netlify`      |     <img src="./assets/netlify-auto.svg" width="48">     |
 |       `nextjs`      |     <img src="./assets/nextjs-auto.svg" width="48">      |
 |       `nginx`       |        <img src="./assets/nginx.svg" width="48">         |
+|       `ngrok`       |        <img src="./assets/ngrok.svg" width="48">         |
 |        `nim`        |       <img src="./assets/nim-auto.svg" width="48">       |
 |        `nix`        |      <img src="./assets/nixos-auto.svg" width="48">      |
 |       `nodejs`      |     <img src="./assets/nodejs-auto.svg" width="48">      |
