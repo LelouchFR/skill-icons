@@ -148,6 +148,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `crystal`      |     <img src="./assets/crystal-auto.svg" width="48">     |
 |     `cassandra`     |    <img src="./assets/cassandra-auto.svg" width="48">    |
 |         `ch`        |  <img src="./assets/characteranimator.svg" width="48">   |
+|      `chatgpt`      |  <img src="./assets/chatgpt-auto.svg" width="48">        |
 |       `chrome`      |      <img src="./assets/chrome-auto.svg" width="48">     |
 |      `chromium`     |      <img src="./assets/chromium-auto.svg" width="48">   |
 |       `clion`       |      <img src="./assets/clion-auto.svg" width="48">      |
@@ -212,6 +213,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `git`        |         <img src="./assets/git-auto.svg" width="48">     |
 |       `github`      |     <img src="./assets/github-auto.svg" width="48">      |
 |   `githubactions`   |  <img src="./assets/githubactions-auto.svg" width="48">  |
+|   `githubcopilot`   |  <img src="./assets/githubcopilot-auto.svg" width="48">  |
 |       `gitlab`      |     <img src="./assets/gitlab-auto.svg" width="48">      |
 |       `gleam`       |      <img src="./assets/gleam-auto.svg" width="48">      |
 |       `gmail`       |      <img src="./assets/gmail-auto.svg" width="48">      |
@@ -237,6 +239,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `heroku`      |        <img src="./assets/heroku.svg" width="48">        |
 |     `hibernate`     |    <img src="./assets/hibernate-auto.svg" width="48">    |
 |         `hc`        |         <img src="./assets/holyc.svg" width="48">        |
+|        `hono`       |       <img src="./assets/hono-auto.svg" width="48">      |
 |        `html`       |         <img src="./assets/html.svg" width="48">         |
 |        `htmx`       |      <img src="./assets/htmx-auto.svg" width="48">       |
 |      `hydrogen`     |      <img src="./assets/hydrogen-auto.svg" width="48">   |
@@ -287,13 +290,14 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `maven`       |      <img src="./assets/maven-auto.svg" width="48">      |
 |         `me`        |     <img src="./assets/mediaencoder.svg" width="48">     |
 |       `mermaid`     |       <img src="./assets/mermaid.svg" width="48">        |
+|  `microsoftcopilot` | <img src="./assets/microsoftcopilot-auto.svg" width="48">|
 |      `million`      |    <img src="./assets/millionjs-auto.svg" width="48">    |
 |        `mint`       |      <img src="./assets/mint-auto.svg" width="48">       |
 |        `miro`       |         <img src="./assets/miro.svg" width="48">         |
 |      `misskey`      |     <img src="./assets/misskey-auto.svg" width="48">     |
 |        `mjml`       |        <img src="./assets/mjml-auto.svg" width="48">     |
 |        `ml5`        |     <img src="./assets/ml5-auto.svg" width="48">         |
-|        `mojo`        |     <img src="./assets/mojo-auto.svg" width="48">       |
+|        `mojo`       |     <img src="./assets/mojo-auto.svg" width="48">        |
 |      `mongodb`      |       <img src="./assets/mongodb.svg" width="48">        |
 |       `mysql`       |      <img src="./assets/mysql-auto.svg" width="48">      |
 |       `neovim`      |     <img src="./assets/neovim-auto.svg" width="48">      |
@@ -301,6 +305,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `netlify`      |     <img src="./assets/netlify-auto.svg" width="48">     |
 |       `nextjs`      |     <img src="./assets/nextjs-auto.svg" width="48">      |
 |       `nginx`       |        <img src="./assets/nginx.svg" width="48">         |
+|       `ngrok`       |        <img src="./assets/ngrok.svg" width="48">         |
 |        `nim`        |       <img src="./assets/nim-auto.svg" width="48">       |
 |        `nix`        |      <img src="./assets/nixos-auto.svg" width="48">      |
 |       `nodejs`      |     <img src="./assets/nodejs-auto.svg" width="48">      |
@@ -329,6 +334,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `psx`        |  <img src="./assets/photoshopexpress.svg" width="48">    |
 |        `php`        |       <img src="./assets/php-auto.svg" width="48">       |
 |      `phpstorm`     |    <img src="./assets/phpstorm-auto.svg" width="48">     |
+|      `picocss`      |    <img src="./assets/picocss-auto.svg" width="48">      |
 |       `pinia`       |      <img src="./assets/pinia-auto.svg" width="48">      |
 |        `pkl`        |       <img src="./assets/pkl-auto.svg" width="48">       |
 |       `plan9`       |      <img src="./assets/plan9-auto.svg" width="48">      |
@@ -403,6 +409,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |    `sharepoint`     |    <img src="./assets/sharepoint-auto.svg" width="48">   |
 |      `shopify`      |       <img src="./assets/shopify-auto.svg" width="48">   |
 |      `sketchup`     |    <img src="./assets/sketchup-auto.svg" width="48">     |
+|       `slack`       |    <img src="./assets/slack-auto.svg" width="48">        |
 |      `solidity`     |       <img src="./assets/solidity.svg" width="48">       |
 |      `solidjs`      |     <img src="./assets/solidjs-auto.svg" width="48">     |
 |       `spark`       |         <img src="./assets/spark.svg" width="48">        |
