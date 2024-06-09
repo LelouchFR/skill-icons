@@ -151,6 +151,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `chatgpt`      |  <img src="./assets/chatgpt-auto.svg" width="48">        |
 |       `chrome`      |      <img src="./assets/chrome-auto.svg" width="48">     |
 |      `chromium`     |      <img src="./assets/chromium-auto.svg" width="48">   |
+|      `circleci`     |      <img src="./assets/circleci-auto.svg" width="48">   |
 |       `clion`       |      <img src="./assets/clion-auto.svg" width="48">      |
 |      `clojure`      |     <img src="./assets/clojure-auto.svg" width="48">     |
 |     `cloudflare`    |   <img src="./assets/cloudflare-auto.svg" width="48">    |
