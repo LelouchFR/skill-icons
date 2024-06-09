@@ -51,7 +51,7 @@ func main() {
 	lines := strings.Split(indexContent, "\n")
 
 	// Insert the iconsJSON into line 31
-	lines[30] = fmt.Sprintf("var iconsJSON = `%s`", iconsJSON)
+	lines[30] = fmt.Sprintf("var iconsJSON string = `%s`", iconsJSON)
 
 	// Join the lines back into a single string
 	modifiedContent := strings.Join(lines, "\n")
