@@ -151,6 +151,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `chatgpt`      |  <img src="./assets/chatgpt-auto.svg" width="48">        |
 |       `chrome`      |      <img src="./assets/chrome-auto.svg" width="48">     |
 |      `chromium`     |      <img src="./assets/chromium-auto.svg" width="48">   |
+|      `circleci`     |      <img src="./assets/circleci-auto.svg" width="48">   |
 |       `clion`       |      <img src="./assets/clion-auto.svg" width="48">      |
 |      `clojure`      |     <img src="./assets/clojure-auto.svg" width="48">     |
 |     `cloudflare`    |   <img src="./assets/cloudflare-auto.svg" width="48">    |
@@ -169,6 +170,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `desmos`       |        <img src="./assets/desmos.svg" width="48">        |
 |       `devto`       |      <img src="./assets/devto-auto.svg" width="48">      |
 |         `dn`        |       <img src="./assets/dimension.svg" width="48">      |
+|      `directus`     |       <img src="./assets/directus.svg" width="48">       |
 |      `discord`      |       <img src="./assets/discord.svg" width="48">        |
 |        `bots`       |     <img src="./assets/discordbots.svg" width="48">      |
 |    `digitalocean`   |  <img src="./assets/digitalocean-light.svg" width="48">  |
@@ -259,6 +261,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `jenkins`      |     <img src="./assets/jenkins-auto.svg" width="48">     |
 |        `jest`       |         <img src="./assets/jest.svg" width="48">         |
 |        `jira`       |      <img src="./assets/jira-auto.svg" width="48">       |
+|       `joomla`      |      <img src="./assets/joomla-auto.svg" width="48">     |
 |       `jquery`      |        <img src="./assets/jquery.svg" width="48">        |
 |       `julia`       |        <img src="./assets/julia-auto.svg" width="48">    |
 |      `kakoune`      |       <img src="./assets/kakoune-auto.svg" width="48">   |
