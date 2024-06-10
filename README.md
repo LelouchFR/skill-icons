@@ -336,6 +336,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `outlook`      |       <img src="./assets/outlook-auto.svg" width="48">   |
 |        `p5js`       |         <img src="./assets/p5js.svg" width="48">         |
 |       `pandas`      |      <img src="./assets/pandas-auto.svg" width="48">     |
+|     `papertrail`    |       <img src="./assets/papertrail.svg" width="48">     |
 |        `pbi`        |        <img src="./assets/pbi-auto.svg" width="48">      |
 |        `perl`       |         <img src="./assets/perl.svg" width="48">         |
 |         `ps`        |      <img src="./assets/photoshop.svg" width="48">       |
