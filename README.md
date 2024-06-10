@@ -422,6 +422,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `shopify`      |       <img src="./assets/shopify-auto.svg" width="48">   |
 |      `sketchup`     |    <img src="./assets/sketchup-auto.svg" width="48">     |
 |       `slack`       |    <img src="./assets/slack-auto.svg" width="48">        |
+|        `snyk`       |     <img src="./assets/snyk-auto.svg" width="48">        |
 |      `solidity`     |       <img src="./assets/solidity.svg" width="48">       |
 |      `solidjs`      |     <img src="./assets/solidjs-auto.svg" width="48">     |
 |       `spark`       |         <img src="./assets/spark.svg" width="48">        |
