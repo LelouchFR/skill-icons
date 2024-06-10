@@ -164,14 +164,5 @@
             <stop/>
             <stop offset="1" stop-opacity="0"/>
         </linearGradient>
-        <clipPath id="clip0_38_244">
-            <rect width="256" height="256" fill="white"/>
-        </clipPath>
-        <clipPath id="clip1_38_244">
-            <rect width="240" height="240" fill="white" transform="translate(12)"/>
-        </clipPath>
-        <clipPath id="clip2_38_244">
-            <rect width="240" height="240" fill="white" transform="translate(12)"/>
-        </clipPath>
     </defs>
 </svg>
