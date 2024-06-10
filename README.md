@@ -214,6 +214,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `gatsby`      |        <img src="./assets/gatsby.svg" width="48">        |
 |        `gcp`        |       <img src="./assets/gcp-auto.svg" width="48">       |
 |       `gemini`      |      <img src="./assets/gemini-auto.svg" width="48">     |
+|        `gimp`       |        <img src="./assets/gimp-auto.svg" width="48">     |
 |        `git`        |         <img src="./assets/git-auto.svg" width="48">     |
 |       `github`      |     <img src="./assets/github-auto.svg" width="48">      |
 |   `githubactions`   |  <img src="./assets/githubactions-auto.svg" width="48">  |
