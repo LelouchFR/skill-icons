@@ -162,6 +162,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `cypress`      |     <img src="./assets/cypress-auto.svg" width="48">     |
 |         `d3`        |       <img src="./assets/d3-auto.svg" width="48">        |
 |     `dailydev`      |     <img src="./assets/dailydev-auto.svg" width="48">    |
+|     `datadog`       |      <img src="./assets/datadog.svg" width="48">         |
 |     `datagrip`      |   <img src="./assets/datagrip-auto.svg" width="48">      |
 |        `dart`       |      <img src="./assets/dart-auto.svg" width="48">       |
 |       `debian`      |        <img src="./assets/debian.svg" width="48">        |
@@ -230,6 +231,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `godot`       |      <img src="./assets/godot-auto.svg" width="48">      |
 |      `grafana`      |     <img src="./assets/grafana-auto.svg" width="48">     |
 |      `graphql`      |     <img src="./assets/graphql-auto.svg" width="48">     |
+|       `grunt`       |      <img src="./assets/grunt-auto.svg" width="48">      |
 |        `gsap`       |       <img src="./assets/gsap-auto.svg" width="48">      |
 |        `gtk`        |       <img src="./assets/gtk-auto.svg" width="48">       |
 |        `gulp`       |         <img src="./assets/gulp.svg" width="48">         |
@@ -369,6 +371,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |         `py`        |     <img src="./assets/python-auto.svg" width="48">      |
 |      `pytorch`      |     <img src="./assets/pytorch-auto.svg" width="48">     |
 |       `pyxel`       |       <img src="./assets/pyxel-auto.svg" width="48">     |
+|      `qodana`       |      <img src="./assets/qodana-auto.svg" width="48">     |
 |         `qt`        |       <img src="./assets/qt-auto.svg" width="48">        |
 |         `r`         |        <img src="./assets/r-auto.svg" width="48">        |
 |      `rabbitmq`     |    <img src="./assets/rabbitmq-auto.svg" width="48">     |
