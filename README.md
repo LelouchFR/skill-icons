@@ -397,6 +397,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `rocket`      |        <img src="./assets/rocket.svg" width="48">        |
 |      `rollupjs`     |    <img src="./assets/rollupjs-auto.svg" width="48">     |
 |        `ros`        |       <img src="./assets/ros-auto.svg" width="48">       |
+|      `rubocop`      |     <img src="./assets/rubocop-auto.svg" width="48">     |
 |        `ruby`       |         <img src="./assets/ruby.svg" width="48">         |
 |     `rubymine`      |    <img src="./assets/rubymine-auto.svg" width="48">     |
 |        `rust`       |         <img src="./assets/rust-auto.svg" width="48">    |
