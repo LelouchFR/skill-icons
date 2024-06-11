@@ -2,6 +2,7 @@
 <style>
 #markdown {
     rect {fill: #242938}
+    path {fill: #F4F2ED}
 
     @media (prefers-color-scheme: light) {
         rect {fill: #F4F2ED}
