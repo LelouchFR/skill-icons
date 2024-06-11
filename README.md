@@ -164,7 +164,8 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |     `dailydev`      |     <img src="./assets/dailydev-auto.svg" width="48">    |
 |     `datadog`       |      <img src="./assets/datadog.svg" width="48">         |
 |     `datagrip`      |   <img src="./assets/datagrip-auto.svg" width="48">      |
-|        `dart`       |      <img src="./assets/dart-auto.svg" width="48">       |
+|      `dbeaver`      |    <img src="./assets/dbeaver-auto.svg" width="48">      |
+|       `dart`        |      <img src="./assets/dart-auto.svg" width="48">       |
 |       `debian`      |        <img src="./assets/debian.svg" width="48">        |
 |      `defold`       |     <img src="./assets/defold-auto.svg" width="48">      |
 |        `deno`       |      <img src="./assets/deno-auto.svg" width="48">       |
