@@ -199,6 +199,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `fastapi`      |       <img src="./assets/fastapi.svg" width="48">        |
 |     `fediverse`     |    <img src="./assets/fediverse-auto.svg" width="48">    |
 |       `figma`       |      <img src="./assets/figma-auto.svg" width="48">      |
+|      `filament`     |       <img src="./assets/filament.svg" width="48">       |
 |      `firebase`     |    <img src="./assets/firebase-auto.svg" width="48">     |
 |      `firefox`      |      <img src="./assets/firefox-auto.svg" width="48">    |
 |       `flask`       |      <img src="./assets/flask-auto.svg" width="48">      |
@@ -288,6 +289,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `linux`       |      <img src="./assets/linux-auto.svg" width="48">      |
 |        `lit`        |       <img src="./assets/lit-auto.svg" width="48">       |
 |       `litmus`      |       <img src="./assets/litmus-auto.svg" width="48">    |
+|      `livewire`     |      <img src="./assets/livewire-auto.svg" width="48">   |
 |       `looker`      |        <img src="./assets/looker-auto.svg" width="48">   |
 |        `lua`        |       <img src="./assets/lua-auto.svg" width="48">       |
 |         `md`        |    <img src="./assets/markdown-auto.svg" width="48">     |
