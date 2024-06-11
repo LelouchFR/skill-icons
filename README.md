@@ -162,6 +162,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `cypress`      |     <img src="./assets/cypress-auto.svg" width="48">     |
 |         `d3`        |       <img src="./assets/d3-auto.svg" width="48">        |
 |     `dailydev`      |     <img src="./assets/dailydev-auto.svg" width="48">    |
+|     `datadog`       |      <img src="./assets/datadog.svg" width="48">         |
 |     `datagrip`      |   <img src="./assets/datagrip-auto.svg" width="48">      |
 |        `dart`       |      <img src="./assets/dart-auto.svg" width="48">       |
 |       `debian`      |        <img src="./assets/debian.svg" width="48">        |
@@ -213,6 +214,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `gatsby`      |        <img src="./assets/gatsby.svg" width="48">        |
 |        `gcp`        |       <img src="./assets/gcp-auto.svg" width="48">       |
 |       `gemini`      |      <img src="./assets/gemini-auto.svg" width="48">     |
+|        `gimp`       |        <img src="./assets/gimp-auto.svg" width="48">     |
 |        `git`        |         <img src="./assets/git-auto.svg" width="48">     |
 |       `github`      |     <img src="./assets/github-auto.svg" width="48">      |
 |   `githubactions`   |  <img src="./assets/githubactions-auto.svg" width="48">  |
@@ -230,6 +232,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `godot`       |      <img src="./assets/godot-auto.svg" width="48">      |
 |      `grafana`      |     <img src="./assets/grafana-auto.svg" width="48">     |
 |      `graphql`      |     <img src="./assets/graphql-auto.svg" width="48">     |
+|       `grunt`       |      <img src="./assets/grunt-auto.svg" width="48">      |
 |        `gsap`       |       <img src="./assets/gsap-auto.svg" width="48">      |
 |        `gtk`        |       <img src="./assets/gtk-auto.svg" width="48">       |
 |        `gulp`       |         <img src="./assets/gulp.svg" width="48">         |
@@ -333,6 +336,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `outlook`      |       <img src="./assets/outlook-auto.svg" width="48">   |
 |        `p5js`       |         <img src="./assets/p5js.svg" width="48">         |
 |       `pandas`      |      <img src="./assets/pandas-auto.svg" width="48">     |
+|     `papertrail`    |       <img src="./assets/papertrail.svg" width="48">     |
 |        `pbi`        |        <img src="./assets/pbi-auto.svg" width="48">      |
 |        `perl`       |         <img src="./assets/perl.svg" width="48">         |
 |         `ps`        |      <img src="./assets/photoshop.svg" width="48">       |
@@ -369,6 +373,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |         `py`        |     <img src="./assets/python-auto.svg" width="48">      |
 |      `pytorch`      |     <img src="./assets/pytorch-auto.svg" width="48">     |
 |       `pyxel`       |       <img src="./assets/pyxel-auto.svg" width="48">     |
+|      `qodana`       |      <img src="./assets/qodana-auto.svg" width="48">     |
 |         `qt`        |       <img src="./assets/qt-auto.svg" width="48">        |
 |         `r`         |        <img src="./assets/r-auto.svg" width="48">        |
 |      `rabbitmq`     |    <img src="./assets/rabbitmq-auto.svg" width="48">     |
@@ -419,6 +424,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `shopify`      |       <img src="./assets/shopify-auto.svg" width="48">   |
 |      `sketchup`     |    <img src="./assets/sketchup-auto.svg" width="48">     |
 |       `slack`       |    <img src="./assets/slack-auto.svg" width="48">        |
+|        `snyk`       |     <img src="./assets/snyk-auto.svg" width="48">        |
 |      `solidity`     |       <img src="./assets/solidity.svg" width="48">       |
 |      `solidjs`      |     <img src="./assets/solidjs-auto.svg" width="48">     |
 |       `spark`       |         <img src="./assets/spark.svg" width="48">        |
