@@ -274,6 +274,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `kaggle`      |     <img src="./assets/kaggle-auto.svg" width="48">      |
 |        `kali`       |      <img src="./assets/kali-auto.svg" width="48">       |
 |        `kde`        |       <img src="./assets/kde-auto.svg" width="48">       |
+|      `keycloak`     |       <img src="./assets/keycloak.svg" width="48">       |
 |       `kotlin`      |     <img src="./assets/kotlin-auto.svg" width="48">      |
 |        `ktor`       |      <img src="./assets/ktor-auto.svg" width="48">       |
 |     `kubernetes`    |      <img src="./assets/kubernetes.svg" width="48">      |
