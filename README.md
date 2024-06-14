@@ -138,10 +138,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `brave`       |       <img src="./assets/brave-auto.svg" width="48">     |
 |         `br`        |        <img src="./assets/bridge.svg" width="48">        |
 |        `bsd`        |       <img src="./assets/bsd-auto.svg" width="48">       |
+|       `bulma`       |      <img src="./assets/bulma-auto.svg" width="48">      |
 |        `bun`        |       <img src="./assets/bun-auto.svg" width="48">       |
 |         `c`         |          <img src="./assets/c.svg" width="48">           |
 |         `ca`        |       <img src="./assets/capture.svg" width="48">        |
 |       `canva`       |      <img src="./assets/canva-auto.svg" width="48">      |
+|     `capacitor`     |    <img src="./assets/capacitor-auto.svg" width="48">    |
 |         `cs`        |          <img src="./assets/cs.svg" width="48">          |
 |        `cpp`        |         <img src="./assets/cpp.svg" width="48">          |
 |         `cc`        |     <img src="./assets/creativecloud.svg" width="48">    |
@@ -303,6 +305,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `maven`       |      <img src="./assets/maven-auto.svg" width="48">      |
 |         `me`        |     <img src="./assets/mediaencoder.svg" width="48">     |
 |       `mermaid`     |       <img src="./assets/mermaid.svg" width="48">        |
+|      `meteorjs`     |    <img src="./assets/meteorjs-auto.svg" width="48">     |
 |  `microsoftcopilot` | <img src="./assets/microsoftcopilot-auto.svg" width="48">|
 |      `million`      |    <img src="./assets/millionjs-auto.svg" width="48">    |
 |        `mint`       |      <img src="./assets/mint-auto.svg" width="48">       |
@@ -341,6 +344,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `p5js`       |         <img src="./assets/p5js.svg" width="48">         |
 |       `pandas`      |      <img src="./assets/pandas-auto.svg" width="48">     |
 |     `papertrail`    |       <img src="./assets/papertrail.svg" width="48">     |
+|       `payload`     |      <img src="./assets/payload-auto.svg" width="48">    |
 |        `pbi`        |        <img src="./assets/pbi-auto.svg" width="48">      |
 |        `perl`       |         <img src="./assets/perl.svg" width="48">         |
 |         `ps`        |      <img src="./assets/photoshop.svg" width="48">       |
@@ -412,6 +416,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |   `stackoverflow`   |  <img src="./assets/stackoverflow-auto.svg" width="48">  |
 |       `stock`       |         <img src="./assets/stock.svg" width="48">        |
 |     `storybook`     |     <img src="./assets/storybook-auto.svg" width="48">   |
+|      `strapi`       |         <img src="./assets/strapi.svg" width="48">       |
 |     `streamlit`     |     <img src="./assets/streamlit-auto.svg" width="48">   |
 |  `styledcomponents` |   <img src="./assets/styledcomponents.svg" width="48">   |
 |      `sublime`      |     <img src="./assets/sublime-auto.svg" width="48">     |
