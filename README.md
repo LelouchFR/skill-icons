@@ -223,7 +223,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `github`      |     <img src="./assets/github-auto.svg" width="48">      |
 |   `githubactions`   |  <img src="./assets/githubactions-auto.svg" width="48">  |
 |   `githubcopilot`   |  <img src="./assets/githubcopilot-auto.svg" width="48">  |
-|   `gitkracken`      |  <img src="./assets/gitkracken-auto.svg" width="48">     |
+|   `gitkraken`       |  <img src="./assets/gitkracken-auto.svg" width="48">     |
 |       `gitlab`      |     <img src="./assets/gitlab-auto.svg" width="48">      |
 |       `gleam`       |      <img src="./assets/gleam-auto.svg" width="48">      |
 |       `gmail`       |      <img src="./assets/gmail-auto.svg" width="48">      |
