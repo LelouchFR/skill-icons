@@ -166,7 +166,8 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |     `dailydev`      |     <img src="./assets/dailydev-auto.svg" width="48">    |
 |     `datadog`       |      <img src="./assets/datadog.svg" width="48">         |
 |     `datagrip`      |   <img src="./assets/datagrip-auto.svg" width="48">      |
-|        `dart`       |      <img src="./assets/dart-auto.svg" width="48">       |
+|      `dbeaver`      |    <img src="./assets/dbeaver-auto.svg" width="48">      |
+|       `dart`        |      <img src="./assets/dart-auto.svg" width="48">       |
 |       `debian`      |        <img src="./assets/debian.svg" width="48">        |
 |      `defold`       |     <img src="./assets/defold-auto.svg" width="48">      |
 |        `deno`       |      <img src="./assets/deno-auto.svg" width="48">       |
@@ -276,6 +277,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `kaggle`      |     <img src="./assets/kaggle-auto.svg" width="48">      |
 |        `kali`       |      <img src="./assets/kali-auto.svg" width="48">       |
 |        `kde`        |       <img src="./assets/kde-auto.svg" width="48">       |
+|      `keycloak`     |       <img src="./assets/keycloak.svg" width="48">       |
 |       `kotlin`      |     <img src="./assets/kotlin-auto.svg" width="48">      |
 |        `ktor`       |      <img src="./assets/ktor-auto.svg" width="48">       |
 |     `kubernetes`    |      <img src="./assets/kubernetes.svg" width="48">      |
@@ -401,6 +403,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `rocket`      |        <img src="./assets/rocket.svg" width="48">        |
 |      `rollupjs`     |    <img src="./assets/rollupjs-auto.svg" width="48">     |
 |        `ros`        |       <img src="./assets/ros-auto.svg" width="48">       |
+|      `rubocop`      |     <img src="./assets/rubocop-auto.svg" width="48">     |
 |        `ruby`       |         <img src="./assets/ruby.svg" width="48">         |
 |     `rubymine`      |    <img src="./assets/rubymine-auto.svg" width="48">     |
 |        `rust`       |         <img src="./assets/rust-auto.svg" width="48">    |
