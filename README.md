@@ -124,7 +124,6 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |         `au`        |       <img src="./assets/audition.svg" width="48">       |
 |      `autocad`      |     <img src="./assets/autocad-auto.svg" width="48">     |
 |       `aqua`        |       <img src="./assets/aqua-auto.svg" width="48">      |
-|       `arc`         |       <img src="./assets/arc-auto.svg" width="48">       |
 |        `aws`        |       <img src="./assets/aws-auto.svg" width="48">       |
 |        `azul`       |         <img src="./assets/azul.svg" width="48">         |
 |       `azure`       |      <img src="./assets/azure-auto.svg" width="48">      |
@@ -379,7 +378,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |     `processing`    |   <img src="./assets/processing-auto.svg" width="48">    |
 |     `prometheus`    |      <img src="./assets/prometheus.svg" width="48">      |
 |       `proton`      |      <img src="./assets/proton-auto.svg" width="48">     |
-|       `proxmox`      |      <img src="./assets/proxmox-auto.svg" width="48">     |
+|       `proxmox`      |      <img src="./assets/proxmox-auto.svg" width="48">   |
 |        `pug`        |       <img src="./assets/pug-auto.svg" width="48">       |
 |      `puppeteer`    |    <img src="./assets/puppeteer-auto.svg" width="48">    |
 |      `pycharm`      |     <img src="./assets/pycharm-auto.svg" width="48">     |
