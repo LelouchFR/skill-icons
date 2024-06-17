@@ -163,10 +163,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |    `coffeescript`   |  <img src="./assets/coffeescript-auto.svg" width="48">   |
 |        `css`        |         <img src="./assets/css.svg" width="48">          |
 |      `cypress`      |     <img src="./assets/cypress-auto.svg" width="48">     |
+|         `d`         |         <img src="./assets/d.svg" width="48">            |
 |         `d3`        |       <img src="./assets/d3-auto.svg" width="48">        |
 |     `dailydev`      |     <img src="./assets/dailydev-auto.svg" width="48">    |
 |     `datadog`       |      <img src="./assets/datadog.svg" width="48">         |
 |     `datagrip`      |   <img src="./assets/datagrip-auto.svg" width="48">      |
+|     `dataspell`     |   <img src="./assets/dataspell-auto.svg" width="48">     |
 |      `dbeaver`      |    <img src="./assets/dbeaver-auto.svg" width="48">      |
 |       `dart`        |      <img src="./assets/dart-auto.svg" width="48">       |
 |       `debian`      |        <img src="./assets/debian.svg" width="48">        |
@@ -299,6 +301,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `livewire`     |      <img src="./assets/livewire-auto.svg" width="48">   |
 |       `looker`      |        <img src="./assets/looker-auto.svg" width="48">   |
 |        `lua`        |       <img src="./assets/lua-auto.svg" width="48">       |
+|     `lucidchart`    |   <img src="./assets/lucidchart-auto.svg" width="48">    |
 |         `md`        |    <img src="./assets/markdown-auto.svg" width="48">     |
 |      `manjaro`      |       <img src="./assets/manjaro.svg" width="48">        |
 |      `mastodon`     |    <img src="./assets/mastodon-auto.svg" width="48">     |
@@ -398,6 +401,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `recoil`       |         <img src="./assets/recoil.svg" width="48">       |
 |       `redhat`      |     <img src="./assets/redhat-auto.svg" width="48">      |
 |       `redis`       |      <img src="./assets/redis-auto.svg" width="48">      |
+|      `redshift`     |   <img src="./assets/redshift-auto.svg" width="48">      |
 |       `redux`       |        <img src="./assets/redux.svg" width="48">         |
 |       `regex`       |      <img src="./assets/regex-auto.svg" width="48">      |
 |       `remix`       |      <img src="./assets/remix-auto.svg" width="48">      |
