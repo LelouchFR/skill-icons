@@ -270,6 +270,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |         `js`        |      <img src="./assets/javascript.svg" width="48">      |
 |      `jenkins`      |     <img src="./assets/jenkins-auto.svg" width="48">     |
 |        `jest`       |         <img src="./assets/jest.svg" width="48">         |
+|   `jetpackcompose`  |  <img src="./assets/jetpackcompose-auto.svg" width="48"> |
 |        `jira`       |      <img src="./assets/jira-auto.svg" width="48">       |
 |       `joomla`      |      <img src="./assets/joomla-auto.svg" width="48">     |
 |       `jquery`      |        <img src="./assets/jquery.svg" width="48">        |
@@ -436,6 +437,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |     `sequelize`     |    <img src="./assets/sequelize-auto.svg" width="48">    |
 |    `sharepoint`     |    <img src="./assets/sharepoint-auto.svg" width="48">   |
 |      `shopify`      |       <img src="./assets/shopify-auto.svg" width="48">   |
+|     `skeletonui`    |    <img src="./assets/skeletonui-auto.svg" width="48">   |
 |      `sketchup`     |    <img src="./assets/sketchup-auto.svg" width="48">     |
 |       `slack`       |    <img src="./assets/slack-auto.svg" width="48">        |
 |        `snyk`       |     <img src="./assets/snyk-auto.svg" width="48">        |
