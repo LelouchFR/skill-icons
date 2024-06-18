@@ -429,6 +429,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `sqlserver`    |      <img src="./assets/sqlserver-auto.svg" width="48">  |
 |   `stackoverflow`   |  <img src="./assets/stackoverflow-auto.svg" width="48">  |
 |       `stock`       |         <img src="./assets/stock.svg" width="48">        |
+|     `storyblok`     |     <img src="./assets/storyblok-auto.svg" width="48">   |
 |     `storybook`     |     <img src="./assets/storybook-auto.svg" width="48">   |
 |      `strapi`       |         <img src="./assets/strapi.svg" width="48">       |
 |     `streamlit`     |     <img src="./assets/streamlit-auto.svg" width="48">   |
