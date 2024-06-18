@@ -362,6 +362,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `oracle`      |       <img src="./assets/oracle-auto.svg" width="48">    |
 |      `outlook`      |       <img src="./assets/outlook-auto.svg" width="48">   |
 |        `p5js`       |         <img src="./assets/p5js.svg" width="48">         |
+|        `pail`       |         <img src="./assets/pail-auto.svg" width="48">    |
 |       `pandas`      |      <img src="./assets/pandas-auto.svg" width="48">     |
 |     `papertrail`    |       <img src="./assets/papertrail.svg" width="48">     |
 |       `payload`     |      <img src="./assets/payload-auto.svg" width="48">    |
