@@ -113,6 +113,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `ansible`      |       <img src="./assets/ansible.svg" width="48">        |
 |        `anss`       |       <img src="./assets/anss-auto.svg" width="48">      |
 |       `apollo`      |        <img src="./assets/apollo.svg" width="48">        |
+|      `appcode`      |    <img src="./assets/appcode-auto.svg" width="48">      |
 |       `apple`       |      <img src="./assets/apple-auto.svg" width="48">      |
 |      `appwrite`     |       <img src="./assets/appwrite.svg" width="48">       |
 |        `arch`       |      <img src="./assets/arch-auto.svg" width="48">       |
@@ -163,10 +164,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |    `coffeescript`   |  <img src="./assets/coffeescript-auto.svg" width="48">   |
 |        `css`        |         <img src="./assets/css.svg" width="48">          |
 |      `cypress`      |     <img src="./assets/cypress-auto.svg" width="48">     |
+|         `d`         |         <img src="./assets/d.svg" width="48">            |
 |         `d3`        |       <img src="./assets/d3-auto.svg" width="48">        |
 |     `dailydev`      |     <img src="./assets/dailydev-auto.svg" width="48">    |
 |     `datadog`       |      <img src="./assets/datadog.svg" width="48">         |
 |     `datagrip`      |   <img src="./assets/datagrip-auto.svg" width="48">      |
+|     `dataspell`     |   <img src="./assets/dataspell-auto.svg" width="48">     |
 |      `dbeaver`      |    <img src="./assets/dbeaver-auto.svg" width="48">      |
 |       `dart`        |      <img src="./assets/dart-auto.svg" width="48">       |
 |       `debian`      |        <img src="./assets/debian.svg" width="48">        |
@@ -186,6 +189,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `dotnet`      |        <img src="./assets/dotnet.svg" width="48">        |
 |         `dw`        |     <img src="./assets/dreamweaver.svg" width="48">      |
 |       `drupal`      |      <img src="./assets/drupal-auto.svg" width="48">     |
+|    `duckduckgo`     |     <img src="./assets/duckduckgo.svg" width="48">       |
 |      `dynamodb`     |    <img src="./assets/dynamodb-auto.svg" width="48">     |
 |      `eclipse`      |     <img src="./assets/eclipse-auto.svg" width="48">     |
 |        `edge`       |       <img src="./assets/edge-auto.svg" width="48">      |
@@ -206,6 +210,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `filament`     |       <img src="./assets/filament.svg" width="48">       |
 |      `firebase`     |    <img src="./assets/firebase-auto.svg" width="48">     |
 |      `firefox`      |      <img src="./assets/firefox-auto.svg" width="48">    |
+|     `flameshot`     |      <img src="./assets/flameshot.svg" width="48">       |
 |       `flask`       |      <img src="./assets/flask-auto.svg" width="48">      |
 |       `fleet`       |       <img src="./assets/fleet-auto.svg" width="48">     |
 |      `flutter`      |     <img src="./assets/flutter-auto.svg" width="48">     |
@@ -237,6 +242,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `gradle`      |     <img src="./assets/gradle-auto.svg" width="48">      |
 |       `godot`       |      <img src="./assets/godot-auto.svg" width="48">      |
 |      `grafana`      |     <img src="./assets/grafana-auto.svg" width="48">     |
+|       `grails`      |        <img src="./assets/grails.svg" width="48">        |
 |      `graphql`      |     <img src="./assets/graphql-auto.svg" width="48">     |
 |       `grunt`       |      <img src="./assets/grunt-auto.svg" width="48">      |
 |        `gsap`       |       <img src="./assets/gsap-auto.svg" width="48">      |
@@ -254,6 +260,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `hono`       |       <img src="./assets/hono-auto.svg" width="48">      |
 |        `html`       |         <img src="./assets/html.svg" width="48">         |
 |        `htmx`       |      <img src="./assets/htmx-auto.svg" width="48">       |
+|        `htop`       |       <img src="./assets/htop-auto.svg" width="48">      |
 |      `hydrogen`     |      <img src="./assets/hydrogen-auto.svg" width="48">   |
 |      `hyprland`     |      <img src="./assets/hyprland-auto.svg" width="48">   |
 |         `i3`        |       <img src="./assets/i3-auto.svg" width="48">        |
@@ -299,6 +306,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `livewire`     |      <img src="./assets/livewire-auto.svg" width="48">   |
 |       `looker`      |        <img src="./assets/looker-auto.svg" width="48">   |
 |        `lua`        |       <img src="./assets/lua-auto.svg" width="48">       |
+|     `lucidchart`    |   <img src="./assets/lucidchart-auto.svg" width="48">    |
 |         `md`        |    <img src="./assets/markdown-auto.svg" width="48">     |
 |      `manjaro`      |       <img src="./assets/manjaro.svg" width="48">        |
 |      `mastodon`     |    <img src="./assets/mastodon-auto.svg" width="48">     |
@@ -398,6 +406,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `recoil`       |         <img src="./assets/recoil.svg" width="48">       |
 |       `redhat`      |     <img src="./assets/redhat-auto.svg" width="48">      |
 |       `redis`       |      <img src="./assets/redis-auto.svg" width="48">      |
+|      `redshift`     |   <img src="./assets/redshift-auto.svg" width="48">      |
 |       `redux`       |        <img src="./assets/redux.svg" width="48">         |
 |       `regex`       |      <img src="./assets/regex-auto.svg" width="48">      |
 |       `remix`       |      <img src="./assets/remix-auto.svg" width="48">      |
