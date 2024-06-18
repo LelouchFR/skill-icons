@@ -1,0 +1,18 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="redshift">
+<style>
+#redshift {
+    rect {fill: #242938}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<rect width="256" height="256" fill="#242938" rx="60"/>
+<path d="M128.5 175.626L196.96 191.924V63.7129L128.5 80.0105V175.626Z" fill="#205B97"/>
+<path d="M196.96 63.7129L210 70.2319V185.405L196.96 191.924V63.7129ZM128.5 175.626L60.04 191.924V63.7129L128.5 80.0105V175.626Z" fill="#5193CE"/>
+<path d="M60.04 63.7129L47 70.2319V185.405L60.04 191.924V63.7129Z" fill="#205B97"/>
+<path d="M145.89 218L171.97 204.962V51.0381L145.89 38L137.917 123.474L145.89 218Z" fill="#5193CE"/>
+<path d="M111.11 218L85.03 204.962V51.0381L111.11 38L119.083 123.474L111.11 218Z" fill="#205B97"/>
+<path d="M111.11 38H146.243V217.637H111.11V38Z" fill="#2E73B7"/>
+</svg>
