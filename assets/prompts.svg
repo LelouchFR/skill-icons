@@ -4,7 +4,7 @@
 <path d="M209 47H47V128H209V47Z" fill="white"/>
 </mask>
 <g mask="url(#mask0_1_111)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M128 128L47 103.348V47L209 96.3043V103.348L128 128ZM209 152.652V159.696L47 209V152.652L128 128L209 152.652Z" fill="white"/>
+<path d="M128 128L47 103.348V47L209 96.3043V103.348L128 128ZM209 152.652V159.696L47 209V152.652L128 128L209 152.652Z" fill="white"/>
 </g>
 <path d="M209 159.696L47 209V152.652L209 103.348V159.696Z" fill="white" fill-opacity="0.5"/>
 </svg>

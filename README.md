@@ -113,6 +113,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `ansible`      |       <img src="./assets/ansible.svg" width="48">        |
 |        `anss`       |       <img src="./assets/anss-auto.svg" width="48">      |
 |       `apollo`      |        <img src="./assets/apollo.svg" width="48">        |
+|      `appcode`      |    <img src="./assets/appcode-auto.svg" width="48">      |
 |       `apple`       |      <img src="./assets/apple-auto.svg" width="48">      |
 |      `appwrite`     |       <img src="./assets/appwrite.svg" width="48">       |
 |        `arch`       |      <img src="./assets/arch-auto.svg" width="48">       |
@@ -190,6 +191,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `dotnet`      |        <img src="./assets/dotnet.svg" width="48">        |
 |         `dw`        |     <img src="./assets/dreamweaver.svg" width="48">      |
 |       `drupal`      |      <img src="./assets/drupal-auto.svg" width="48">     |
+|    `duckduckgo`     |     <img src="./assets/duckduckgo.svg" width="48">       |
 |       `dusk`        |      <img src="./assets/dusk.svg" width="48">            |
 |      `dynamodb`     |    <img src="./assets/dynamodb-auto.svg" width="48">     |
 |       `echo`        |    <img src="./assets/echo.svg" width="48">              |
@@ -213,6 +215,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `filament`     |       <img src="./assets/filament.svg" width="48">       |
 |      `firebase`     |    <img src="./assets/firebase-auto.svg" width="48">     |
 |      `firefox`      |      <img src="./assets/firefox-auto.svg" width="48">    |
+|     `flameshot`     |      <img src="./assets/flameshot.svg" width="48">       |
 |       `flask`       |      <img src="./assets/flask-auto.svg" width="48">      |
 |       `fleet`       |       <img src="./assets/fleet-auto.svg" width="48">     |
 |      `flutter`      |     <img src="./assets/flutter-auto.svg" width="48">     |
@@ -245,6 +248,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `gradle`      |     <img src="./assets/gradle-auto.svg" width="48">      |
 |       `godot`       |      <img src="./assets/godot-auto.svg" width="48">      |
 |      `grafana`      |     <img src="./assets/grafana-auto.svg" width="48">     |
+|       `grails`      |        <img src="./assets/grails.svg" width="48">        |
 |      `graphql`      |     <img src="./assets/graphql-auto.svg" width="48">     |
 |       `grunt`       |      <img src="./assets/grunt-auto.svg" width="48">      |
 |        `gsap`       |       <img src="./assets/gsap-auto.svg" width="48">      |
@@ -264,6 +268,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `horizon`    |       <img src="./assets/horizon.svg" width="48">        |
 |        `html`       |         <img src="./assets/html.svg" width="48">         |
 |        `htmx`       |      <img src="./assets/htmx-auto.svg" width="48">       |
+|        `htop`       |       <img src="./assets/htop-auto.svg" width="48">      |
 |      `hydrogen`     |      <img src="./assets/hydrogen-auto.svg" width="48">   |
 |      `hyprland`     |      <img src="./assets/hyprland-auto.svg" width="48">   |
 |         `i3`        |       <img src="./assets/i3-auto.svg" width="48">        |
@@ -466,6 +471,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |     `skeletonui`    |    <img src="./assets/skeletonui-auto.svg" width="48">   |
 |      `sketchup`     |    <img src="./assets/sketchup-auto.svg" width="48">     |
 |       `slack`       |    <img src="./assets/slack-auto.svg" width="48">        |
+|      `snowflake`    |    <img src="./assets/snowflake-auto.svg" width="48">    |
 |        `snyk`       |     <img src="./assets/snyk-auto.svg" width="48">        |
 |     `socialite`     |     <img src="./assets/socialite.svg" width="48">        |
 |      `solidity`     |       <img src="./assets/solidity.svg" width="48">       |
