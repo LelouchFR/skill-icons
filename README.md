@@ -130,6 +130,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `azure`       |      <img src="./assets/azure-auto.svg" width="48">      |
 |       `babel`       |        <img src="./assets/babel.svg" width="48">         |
 |        `bash`       |      <img src="./assets/bash-auto.svg" width="48">       |
+|     `beeceptor`     |   <img src="./assets/beeceptor-auto.svg" width="48">     |
 |         `be`        |        <img src="./assets/behance.svg" width="48">       |
 |        `bevy`       |      <img src="./assets/bevy-auto.svg" width="48">       |
 |     `bitbucket`     |    <img src="./assets/bitbucket-auto.svg" width="48">    |
