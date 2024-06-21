@@ -162,7 +162,8 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `clojure`      |     <img src="./assets/clojure-auto.svg" width="48">     |
 |     `cloudflare`    |   <img src="./assets/cloudflare-auto.svg" width="48">    |
 |       `cmake`       |      <img src="./assets/cmake-auto.svg" width="48">      |
-|       `codeigniter` |      <img src="./assets/codeigniter-auto.svg" width="48">|
+|      `codeberg`     |     <img src="./assets/codeberg-auto.svg" width="48">    |
+|     `codeigniter`   |   <img src="./assets/codeigniter-auto.svg" width="48">   |
 |      `codepen`      |     <img src="./assets/codepen-auto.svg" width="48">     |
 |    `coffeescript`   |  <img src="./assets/coffeescript-auto.svg" width="48">   |
 |        `css`        |         <img src="./assets/css.svg" width="48">          |
