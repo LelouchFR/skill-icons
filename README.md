@@ -116,6 +116,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `appcode`      |    <img src="./assets/appcode-auto.svg" width="48">      |
 |       `apple`       |      <img src="./assets/apple-auto.svg" width="48">      |
 |      `appwrite`     |       <img src="./assets/appwrite.svg" width="48">       |
+|     `arcbrowser`    |    <img src="./assets/arcbrowser-auto.svg" width="48">   |
 |        `arch`       |      <img src="./assets/arch-auto.svg" width="48">       |
 |      `arduino`      |       <img src="./assets/arduino.svg" width="48">        |
 |       `argocd`      |     <img src="./assets/argocd-auto.svg" width="48">      |
@@ -458,6 +459,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `strapi`       |         <img src="./assets/strapi.svg" width="48">       |
 |     `streamlit`     |     <img src="./assets/streamlit-auto.svg" width="48">   |
 |  `styledcomponents` |   <img src="./assets/styledcomponents.svg" width="48">   |
+|       `stylus`      |      <img src="./assets/stylus-auto.svg" width="48">     |
 |      `sublime`      |     <img src="./assets/sublime-auto.svg" width="48">     |
 |      `supabase`     |    <img src="./assets/supabase-auto.svg" width="48">     |
 |     `surrealdb`     |   <img src="./assets/surrealdb-auto.svg" width="48">     |
@@ -497,6 +499,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |     `terraform`     |    <img src="./assets/terraform-auto.svg" width="48">    |
 |   `testinglibrary`  |  <img src="./assets/testinglibrary-auto.svg" width="48"> |
 |      `threejs`      |     <img src="./assets/threejs-auto.svg" width="48">     |
+|        `tidb`       |      <img src="./assets/tidb-auto.svg" width="48">       |
 |        `tor`        |       <img src="./assets/tor-auto.svg" width="48">       |
 |       `trpc`        |       <img src="./assets/trpc.svg" width="48">           |
 |      `truffle`      |     <img src="./assets/truffle-auto.svg" width="48">     |
