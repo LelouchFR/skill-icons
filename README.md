@@ -171,6 +171,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |         `d`         |         <img src="./assets/d.svg" width="48">            |
 |         `d3`        |       <img src="./assets/d3-auto.svg" width="48">        |
 |     `dailydev`      |     <img src="./assets/dailydev-auto.svg" width="48">    |
+|     `databricks`    |     <img src="./assets/databricks-auto.svg" width="48">  |
 |     `datadog`       |      <img src="./assets/datadog.svg" width="48">         |
 |     `datagrip`      |   <img src="./assets/datagrip-auto.svg" width="48">      |
 |     `dataspell`     |   <img src="./assets/dataspell-auto.svg" width="48">     |
