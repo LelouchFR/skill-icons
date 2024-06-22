@@ -130,6 +130,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `azure`       |      <img src="./assets/azure-auto.svg" width="48">      |
 |       `babel`       |        <img src="./assets/babel.svg" width="48">         |
 |        `bash`       |      <img src="./assets/bash-auto.svg" width="48">       |
+|     `beeceptor`     |   <img src="./assets/beeceptor-auto.svg" width="48">     |
 |         `be`        |        <img src="./assets/behance.svg" width="48">       |
 |        `bevy`       |      <img src="./assets/bevy-auto.svg" width="48">       |
 |     `bitbucket`     |    <img src="./assets/bitbucket-auto.svg" width="48">    |
@@ -161,7 +162,8 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `clojure`      |     <img src="./assets/clojure-auto.svg" width="48">     |
 |     `cloudflare`    |   <img src="./assets/cloudflare-auto.svg" width="48">    |
 |       `cmake`       |      <img src="./assets/cmake-auto.svg" width="48">      |
-|       `codeigniter` |      <img src="./assets/codeigniter-auto.svg" width="48">|
+|      `codeberg`     |     <img src="./assets/codeberg-auto.svg" width="48">    |
+|     `codeigniter`   |   <img src="./assets/codeigniter-auto.svg" width="48">   |
 |      `codepen`      |     <img src="./assets/codepen-auto.svg" width="48">     |
 |    `coffeescript`   |  <img src="./assets/coffeescript-auto.svg" width="48">   |
 |        `css`        |         <img src="./assets/css.svg" width="48">          |
