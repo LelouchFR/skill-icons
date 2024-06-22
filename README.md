@@ -116,7 +116,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `appcode`      |    <img src="./assets/appcode-auto.svg" width="48">      |
 |       `apple`       |      <img src="./assets/apple-auto.svg" width="48">      |
 |      `appwrite`     |       <img src="./assets/appwrite.svg" width="48">       |
-|     `arcbrowser`    |    <img src="./assets/arcbrowser-auto.svg" width="48">   |
+|        `arc`        |    <img src="./assets/arcbrowser-auto.svg" width="48">   |
 |        `arch`       |      <img src="./assets/arch-auto.svg" width="48">       |
 |      `arduino`      |       <img src="./assets/arduino.svg" width="48">        |
 |       `argocd`      |     <img src="./assets/argocd-auto.svg" width="48">      |
