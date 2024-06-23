@@ -50,8 +50,13 @@ func main() {
 	// Split the content by newlines
 	lines := strings.Split(indexContent, "\n")
 
-	// Insert the iconsJSON into line 18
-	lines[17] = fmt.Sprintf("\n\tvar iconsJSON = `%s`\n", iconsJSON)
+	// Find the line with the var iconsJSON string declaration and replace it
+	for i, line := range lines {
+		if strings.Contains(line, "var iconsJSON string") {
+			lines[i] = fmt.Sprintf("var iconsJSON string = `%s`", iconsJSON)
+			break
+		}
+	}
 
 	// Join the lines back into a single string
 	modifiedContent := strings.Join(lines, "\n")

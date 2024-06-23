@@ -14,8 +14,7 @@ import (
 var icons map[string]string = make(map[string]string)
 var iconNameList []string
 var themedIcons []string
-
-
+var iconsJSON string
 
 var shortNames = map[string]string{
 	"js":                "javascript",
@@ -120,10 +119,10 @@ func generateSvg(iconNames []string, perLine int, hasTitlesEnabled bool) string 
 	`, scaledWidth, scaledHeight, length, height)
 
 	for index, i := range iconSvgList {
-        var title string
-        if hasTitlesEnabled {
-            title = fmt.Sprintf("<title>%s</title>", iconNames[index])
-        }
+		var title string
+		if hasTitlesEnabled {
+			title = fmt.Sprintf("<title>%s</title>", iconNames[index])
+		}
 
 		x := (index % perLine) * 300
 		y := (index / perLine) * 300
@@ -185,13 +184,13 @@ func iconRoute(r *gin.RouterGroup) {
 			perLineStr = "15"
 		}
 
-        hasTitles := ctx.Request.Form.Get("titles")
-        var hasTitlesEnabled bool
-        if hasTitles == "" {
-            hasTitlesEnabled = false
-        } else {
-            hasTitlesEnabled = true
-        }
+		hasTitles := ctx.Request.Form.Get("titles")
+		var hasTitlesEnabled bool
+		if hasTitles == "" {
+			hasTitlesEnabled = false
+		} else {
+			hasTitlesEnabled = true
+		}
 
 		if iconParam == "" {
 			ctx.String(http.StatusBadRequest, "You didn't specify any icons!")
