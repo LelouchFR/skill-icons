@@ -1,7 +1,6 @@
 <p align="center"><img align="center" width="280" src="./.github/text-logo.svg#gh-dark-mode-only"/></p>
 <p align="center"><img align="center" width="280" src="./.github/text-logo-light.svg#gh-light-mode-only"/></p>
 <h3 align="center">Showcase your skills on your GitHub or resumé with ease!</h3>
-<hr>
 
 # Docs
 
@@ -13,12 +12,12 @@
 - [Get Icons Names](#get-icons-names)
 - [Centering Icons](#centering-icons)
 - [Icons List](#icons-list)
-    - [💖 Support the Project](#-support-the-project)
+  - [💖 Support the Project](#-support-the-project)
 
 # Example
 
-<p align="center"><img align="center" src="./.github/example-dark.png#gh-dark-mode-only"/></p>
-<p align="center"><img align="center" src="./.github/example-light.png#gh-light-mode-only"/></p>
+<p align="center"><img align="center" src="./.github/assets/example-dark.png#gh-dark-mode-only"/></p>
+<p align="center"><img align="center" src="./.github/assets/example-light.png#gh-light-mode-only"/></p>
 
 # Specifying Icons
 
@@ -62,7 +61,7 @@ Change the `&perline=3` to any number between 1 and 50.
 
 # Get Icons Names
 
-You can get the possiblity to add the name of the icons you put to help others that doesnt know what they are by using `&titles`.
+You can get the possibility to add the name of the icons you put to help others that doesn't know what they are by using `&titles`.
 
 The value of `titles` is a boolean, so it should be `true` or `false`, default is `false`
 
@@ -540,8 +539,6 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `youtube`      |        <img src="./assets/youtube.svg" width="48">       |
 |        `zed`        |       <img src="./assets/zed-auto.svg" width="48">       |
 |        `zig`        |       <img src="./assets/zig-auto.svg" width="48">       |
-
----
 
 ## 💖 Support the Project
 

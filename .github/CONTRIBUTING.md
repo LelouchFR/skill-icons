@@ -29,9 +29,9 @@ Thank you for your interest in contributing to our project! Here are some guidel
 
 Download placeholders:
 
-<a href="./placeholder-dark.svg" download>placeholder-dark.svg</a>
+<a href="./assets/placeholder-dark.svg" download>placeholder-dark.svg</a>
 
-<a href="./placeholder-light.svg" download>placeholder-light.svg</a>
+<a href="./assets/placeholder-light.svg" download>placeholder-light.svg</a>
 
 ### Coding Standards
 
