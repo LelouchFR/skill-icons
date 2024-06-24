@@ -37,7 +37,7 @@ echo ${table_headers[0]} >> README.md
 echo ${table_headers[1]} >> README.md
 
 max_icon_id_length=$(get_maximum_length "$icons")
-max_img_tag_length=$(get_maximum_length '${img_tags[*]}')
+max_img_tag_length=$(get_maximum_length "${img_tags[*]}")
 
 count_id=0
 declare -a icon_table
@@ -52,19 +52,19 @@ do
         icon_id=$(echo ${icon_list[$(($count_id))]} | sed 's/\.[^.]*$//; s/-auto//g')
         img_tag="<img src=\"./assets/${icon_list[$(($count_id))]}\" width=\"48\">"
 
-        padding_icon_id=$(( (max_icon_id_length - ${#icon_id}) / 2 ))
-        padding_img_tag=$(( (max_img_tag_length - ${#img_tag}) / 2 ))
+        padding_icon_id=$(( (max_icon_id_length - ${#icon_id} + 1) / 2 ))
+        padding_img_tag=$(( (max_img_tag_length - ${#img_tag} + 1) / 2 ))
 
-        padded_icon_id=$(printf "%*s%s%*s" $padding_icon_id "" "\`$icon_id\`" $padding_icon_id "")
-        padded_img_tag=$(printf "%*s%s%*s" $padding_img_tag "" "$img_tag" $padding_img_tag "")
+        padded_icon_id=$(printf "%-${padding_icon_id}s%s%${padding_icon_id}s" "" "\`$icon_id\`" "")
+        padded_img_tag=$(printf "%-${padding_img_tag}s%s%${padding_img_tag}s" "" "$img_tag" "")
 
-
-        if [[ $((${#icon_id} % 2)) -eq 0 ]]; then
-            padded_icon_id=" $padded_icon_id"
+        # If the lengths are not even, adjust the padding
+        if [[ $((${#icon_id} % 2)) -ne 0 ]]; then
+            padded_icon_id+=" "
         fi
 
-        if [[ $((${#img_tag} % 2)) -eq 0 ]]; then
-            padded_img_tag=" $padded_img_tag"
+        if [[ $((${#img_tag} % 2)) -ne 0 ]]; then
+            padded_img_tag+=" "
         fi
 
         icon_table[$row]+="|$padded_icon_id|$padded_img_tag"
