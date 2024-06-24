@@ -59,12 +59,12 @@ do
         padded_img_tag=$(printf "%*s%s%*s" $padding_img_tag "" "$img_tag" $padding_img_tag "")
 
 
-        if [[ $((max_icon_id_length % 2)) -ne 0 ]]; then
-            padded_icon_id="$padded_icon_id "
+        if [[ $((max_icon_id_length % 2)) -eq 0 ]]; then
+            padded_icon_id=" $padded_icon_id"
         fi
 
-        if [[ $((max_img_tag_length % 2)) -ne 0 ]]; then
-            padded_img_tag="$padded_img_tag "
+        if [[ $((max_img_tag_length % 2)) -eq 0 ]]; then
+            padded_img_tag=" $padded_img_tag"
         fi
 
         icon_table[$row]+="|$padded_icon_id|$padded_img_tag"
