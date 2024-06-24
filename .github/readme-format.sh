@@ -37,7 +37,7 @@ echo ${table_headers[0]} >> README.md
 echo ${table_headers[1]} >> README.md
 
 max_icon_id_length=$(get_maximum_length "$icons")
-max_img_tag_length=$(get_maximum_length "${img_tags}")
+max_img_tag_length=$(get_maximum_length "$img_tags")
 
 count_id=0
 declare -a icon_table
