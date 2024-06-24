@@ -94,7 +94,6 @@ Want to center the icons in your readme? The SVGs are automatically resized, so 
 
 Here's a list of all the icons currently supported. Feel free to open an issue to suggest icons to add!
 
-<<<<<<< HEAD
 | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon |
 | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: |
 |         `acrobat`          | <img src="./assets/acrobat.svg" width="48"> |          `edge`           |  <img src="./assets/edge-auto.svg" width="48">  |           `kde`            |  <img src="./assets/kde-auto.svg" width="48">  |         `prelude`          | <img src="./assets/prelude.svg" width="48"> |         `truffle`          |    <img src="./assets/truffle-auto.svg" width="48">    |
