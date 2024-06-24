@@ -59,11 +59,11 @@ do
         padded_img_tag=$(printf "%*s%s%*s" $padding_img_tag "" "$img_tag" $padding_img_tag "")
 
 
-        if [[ $((max_icon_id_length % 2)) -eq 0 ]]; then
+        if [[ $((${#icon_id} % 2)) -eq 0 ]]; then
             padded_icon_id=" $padded_icon_id"
         fi
 
-        if [[ $((max_img_tag_length % 2)) -eq 0 ]]; then
+        if [[ $((${#img_tag} % 2)) -eq 0 ]]; then
             padded_img_tag=" $padded_img_tag"
         fi
 
