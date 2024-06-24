@@ -1,0 +1,34 @@
+name: Generate Icons Table
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Purge lines after line 97 in README.md
+        run: sed -i '97,$ d' README.md
+
+      - name: Generate Markdown table for icons
+        run: ./.github/autogenerate.sh
+      
+      - name: Append generated_table.md to README.md
+        run: cat generated_table.md >> README.md
+
+      - name: Remove generated_table.md
+        run: rm generated_table.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'CI'
+          git config --global user.email 'noreply@github.com'
+          git add .
+          git commit -m "Update"
+          git push
