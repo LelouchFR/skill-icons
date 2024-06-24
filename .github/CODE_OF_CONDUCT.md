@@ -4,7 +4,7 @@
 
 This code of conduct outlines our expectations for participants within the community, as well as steps for reporting unacceptable behavior.
 
-## Ou Values
+## Our Values
 
 - **Integrity:** Act with honesty and uphold the highest ethical standards.
 - **Respect:** Treat everyone with respect, regardless of their background or beliefs.

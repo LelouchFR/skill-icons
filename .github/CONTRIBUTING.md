@@ -23,7 +23,7 @@ Thank you for your interest in contributing to our project! Here are some guidel
 
 #### Submitting a new Icon
 
-1. Follow the exact same steps than [here](###Submitting_Pull_Requests)
+1. Follow the exact same steps than [here](#submitting-pull-requests)
 2. **Icon:** Use the placeholder svg to start your Icon.
 3. **Software:** Use Figma or Illustrator for making svg.
 
