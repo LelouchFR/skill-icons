@@ -225,6 +225,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `flutter`      |     <img src="./assets/flutter-auto.svg" width="48">     |
 |       `fonts`       |        <img src="./assets/fonts.svg" width="48">         |
 |       `forge`       |        <img src="./assets/forge.svg" width="48">         |
+|      `forgejo`      |     <img src="./assets/forgejo-auto.svg" width="48">     |
 |       `forth`       |        <img src="./assets/forth.svg" width="48">         |
 |      `fortran`      |       <img src="./assets/fortran.svg" width="48">        |
 |       `fresco`      |        <img src="./assets/fresco.svg" width="48">        |
@@ -273,6 +274,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `html`       |         <img src="./assets/html.svg" width="48">         |
 |        `htmx`       |      <img src="./assets/htmx-auto.svg" width="48">       |
 |        `htop`       |       <img src="./assets/htop-auto.svg" width="48">      |
+|        `hugo`       |       <img src="./assets/hugo-auto.svg" width="48">      |
 |      `hydrogen`     |      <img src="./assets/hydrogen-auto.svg" width="48">   |
 |      `hyprland`     |      <img src="./assets/hyprland-auto.svg" width="48">   |
 |         `i3`        |       <img src="./assets/i3-auto.svg" width="48">        |
@@ -453,6 +455,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `sqlite`      |        <img src="./assets/sqlite.svg" width="48">        |
 |      `sqlserver`    |      <img src="./assets/sqlserver-auto.svg" width="48">  |
 |   `stackoverflow`   |  <img src="./assets/stackoverflow-auto.svg" width="48">  |
+|       `steam`       |         <img src="./assets/steam.svg" width="48">        |
 |       `stock`       |         <img src="./assets/stock.svg" width="48">        |
 |     `storyblok`     |     <img src="./assets/storyblok-auto.svg" width="48">   |
 |     `storybook`     |     <img src="./assets/storybook-auto.svg" width="48">   |
@@ -503,6 +506,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `tor`        |       <img src="./assets/tor-auto.svg" width="48">       |
 |       `trpc`        |       <img src="./assets/trpc.svg" width="48">           |
 |      `truffle`      |     <img src="./assets/truffle-auto.svg" width="48">     |
+|       `twitch`      |        <img src="./assets/twitch.svg" width="48">        |
 |         `ts`        |      <img src="./assets/typescript.svg" width="48">      |
 |       `ubuntu`      |        <img src="./assets/ubuntu.svg" width="48">        |
 |       `unity`       |      <img src="./assets/unity-auto.svg" width="48">      |
