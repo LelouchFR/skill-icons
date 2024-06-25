@@ -74,13 +74,16 @@ do
         padded_icon_id=$(printf "%-${padding_icon_id}s%s%${padding_icon_id}s" "" "\`$icon_id\`" "")
         padded_img_tag=$(printf "%-${padding_img_tag}s%s%${padding_img_tag}s" "" "$img_tag" "")
 
-        # If the lengths are not even, adjust the padding
         if [[ $((${#icon_id} % 2)) -ne 0 ]]; then
             padded_icon_id+=" "
         fi
 
         if [[ $((${#img_tag} % 2)) -ne 0 ]]; then
             padded_img_tag+=" "
+        fi
+
+        if  [[ ${#padded_img_tag} -eq 54 ]]; then
+            padded_img_tag+="  "
         fi
 
         icon_table[$row]+="|$padded_icon_id|$padded_img_tag"
