@@ -211,6 +211,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `envoyer`      |     <img src="./assets/envoyer.svg" width="48">          |
 |       `excel`       |     <img src="./assets/excel-auto.svg" width="48">       |
 |      `express`      |    <img src="./assets/expressjs-auto.svg" width="48">    |
+|      `fabric`      |    <img src="./assets/fabric-auto.svg" width="48">    |
 |     `facebook`      |       <img src="./assets/facebook.svg" width="48">       |
 |       `fastai`      |      <img src="./assets/fastai-auto.svg" width="48">     |
 |      `fastapi`      |       <img src="./assets/fastapi.svg" width="48">        |
