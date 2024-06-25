@@ -13,7 +13,7 @@
 - [Get Icons Names](#get-icons-names)
 - [Centering Icons](#centering-icons)
 - [Icons List](#icons-list)
-    - [💖 Support the Project](#-support-the-project)
+- [💖 Support the Project](#-support-the-project)
 
 # Example
 
@@ -197,6 +197,6 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `duckduckgo`        |     <img src="./assets/duckduckgo.svg" width="48">     |          `julia`           |     <img src="./assets/julia-auto.svg" width="48">     |        `postgresql`        |  <img src="./assets/postgresql-auto.svg" width="48">   |        `tensorflow`        |  <img src="./assets/tensorflow-auto.svg" width="48">   |
 |           `dusk`           |       <img src="./assets/dusk.svg" width="48">         |          `kafka`           |       <img src="./assets/kafka.svg" width="48">        |         `postman`          |      <img src="./assets/postman.svg" width="48">       |        `terraform`         |   <img src="./assets/terraform-auto.svg" width="48">   |
 
-## 💖 Support the Project
+# 💖 Support the Project
 Thank you so much already for using my projects!
 To support the project directly, feel free to open issues for icon suggestions, or contribute with a pull request!

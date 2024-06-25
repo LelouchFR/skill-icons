@@ -1,4 +1,4 @@
-head -96 README.md >README.tmp && mv README.tmp README.md
+head -96 README.md > README.tmp && mv README.tmp README.md
 
 icons=$(ls assets --ignore="*-light.svg" --ignore="*-dark.svg")
 icon_list=($(ls assets --ignore="*-light.svg" --ignore="*-dark.svg"))
@@ -6,7 +6,8 @@ icon_list=($(ls assets --ignore="*-light.svg" --ignore="*-dark.svg"))
 function get_maximum_length() {
     items=$1
     maximum=0
-    for item in $items; do
+    for item in $items
+    do
         if [[ ${#item} -gt $maximum ]]; then
             maximum=${#item}
         fi
@@ -16,22 +17,24 @@ function get_maximum_length() {
 
 icons_counter=0
 declare -a img_tags
-for icon in $icons; do
+for icon in $icons
+do
     icons_counter=$((icons_counter + 1))
     img_tags+=("<img src=\"./assets/$icon\" width=\"48\">")
 done
 
 table_headers=("" "")
 columns=$(($icons_counter / 100 + 1))
-for column in $(seq 1 $columns); do
+for column in $(seq 1 $columns)
+do
     table_headers[0]+="| Icon ID | Icon "
     table_headers[1]+="| :-----------------: | :--------------: "
 done
 table_headers[0]+="|"
 table_headers[1]+="|"
 
-echo ${table_headers[0]} >>README.md
-echo ${table_headers[1]} >>README.md
+echo ${table_headers[0]} >> README.md
+echo ${table_headers[1]} >> README.md
 
 max_icon_id_length=$(get_maximum_length "$icons")
 max_img_tag_length=$(get_maximum_length "${img_tags[*]}")
@@ -39,7 +42,8 @@ max_img_tag_length=$(get_maximum_length "${img_tags[*]}")
 # Gonna make this because stupid bash script cannot calculate $max_img_tag_length correctly, fucking idiot.
 most_negative_number=0
 count_id=0
-for row in $(seq 1 100); do
+for row in $(seq 1 100)
+do
     img_tag="<img src=\"./assets/${icon_list[$(($count_id))]}\">"
     padding_img_tag=$(((max_img_tag_length - ${#img_tag} + 1) / 2))
     count_id=$((count_id + 1))
@@ -51,12 +55,15 @@ done
 
 count_id=0
 declare -a icon_table
-for column in $(seq 1 $columns); do
-    for row in $(seq 1 100); do
+for column in $(seq 1 $columns)
+do
+    for row in $(seq 1 100)
+    do
         count_id=$(($count_id + 1))
         if [[ $count_id -ge $icons_counter ]]; then
             continue
         fi
+
         icon_id=$(echo ${icon_list[$(($count_id))]} | sed 's/\.[^.]*$//; s/-auto//g')
         img_tag="<img src=\"./assets/${icon_list[$(($count_id))]}\" width=\"48\">"
 
@@ -83,11 +90,12 @@ for column in $(seq 1 $columns); do
     done
 done
 
-for column in $(seq 1 100); do
-    echo "${icon_table[$column]}|" >>README.md
+for column in $(seq 1 100)
+do
+    echo "${icon_table[$column]}|" >> README.md
 done
 
-echo "" >>README.md
-echo "## 💖 Support the Project" >>README.md
-echo "Thank you so much already for using my projects!" >>README.md
-echo "To support the project directly, feel free to open issues for icon suggestions, or contribute with a pull request!" >>README.md
+echo "" >> README.md
+echo "## 💖 Support the Project" >> README.md
+echo "Thank you so much already for using my projects!" >> README.md
+echo "To support the project directly, feel free to open issues for icon suggestions, or contribute with a pull request!" >> README.md
