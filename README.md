@@ -237,6 +237,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `gemini`      |      <img src="./assets/gemini-auto.svg" width="48">     |
 |        `gimp`       |        <img src="./assets/gimp-auto.svg" width="48">     |
 |        `git`        |         <img src="./assets/git-auto.svg" width="48">     |
+|       `gitea`       |        <img src="./assets/gitea-auto.svg" width="48">    |
 |       `github`      |     <img src="./assets/github-auto.svg" width="48">      |
 |   `githubactions`   |  <img src="./assets/githubactions-auto.svg" width="48">  |
 |   `githubcopilot`   |  <img src="./assets/githubcopilot-auto.svg" width="48">  |
