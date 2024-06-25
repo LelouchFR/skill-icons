@@ -1,0 +1,25 @@
+name: Generate Icons Table
+
+on:
+  push:
+    branches:
+      - main  # Replace with your branch name if different
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Generate Markdown table for icons
+        run: ./.github/readme-format.sh
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'CI'
+          git config --global user.email 'noreply@github.com'
+          git add .
+          git commit -m "Update"
+          git push
