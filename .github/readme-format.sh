@@ -39,6 +39,21 @@ echo ${table_headers[1]} >> README.md
 max_icon_id_length=$(get_maximum_length "$icons")
 max_img_tag_length=$(get_maximum_length "${img_tags[*]}")
 
+# Gonna make this because stupid bash script cannot calculate $max_img_tag_length correctly, such an idiot.
+
+most_negative_number=0
+count_id=0
+for row in $(seq 1 100); do
+    img_tag="<img src=\"./assets/${icon_list[$(($count_id))]}\">"
+    padding_img_tag=$(( (max_img_tag_length - ${#img_tag} + 1) / 2 ))
+    count_id=$((count_id + 1))
+
+    # Check if padding_img_tag is less than most_negative_number
+    if [[ $padding_img_tag -gt $most_negative_number ]]; then
+        most_negative_number=$padding_img_tag
+    fi
+done
+
 count_id=0
 declare -a icon_table
 for column in $(seq 1 $columns)
@@ -54,6 +69,7 @@ do
 
         padding_icon_id=$(( (max_icon_id_length - ${#icon_id} + 1) / 2 ))
         padding_img_tag=$(( (max_img_tag_length - ${#img_tag} + 1) / 2 ))
+        padding_img_tag=$((padding_img_tag + most_negative_number))
 
         padded_icon_id=$(printf "%-${padding_icon_id}s%s%${padding_icon_id}s" "" "\`$icon_id\`" "")
         padded_img_tag=$(printf "%-${padding_img_tag}s%s%${padding_img_tag}s" "" "$img_tag" "")
