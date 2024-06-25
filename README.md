@@ -129,6 +129,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `aws`        |       <img src="./assets/aws-auto.svg" width="48">       |
 |        `azul`       |         <img src="./assets/azul.svg" width="48">         |
 |       `azure`       |      <img src="./assets/azure-auto.svg" width="48">      |
+|       `azuredevops` |   <img src="./assets/azuredevops-auto.svg" width="48">   |
 |       `babel`       |        <img src="./assets/babel.svg" width="48">         |
 |        `bash`       |      <img src="./assets/bash-auto.svg" width="48">       |
 |     `beeceptor`     |   <img src="./assets/beeceptor-auto.svg" width="48">     |
