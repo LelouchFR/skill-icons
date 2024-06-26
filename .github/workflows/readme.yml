@@ -1,0 +1,30 @@
+name: Generate Readme
+on:
+  pull_request:
+    branches:
+      - **
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set Permissions to script
+        run: chmod +x ./.github/readme-format.sh
+
+      - name: Check if script was runned before pull request
+        run: |
+          if [[ $(./.github/readme-format.sh check) -eq 1 ]]; then
+            echo "script has already been runned before pull request"
+          else
+            ./.github/readme-format.sh
+          fi
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'CI'
+          git config --global user.email 'noreply@github.com'
+          git add -A
+          git commit -m "formatting the readme file"
+          git push
