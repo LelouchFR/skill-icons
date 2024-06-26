@@ -291,6 +291,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `insomnia`     |       <img src="./assets/insomnia.svg" width="48">       |
 |     `instagram`     |      <img src="./assets/instagram.svg" width="48">       |
 |        `ipfs`       |      <img src="./assets/ipfs-auto.svg" width="48">       |
+|       `jamovi`      |       <img src="./assets/jamovi.svg" width="48">         |
 |        `java`       |      <img src="./assets/java-auto.svg" width="48">       |
 |         `js`        |      <img src="./assets/javascript.svg" width="48">      |
 |      `jenkins`      |     <img src="./assets/jenkins-auto.svg" width="48">     |
