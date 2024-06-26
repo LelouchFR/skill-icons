@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none" viewBox="0 0 256 256" id="azuredevops">
+<style>
+#azuredevops {
+    rect {fill: #242938}
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<rect width="256" height="256" fill="#242938" rx="60"/>
+<path d="M226.938 77.653V175.541L177.719 208.5L101.43 185.787V208.304L58.2437 162.155L184.117 170.205V82.0575L226.938 77.653ZM184.975 82.575L114.353 47.5V70.5115L49.4969 86.094L30.0625 106.495V152.829L57.8781 162.868V103.493L184.975 82.575Z" fill="url(#paint0_linear_37_16)"/>
+<defs>
+<linearGradient id="paint0_linear_37_16" x1="128.5" y1="207.994" x2="128.5" y2="47.799" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0078D4"/>
+<stop offset="0.16" stop-color="#1380DA"/>
+<stop offset="0.53" stop-color="#3C91E5"/>
+<stop offset="0.82" stop-color="#559CEC"/>
+<stop offset="1" stop-color="#5EA0EF"/>
+</linearGradient>
+</defs>
+</svg>
