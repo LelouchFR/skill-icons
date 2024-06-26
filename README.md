@@ -13,7 +13,7 @@
 - [Get Icons Names](#get-icons-names)
 - [Centering Icons](#centering-icons)
 - [Icons List](#icons-list)
-    - [💖 Support the Project](#-support-the-project)
+- [💖 Support the Project](#-support-the-project)
 
 # Example
 
@@ -104,6 +104,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |         `ar`        |         <img src="./assets/aero.svg" width="48">         |
 |         `ae`        |     <img src="./assets/aftereffects.svg" width="48">     |
 |      `aiscript`     |    <img src="./assets/aiscript-auto.svg" width="48">     |
+|     `alacritty`     |   <img src="./assets/alacritty-auto.svg" width="48">     |
 |       `alchemy`     |    <img src="./assets/alchemy-auto.svg" width="48">      |
 |      `alpinejs`     |    <img src="./assets/alpinejs-auto.svg" width="48">     |
 |      `anaconda`     |    <img src="./assets/anaconda-auto.svg" width="48">     |
@@ -310,6 +311,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `karma`       |     <img src="./assets/karma-auto.svg" width="48">       |
 |        `kde`        |       <img src="./assets/kde-auto.svg" width="48">       |
 |      `keycloak`     |       <img src="./assets/keycloak.svg" width="48">       |
+|       `kitty`       |     <img src="./assets/kitty-auto.svg" width="48">       |
 |       `kotlin`      |     <img src="./assets/kotlin-auto.svg" width="48">      |
 |        `ktor`       |      <img src="./assets/ktor-auto.svg" width="48">       |
 |     `kubernetes`    |      <img src="./assets/kubernetes.svg" width="48">      |
@@ -554,7 +556,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 
 ---
 
-## 💖 Support the Project
+# 💖 Support the Project
 
 Thank you so much already for using my projects!
 
