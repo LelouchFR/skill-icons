@@ -134,6 +134,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |        `bash`       |      <img src="./assets/bash-auto.svg" width="48">       |
 |     `beeceptor`     |   <img src="./assets/beeceptor-auto.svg" width="48">     |
 |         `be`        |        <img src="./assets/behance.svg" width="48">       |
+|       `behat`       |       <img src="./assets/behat-auto.svg" width="48">     |
 |        `bevy`       |      <img src="./assets/bevy-auto.svg" width="48">       |
 |     `bitbucket`     |    <img src="./assets/bitbucket-auto.svg" width="48">    |
 |       `blazor`      |     <img src="./assets/blazor-auto.svg" width="48">      |
@@ -306,6 +307,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `kafka`       |        <img src="./assets/kafka.svg" width="48">         |
 |       `kaggle`      |     <img src="./assets/kaggle-auto.svg" width="48">      |
 |        `kali`       |      <img src="./assets/kali-auto.svg" width="48">       |
+|       `karma`       |     <img src="./assets/karma-auto.svg" width="48">       |
 |        `kde`        |       <img src="./assets/kde-auto.svg" width="48">       |
 |      `keycloak`     |       <img src="./assets/keycloak.svg" width="48">       |
 |       `kotlin`      |     <img src="./assets/kotlin-auto.svg" width="48">      |
@@ -345,6 +347,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `misskey`      |     <img src="./assets/misskey-auto.svg" width="48">     |
 |        `mjml`       |        <img src="./assets/mjml-auto.svg" width="48">     |
 |        `ml5`        |     <img src="./assets/ml5-auto.svg" width="48">         |
+|       `mocha`       |      <img src="./assets/mocha-auto.svg" width="48">      |
 |        `mojo`       |     <img src="./assets/mojo-auto.svg" width="48">        |
 |      `mongodb`      |       <img src="./assets/mongodb.svg" width="48">        |
 |       `mysql`       |      <img src="./assets/mysql-auto.svg" width="48">      |
