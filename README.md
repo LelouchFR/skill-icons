@@ -166,6 +166,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `clojure`      |     <img src="./assets/clojure-auto.svg" width="48">     |
 |     `cloudflare`    |   <img src="./assets/cloudflare-auto.svg" width="48">    |
 |       `cmake`       |      <img src="./assets/cmake-auto.svg" width="48">      |
+|    `cockroachdb`    |   <img src="./assets/cockroachdb-auto.svg" width="48">   |
 |      `codeberg`     |     <img src="./assets/codeberg-auto.svg" width="48">    |
 |     `codeigniter`   |   <img src="./assets/codeigniter-auto.svg" width="48">   |
 |      `codepen`      |     <img src="./assets/codepen-auto.svg" width="48">     |
@@ -233,6 +234,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `forth`       |        <img src="./assets/forth.svg" width="48">         |
 |      `fortran`      |       <img src="./assets/fortran.svg" width="48">        |
 |       `fresco`      |        <img src="./assets/fresco.svg" width="48">        |
+|       `fresh`       |      <img src="./assets/fresh-auto.svg" width="48">      |
 |        `fuse`       |        <img src="./assets/fuse.svg" width="48">          |
 |  `gamemakerstudio`  |   <img src="./assets/gamemakerstudio.svg" width="48">    |
 |      `ganache`      |     <img src="./assets/ganache-auto.svg" width="48">     |
@@ -311,6 +313,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `karma`       |     <img src="./assets/karma-auto.svg" width="48">       |
 |        `kde`        |       <img src="./assets/kde-auto.svg" width="48">       |
 |      `keycloak`     |       <img src="./assets/keycloak.svg" width="48">       |
+|       `keydb`       |      <img src="./assets/keydb-auto.svg" width="48">      |
 |       `kitty`       |     <img src="./assets/kitty-auto.svg" width="48">       |
 |       `kotlin`      |     <img src="./assets/kotlin-auto.svg" width="48">      |
 |        `ktor`       |      <img src="./assets/ktor-auto.svg" width="48">       |
@@ -321,6 +324,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `latex`       |      <img src="./assets/latex-auto.svg" width="48">      |
 |      `leetcode`     |    <img src="./assets/leetcode-auto.svg" width="48">     |
 |        `less`       |      <img src="./assets/less-auto.svg" width="48">       |
+|       `libsql`      |     <img src="./assets/libsql-auto.svg" width="48">      |
 |     `lightning`     |    <img src="./assets/lightning-auto.svg" width="48">    |
 |         `lr`        |      <img src="./assets/lightroom.svg" width="48">       |
 |         `lrc`       |  <img src="./assets/lightroomclassic.svg" width="48">    |
@@ -344,6 +348,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |      `meteorjs`     |    <img src="./assets/meteorjs-auto.svg" width="48">     |
 |  `microsoftcopilot` | <img src="./assets/microsoftcopilot-auto.svg" width="48">|
 |      `million`      |    <img src="./assets/millionjs-auto.svg" width="48">    |
+|      `mindsdb`      |     <img src="./assets/mindsdb-auto.svg" width="48">     |
 |        `mint`       |      <img src="./assets/mint-auto.svg" width="48">       |
 |        `miro`       |         <img src="./assets/miro.svg" width="48">         |
 |      `misskey`      |     <img src="./assets/misskey-auto.svg" width="48">     |
