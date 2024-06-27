@@ -517,6 +517,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |   `testinglibrary`  |  <img src="./assets/testinglibrary-auto.svg" width="48"> |
 |      `threejs`      |     <img src="./assets/threejs-auto.svg" width="48">     |
 |        `tidb`       |      <img src="./assets/tidb-auto.svg" width="48">       |
+|       `tmux`        |      <img src="./assets/tmux-auto.svg" width="48">       |
 |        `tor`        |       <img src="./assets/tor-auto.svg" width="48">       |
 |       `trpc`        |       <img src="./assets/trpc.svg" width="48">           |
 |      `truffle`      |     <img src="./assets/truffle-auto.svg" width="48">     |
