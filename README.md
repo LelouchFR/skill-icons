@@ -324,7 +324,7 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `latex`       |      <img src="./assets/latex-auto.svg" width="48">      |
 |      `leetcode`     |    <img src="./assets/leetcode-auto.svg" width="48">     |
 |        `less`       |      <img src="./assets/less-auto.svg" width="48">       |
-|       `libsql`      |     <img src="./assets/libsql-auto.svg" width="48">      |
+|       `libsql`      |        <img src="./assets/libsql.svg" width="48">        |
 |     `lightning`     |    <img src="./assets/lightning-auto.svg" width="48">    |
 |         `lr`        |      <img src="./assets/lightroom.svg" width="48">       |
 |         `lrc`       |  <img src="./assets/lightroomclassic.svg" width="48">    |
