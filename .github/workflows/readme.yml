@@ -2,7 +2,7 @@ name: Generate Readme
 on:
   pull_request:
     branches:
-      - **
+      - "**"
 
 jobs:
   build:
