@@ -1,0 +1,26 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="tmux">
+<style>
+#tmux {
+    rect {fill: #242938}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<g clip-path="url(#clip0_667_2)">
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<mask id="mask0_667_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="234">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M132.8 111.951V0H123.2V233.498H132.8V121.547H256V111.951H132.8ZM0 24.0055C0 10.7505 10.7552 0 24 0H232C245.253 0 256 10.7553 256 24.0055V233.514H0V24.0055Z" fill="#3C3C3C"/>
+</mask>
+<g mask="url(#mask0_667_2)">
+<path d="M196 0H60C26.8629 0 0 26.8629 0 60V196C0 229.137 26.8629 256 60 256H196C229.137 256 256 229.137 256 196V60C256 26.8629 229.137 0 196 0Z" fill="#3C3C3C"/>
+</g>
+<mask id="mask1_667_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="256">
+<path d="M196 0H60C26.8629 0 0 26.8629 0 60V196C0 229.137 26.8629 256 60 256H196C229.137 256 256 229.137 256 196V60C256 26.8629 229.137 0 196 0Z" fill="#242938"/>
+</mask>
+<g mask="url(#mask1_667_2)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 185H256V231.742C256 245.098 245.245 255.919 232 255.919H24C10.7472 255.919 0 245.109 0 231.742V185ZM0 185H256V233.354H0V185Z" fill="#1BB91F"/>
+</g>
+</g>
+</svg>
