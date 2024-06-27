@@ -13,13 +13,8 @@ jobs:
       - name: Set Permissions to script
         run: chmod +x ./.github/readme-format.sh
 
-      - name: Check if script was runned before pull request
-        run: |
-          if [[ $(./.github/readme-format.sh check) -eq 1 ]]; then
-            echo "script has already been runned before pull request"
-          else
-            ./.github/readme-format.sh
-          fi
+      - name: Run Readme Script
+        run: ./.github/readme-format.sh
 
       - name: Commit changes
         run: |
