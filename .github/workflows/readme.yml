@@ -22,6 +22,6 @@ jobs:
         run: |
           git config --global user.name 'CI'
           git config --global user.email 'noreply@github.com'
-          git add -A
+          git add .
           git commit -m "formatting the readme file"
           git push
