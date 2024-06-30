@@ -12,6 +12,11 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.ref }}
 
+      - name: Config CI
+        run: |
+          git config --global user.name 'CI'
+          git config --global user.email 'noreply@github.com'
+
       - name: Set Permissions to script
         run: chmod +x ./.github/readme-format.sh
 
@@ -20,8 +25,6 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global user.name 'CI'
-          git config --global user.email 'noreply@github.com'
           git add .
           git commit -m "formatting the readme file"
           git push
