@@ -24,6 +24,8 @@ jobs:
       - name: Run Readme Script
         run: ./.github/readme-format.sh
 
+      - run: rm -rf .git
+
       - name: Commit changes
         run: |
           git add .
