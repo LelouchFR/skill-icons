@@ -30,7 +30,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git add .
             git commit -m "Format the readme file"
-            git push origin HEAD:main
+            git push origin ${{ github.event.pull_request.head.ref }}
           else
             echo "no icon has been added, nothing to generate."
           fi
