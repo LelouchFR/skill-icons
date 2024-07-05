@@ -3,25 +3,34 @@ on:
   pull_request:
     branches:
       - "**"
+    types: [opened, synchronize, reopened]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.repository }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set Permissions to script
+      - name: Set executable permission for script
         run: chmod +x ./.github/readme-format.sh
 
-      - name: Run Readme Script
+      - name: Run readme format script
         run: ./.github/readme-format.sh
 
       - name: Commit changes
         run: |
-          git config --global user.name 'CI'
-          git config --global user.email 'noreply@github.com'
-          git add .
-          git commit -m "formatting the readme file"
-          git push
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "Format the readme file"
+            git push origin ${{ github.event.pull_request.head.ref }}
+          else
+            echo "no icon has been added, nothing to generate."
+          fi
