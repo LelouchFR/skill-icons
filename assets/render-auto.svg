@@ -6,7 +6,7 @@
 
     @media (prefers-color-scheme: light) {
         path.rect {fill: #F7F7F7}
-        path.text {fill: black}
+        path.text {fill: #131313}
     }
 }
 </style>
