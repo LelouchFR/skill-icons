@@ -91,6 +91,7 @@ var shortNames = map[string]string{
 	"yml":               "yaml",
 	"twitter":           "x",
 	"arc":               "arcbrowser",
+	"hf":                "huggingface",
 }
 
 var (
