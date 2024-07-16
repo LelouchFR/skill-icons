@@ -1,6 +1,6 @@
-<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="S3">
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="s3">
 <style>
-#S3 {
+#s3 {
     rect {fill: #242938}
     @media (prefers-color-scheme: light) {
         rect {fill: #F4F2ED}
