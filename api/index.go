@@ -127,7 +127,7 @@ func generateSvg(iconNames []string, perLine int, hasTitlesEnabled bool, align s
         `, scaledWidth, scaledHeight, length, height)
     } else {
         svg = fmt.Sprintf(`
-        <svg width="%d" height="%d" viewBox="0 0 %d %d" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+            <svg width="%d" height="%d" viewBox="0 0 %d %d" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
         `, scaledWidth, scaledHeight, length, height)
     }
 
@@ -206,7 +206,7 @@ func iconRoute(r *gin.RouterGroup) {
         }
 
         align := ctx.Request.Form.Get("align")
-        if align == "" || align != "left" || align != "right" || align != "center" {
+        if align != "left" && align != "right" && align != "center" {
             align = "left"
         }
 
