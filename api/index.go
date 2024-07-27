@@ -116,16 +116,17 @@ func generateSvg(iconNames []string, perLine int, hasTitlesEnabled bool, align s
 	scaledHeight := int(float64(height) * SCALE)
     scaledWidth := int(float64(length) * SCALE)
 
+    var svg string
     if align == "center" {
-        svg := fmt.Sprintf(`
+        svg = fmt.Sprintf(`
             <svg width="100%" height="%d" viewBox="0 0 %d %d" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
         `, scaledHeight, length, height)
     } else if align == "right" {
-        svg := fmt.Sprintf(`
+        svg = fmt.Sprintf(`
             <svg width="calc(200% - %dpx)" height="%d" viewBox="0 0 %d %d" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
         `, scaledWidth, scaledHeight, length, height)
     } else {
-        svg := fmt.Sprintf(`
+        svg = fmt.Sprintf(`
         <svg width="%d" height="%d" viewBox="0 0 %d %d" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
         `, scaledWidth, scaledHeight, length, height)
     }
