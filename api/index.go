@@ -104,7 +104,7 @@ const (
 	SCALE          = float64(ONE_ICON) / float64(300-44)
 )
 
-func generateSvg(iconNames []string, perLine int, hasTitlesEnabled bool) string {
+func generateSvg(iconNames []string, perLine int, hasTitlesEnabled bool, align string) string {
 	iconSvgList := make([]string, len(iconNames))
 
 	for i, name := range iconNames {
@@ -114,11 +114,22 @@ func generateSvg(iconNames []string, perLine int, hasTitlesEnabled bool) string 
 	length := int(math.Min(float64(perLine*300), float64(len(iconNames)*300))) - 44
 	height := int(math.Ceil(float64(len(iconSvgList))/float64(perLine)))*300 - 44
 	scaledHeight := int(float64(height) * SCALE)
-	scaledWidth := int(float64(length) * SCALE)
+    scaledWidth := int(float64(length) * SCALE)
 
-	svg := fmt.Sprintf(`
-	<svg width="%d" height="%d" viewBox="0 0 %d %d" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-	`, scaledWidth, scaledHeight, length, height)
+    var svg string
+    if align == "center" {
+        svg = fmt.Sprintf(`
+            <svg width="100%" height="%d" viewBox="0 0 %d %d" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+        `, scaledHeight, length, height)
+    } else if align == "right" {
+        svg = fmt.Sprintf(`
+            <svg width="calc(200% - %dpx)" height="%d" viewBox="0 0 %d %d" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+        `, scaledWidth, scaledHeight, length, height)
+    } else {
+        svg = fmt.Sprintf(`
+        <svg width="%d" height="%d" viewBox="0 0 %d %d" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+        `, scaledWidth, scaledHeight, length, height)
+    }
 
 	for index, i := range iconSvgList {
         var title string
@@ -194,6 +205,11 @@ func iconRoute(r *gin.RouterGroup) {
             hasTitlesEnabled = true
         }
 
+        align := ctx.Request.Form.Get("align")
+        if align == "" || align != "left" || align != "right" || align != "center" {
+            align = "left"
+        }
+
 		if iconParam == "" {
 			ctx.String(http.StatusBadRequest, "You didn't specify any icons!")
 			return
@@ -223,7 +239,7 @@ func iconRoute(r *gin.RouterGroup) {
 			return
 		}
 
-		svg := generateSvg(iconNames, perLine, hasTitlesEnabled)
+		svg := generateSvg(iconNames, perLine, hasTitlesEnabled, align)
 
 		ctx.Header("Content-Type", "image/svg+xml")
 		ctx.String(http.StatusOK, svg)
