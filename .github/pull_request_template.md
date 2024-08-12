@@ -18,3 +18,4 @@
 - [ ] Updated documentation with the new icon(s)
 - [ ] Verified the icon(s) display correctly
 - [ ] If the icon has light and dark, verified the auto switch works correctly
+- [ ] The Svg does not contain any sort of strokes
