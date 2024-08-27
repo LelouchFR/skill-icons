@@ -93,6 +93,7 @@ var shortNames = map[string]string{
 	"arc":               "arcbrowser",
 	"hf":                "huggingface",
 	"sqla":              "sqlalchemy",
+    "notepad++":         "notepadpp",
 }
 
 var (
