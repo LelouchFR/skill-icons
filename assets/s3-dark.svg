@@ -1,5 +1,4 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="S3">
-<rect width="256" height="256" fill="none"/>
 <g clip-path="url(#clip0_45_2)">
 <path d="M196 0H60C26.8629 0 0 26.8629 0 60V196C0 229.137 26.8629 256 60 256H196C229.137 256 256 229.137 256 196V60C256 26.8629 229.137 0 196 0Z" fill="#242938"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M213.065 67.4785L170.014 128.889L213.065 190.299L230.701 182.914V74.8633L213.065 67.4785Z" fill="#E25444"/>
