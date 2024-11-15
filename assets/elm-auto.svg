@@ -1,0 +1,31 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="elm">
+<style>
+#elm {
+    rect {fill: #242938}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<g clip-path="url(#clip0_804_85)">
+<mask id="mask0_804_85" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="256">
+<path d="M196 0H60C26.8629 0 0 26.8629 0 60V196C0 229.137 26.8629 256 60 256H196C229.137 256 256 229.137 256 196V60C256 26.8629 229.137 0 196 0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_804_85)">
+<path d="M128 120.979L183.322 65.6561H72.6777L128 120.979Z" fill="#F0AD00"/>
+<path d="M7.02148 0L62.7464 55.7257H183.876L128.15 0H7.02148Z" fill="#7FD13B"/>
+<path d="M255.872 127.723L195.583 67.4343L135.02 127.998L195.309 188.287L255.872 127.723Z" fill="#7FD13B"/>
+<path d="M256 113.806V0H142.193L256 113.806Z" fill="#60B5CC"/>
+<path d="M120.978 128L0 7.02197V248.979L120.978 128Z" fill="#5A6378"/>
+<path d="M202.333 195.311L256 248.979V141.643L202.333 195.311Z" fill="#F0AD00"/>
+<path d="M128 135.022L7.02246 256H248.978L128 135.022Z" fill="#60B5CC"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_804_85">
+<rect width="256" height="256" fill="white"/>
+</clipPath>
+</defs>
+</svg>
