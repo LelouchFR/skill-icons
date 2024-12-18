@@ -70,7 +70,7 @@ var shortNames = map[string]string{
 	"fs":                "fuse",
 	"id":                "indesign",
 	"ic":                "incopy",
-	"sp":                "spark",
+	"sp":                "adobespark",
 	"dw":                "dreamweaver",
 	"dn":                "dimension",
 	"ar":                "aero",
@@ -93,6 +93,7 @@ var shortNames = map[string]string{
 	"arc":               "arcbrowser",
 	"hf":                "huggingface",
 	"sqla":              "sqlalchemy",
+    "notepad++":         "notepadpp",
 }
 
 var (
