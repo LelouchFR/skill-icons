@@ -34,7 +34,7 @@ body:
     id: svg-available
     attributes:
       label: Svg Availability
-      description: "If you find the offivial svg version of the logo and put it up into Reference Image, you can check this box"
+      description: "If you find the official svg version of the logo and put it up into Reference Image, you can check this box"
       options:
         - label: "I have given the official svg version of the logo in the Reference Image field."
 
