@@ -1,1 +1,3 @@
 *.sh linguist-detectable=false
+*.svg binary
+*.md binary
