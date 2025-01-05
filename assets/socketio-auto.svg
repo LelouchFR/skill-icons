@@ -1,0 +1,22 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="socketio">
+  <style>
+    #socketio {
+        rect {fill: #242938}
+        path {fill: #FFF}
+        circle#outer {fill: #FFF}
+        circle#inner {fill: #242938}
+        @media (prefers-color-scheme: light) {
+            rect {fill: #F4F2ED}
+            path {fill: #000}
+            circle#outer {fill: #000}
+            circle#inner {fill: #F4F2ED}
+        }
+    }
+  </style>
+  <rect width="256" height="256" fill="#242938" rx="60"/>
+  <g transform="translate(28 28)">
+  	<circle cx="100" cy="100" r="95" fill="#FFF" id="outer" />
+    <circle cx="100" cy="100" r="82.375" fill="#242938" id="inner" />
+  	<path d="M76.185 94.668c21.346-17.448 42.235-35.091 64.043-51.635-11.46 17.608-23.273 34.899-34.733 52.507-9.842.047-19.684.047-29.31-.127zM94.33 104.793c9.891 0 19.733 0 29.36.14-21.36 17.21-42.118 35.257-63.828 52.098 11.46-17.608 23.273-34.949 34.733-52.238z" fill="#FFF"/>
+  </g>
+</svg>
