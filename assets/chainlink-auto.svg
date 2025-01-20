@@ -1,0 +1,13 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="chainlink">
+<style>
+#chainlink {
+    rect {fill: #242938}
+    
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<path d="M128 40L52 84V172L128 216L204 172V84L128 40ZM171.802 153.351L128.014 178.702L84.2253 153.351V102.649L128.014 77.2979L171.802 102.649V153.351Z" fill="#0847F7"/>
+</svg>
