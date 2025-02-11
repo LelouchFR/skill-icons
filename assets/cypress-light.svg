@@ -8,7 +8,6 @@
 <path d="M175.148 98.9766L158.484 141.279L141.693 98.9766H127.954L151.506 156.715L134.351 198.399L146.363 200.802L188.123 98.9766H175.148Z" fill="#1B1E2E"/>
 <path d="M136.513 193.157L133.987 199.291C133.406 200.693 132.079 201.657 130.589 201.712C129.553 201.748 128.536 201.785 127.482 201.785C94.4988 201.785 65.1322 179.669 56.0642 147.996L44.5066 151.309C55.0466 188.096 89.1561 213.799 127.464 213.817H127.482C128.681 213.817 129.88 213.799 131.08 213.744C137.24 213.489 142.746 209.612 145.109 203.878L148.525 195.56L136.513 193.157Z" fill="url(#paint2_linear_36_1188)"/>
 </g>
-<defs>
 <linearGradient id="paint0_linear_36_1188" x1="220.45" y1="128.046" x2="143.302" y2="177.914" gradientUnits="userSpaceOnUse">
 <stop offset="0.0814251" stop-color="#69D3A7"/>
 <stop offset="1" stop-color="#69D3A7" stop-opacity="0"/>
@@ -23,10 +22,6 @@
 <stop offset="0.1638" stop-color="#1CA379"/>
 <stop offset="0.3161" stop-color="#1C8568"/>
 <stop offset="0.5165" stop-color="#1B554D"/>
-<stop offset="0.7187" stop-color="#1B1E2E"/>
+<stop offset="0.7187" stop-color="#1B554D"/>
 </linearGradient>
-<clipPath id="clip0_36_1188">
-<rect width="256" height="256" fill="white"/>
-</clipPath>
-</defs>
 </svg>
