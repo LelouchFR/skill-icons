@@ -7,8 +7,6 @@ COPY assets/ /app/assets/
 COPY go.mod /app/go.mod
 COPY go.sum /app/go.sum
 
-# Forgive me for this, vercel forced us to stick with a code structure
-# so as a workaround i did this ;-;
 RUN sed -i \
   -e 's/package handler/package main/' \
   -e '/var app \*gin.Engine/d' \
@@ -20,7 +18,6 @@ RUN sed -i \
 RUN go mod tidy
 RUN go run build.go
 
-# i swear there is a command for more optimitzation but i cant remember aaghhhhhhh
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix nocgo -ldflags="-s -w" -o skillicons ./api/index.go
 
 FROM scratch
