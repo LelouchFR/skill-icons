@@ -1,14 +1,9 @@
 name: Build Docker Image
 
 on:
-  workflow_dispatch:
   push:
     branches:
-      - '**'
-  pull_request:
-    branches:
-      - "**"
-    types: [opened, synchronize, reopened]
+      - 'main'
 
 jobs:
   build_image:
