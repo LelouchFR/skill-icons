@@ -1,0 +1,20 @@
+name: Build Docker Image Test
+
+on:
+  push:
+    branches:
+      - 'main'
+
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  build_image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Build Docker image
+        run: docker build . -t skill-icons:latest
