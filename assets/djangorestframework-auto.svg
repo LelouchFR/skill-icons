@@ -1,0 +1,13 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="djangorestframework">
+  <style>
+  #djangorestframework {
+      rect {fill: #2c2c2c}
+      @media (prefers-color-scheme: light) {
+          rect {fill: #fff}
+      }
+  }
+  </style>
+  <rect width="256" height="256" rx="60" fill="#2c2c2c"/>
+  <circle cx="128" cy="80" r="40" style="fill: #9d0202; stroke-width: 0px;"/>
+  <circle cx="128" cy="176" r="40" style="fill: #9d0202; stroke-width: 0px;"/>
+</svg>
