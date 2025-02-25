@@ -12,15 +12,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       
-      - name: Log in to GitHub Container Registry
+      - name: Log in to GHCR
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.REPO_TOKEN }}
+          password: ${{ secrets.GHCR_TOKEN }}
       
-      - name: Build Docker image
+      - name: Build Docker image for GHCR
         run: docker build -t ghcr.io/${{ github.repository_owner }}/skill-icons:latest .
       
-      - name: Push Docker image
+      - name: Push Docker image to GHCR
         run: docker push ghcr.io/${{ github.repository_owner }}/skill-icons:latest
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: $(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build Docker image for Docker Hub
+        run: |
+          DOCKERHUB_REPO=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')/skill-icons:latest
+          docker build -t $DOCKERHUB_REPO .
+
+      - name: Push Docker image to Docker Hub
+        run: docker push $DOCKERHUB_REPO
