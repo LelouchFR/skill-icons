@@ -8,7 +8,7 @@ on:
 env:
   DOCKERHUB_USERNAME: $(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
   GHCR_REPO: ghcr.io/${{ github.repository_owner }}/skill-icons:latest
-  DOCKERHUB_REPO: ${{ env.DOCKERHUB_USERNAME }}/skill-icons:latest
+  DOCKERHUB_REPO: $(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')/skill-icons:latest
 
 jobs:
   build_image:
