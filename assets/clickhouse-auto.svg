@@ -1,0 +1,14 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" id="clickhouse" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>
+#clickhouse {
+    rect {fill: #242938}
+    
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}  
+</style>
+<rect width="256" height="256" fill="#242938" rx="60"/>
+<path d="m34.0094 195.375h20.9979v22.625h-20.9979z" fill="#f00"/>
+<path d="m34.0096 37h20.9979v158.375h-20.9979zm41.9958 0h20.9979v181h-20.9979zm41.9956 0h20.998v181h-20.998zm41.996 0h20.998v181h-20.998zm41.995 73.531h20.999v33.938h-20.999z" fill="#fc0"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" id="arrow" xmlns="http://www.w3.org/2000/svg">
+<style>
+#arrow {
+    rect {fill: #242938}
+    
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+        path {fill: #000000}
+    }
+}  
+</style>
+<rect width="256" height="256" fill="#242938" rx="60"/>
+<path d="M31 32L111 128.001L31 224V185.6L78.9996 128.001L31 70.4V32Z" fill="white"/>
+<path d="M89 32L169 128.001L89 224V185.6L137 128.001L89 70.4V32Z" fill="white"/>
+<path d="M144 32L226 128.001L144 224V185.6L193.2 128.001L144 70.4V32Z" fill="white"/>
+</svg>

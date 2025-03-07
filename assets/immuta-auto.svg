@@ -1,0 +1,20 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" id="immuta" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>
+#immuta {
+    rect {fill: #242938}
+    
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+        path {fill: #000000}
+    }
+}  
+</style>
+<g clip-path="url(#a)">
+<g mask="url(#b)">
+<g mask="url(#c)">
+<rect width="256" height="256" fill="#242938" rx="60"/>
+<path d="m228 28v200h-200v-200zm-42.501 32.5h-32.499v133.751h32.499z" fill="#fff"/>
+</g>
+</g>
+</g>
+</svg>
