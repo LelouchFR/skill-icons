@@ -9,7 +9,7 @@
 }  
 </style>
 <g clip-path="url(#clip0_169_906)">
-<path d="M196 0H60C26.8629 0 0 26.8629 0 60V196C0 229.137 26.8629 256 60 256H196C229.137 256 256 229.137 256 196V60C256 26.8629 229.137 0 196 0Z" fill="#242938"/>
+<rect width="256" height="256" fill="#242938" rx="60"/>
 <path d="M38.0195 96.292L100.885 127.499L168.761 93.8049V67.4955L38.0195 35.0801V96.292Z" fill="#FEE900"/>
 <path d="M38.0195 35.0801V96.292V97.1155V158.705L168.761 93.8049V67.4955L38.0195 35.0801Z" fill="#FFC400"/>
 <path opacity="0.75" d="M38.0195 97.0574V158.649L100.885 127.442L38.0195 96.2354V97.0574Z" fill="url(#paint0_linear_169_906)"/>
@@ -27,8 +27,5 @@
 <stop offset="0.36528" stop-color="#FED400"/>
 <stop offset="1" stop-color="#FED600"/>
 </linearGradient>
-<clipPath id="clip0_169_906">
-<rect width="256" height="256" fill="white"/>
-</clipPath>
 </defs>
 </svg>
