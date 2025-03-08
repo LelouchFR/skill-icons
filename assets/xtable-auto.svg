@@ -1,0 +1,46 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" id="xtable" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>
+#xtable {
+    rect {fill: #242938}
+    
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}  
+</style>
+<linearGradient id="a">
+<stop offset=".0370701" stop-color="#084d7e"/><stop offset=".403607" stop-color="#10639c"/>
+<stop offset="1" stop-color="#094b79"/>
+</linearGradient>
+<linearGradient id="b" gradientUnits="userSpaceOnUse" x1="149.659" x2="95.5152" xlink:href="#a" y1="74.0009" y2="210.445"/>
+<linearGradient id="c" gradientUnits="userSpaceOnUse" x1="149.659" x2="95.515" xlink:href="#a" y1="74.0011" y2="210.445"/>
+<linearGradient id="d">
+<stop offset=".0774246" stop-color="#1964a0"/><stop offset=".448809" stop-color="#1a73ba"/>
+<stop offset=".97652" stop-color="#185d94"/>
+</linearGradient>
+<linearGradient id="e" gradientUnits="userSpaceOnUse" x1="165.104" x2="122.638" xlink:href="#d" y1="38.9411" y2="222.034"/>
+<linearGradient id="f" gradientUnits="userSpaceOnUse" x1="165.104" x2="122.638" xlink:href="#d" y1="38.9409" y2="222.034"/>
+<linearGradient id="g" gradientUnits="userSpaceOnUse" x1="165.104" x2="122.637" xlink:href="#d" y1="38.9407" y2="222.033"/>
+<linearGradient id="h" gradientUnits="userSpaceOnUse" x1="165.103" x2="122.637" xlink:href="#d" y1="38.9408" y2="222.033"/>
+<linearGradient id="i"><stop offset="0" stop-color="#64aee9"/>
+<stop offset="1" stop-color="#277cbf"/>
+</linearGradient>
+<linearGradient id="j" gradientUnits="userSpaceOnUse" x1="42.4378" x2="171.956" xlink:href="#i" y1="46.4637" y2="126.291"/>
+<linearGradient id="k" gradientUnits="userSpaceOnUse" x1="42.4375" x2="171.955" xlink:href="#i" y1="46.4633" y2="126.291"/>
+<g clip-path="url(#l)">
+<g mask="url(#m)">
+<rect width="256" height="256" fill="#242938" rx="60"/>
+<path d="m82.4814 48.3654-26.35-.068-14.1314 26.2054 26.35.0681z" fill="#5da9e5"/>
+<path d="m100.877 182.219 13.233 24.403 27.13-.209-12.874-23.737z" fill="#c5c5c5"/>
+<path d="m158.527 74.5024-58.03 107.0486 27.841 1.124 58.293-108.0999z" fill="#3587c8"/>
+<path d="m68.7859 74.442-26.3396-.0685 72.2947 133.3445 26.339.068z" fill="url(#b)"/>
+<path d="m43.0171 74.02 13.2249 24.3934 115.884.3017-13.226-24.3934z" fill="url(#c)"/>
+<path d="m128.337 182.679 12.873 23.736 58.656-107.4469-13.232-24.4012z" fill="url(#e)"/>
+<path d="m80.9731 98.5898 59.7249 109.4092 14.132-26.208-44.767-83.2139z" fill="url(#f)"/>
+<path d="m128.337 182.679 13.45-24.942 13.043 24.054-14.132 26.209-13.733-25.324z" fill="url(#g)"/>
+<path d="m186.634 74.5667 13.232 24.4011 14.133-26.2088-13.231-24.4011z" fill="url(#h)"/>
+<path d="m158.505 74.4971 28.098.0732-44.832 83.1277-14.108-26.012z" fill="url(#j)"/>
+<path d="m186.602 74.5701 14.129-26.1951-143.9961-.375-14.1272 26.1951 115.8963.3016z" fill="url(#k)"/>
+</g>
+</g>
+</svg>
