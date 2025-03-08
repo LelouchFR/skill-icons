@@ -6,6 +6,7 @@
     
     @media (prefers-color-scheme: light) {
         rect {fill: #F4F2ED}
+        path.text {fill: #1e384b}
     }
 }  
 </style>
