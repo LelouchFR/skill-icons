@@ -53,7 +53,7 @@ do
     fi
 done
 
-count_id=0
+count_id=-1
 declare -a icon_table
 for column in $(seq 1 $columns)
 do
