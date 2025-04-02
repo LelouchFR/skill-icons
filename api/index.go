@@ -16,6 +16,7 @@ var iconNameList []string
 var themedIcons []string
 
 
+
 var shortNames = map[string]string{
 	"js":                "javascript",
 	"ts":                "typescript",
@@ -92,7 +93,7 @@ var shortNames = map[string]string{
 	"arc":               "arcbrowser",
 	"hf":                "huggingface",
 	"sqla":              "sqlalchemy",
-  "notepad++":         "notepadpp",
+    "notepad++":         "notepadpp",
 }
 
 var (
