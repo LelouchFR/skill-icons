@@ -1,0 +1,33 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" id="obs">
+<style>
+#obs {
+    rect {fill: #242938}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<rect width="256" height="256" rx="60" fill="#242938" />
+<circle r="99.3" cx="127.64" cy="127" fill="white" />
+<circle r="90.3" cx="127.64" cy="127" fill="black" />
+<g fill="white">
+<circle r="50.68" cx="128.8" cy="88" clip-path="url(#circ-clip-top)" />
+<circle r="50.68" cx="92.8" cy="144" clip-path="url(#circ-clip-left)" />
+<circle r="50.68" cx="160.25" cy="148.5" clip-path="url(#circ-clip-right)" />
+</g>
+<g fill="black">
+<circle r="40.75" cx="127" cy="78" />
+<circle r="40.75" cx="84.6" cy="152" />
+<circle r="40.75" cx="170.75" cy="152" />
+</g>
+<clipPath id="circ-clip-top">
+<path d="M105 42A1 1 0 0 0 149 133Z" fill="none" />
+</clipPath>
+<clipPath id="circ-clip-left">
+<path d="M66 188A1 1 0 0 0 119 99Z" fill="none" />
+</clipPath>
+<clipPath id="circ-clip-right">
+<path d="M213 150A1 1 0 0 0 108 149Z" fill="none" />
+</clipPath>
+</svg>
