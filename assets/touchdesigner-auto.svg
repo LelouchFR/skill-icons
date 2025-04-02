@@ -1,0 +1,33 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="#242938" xmlns="http://www.w3.org/2000/svg" id="touchdesigner">
+<style>#touchdesigner {
+    @media (prefers-color-scheme: light) {
+        fill: #F4F2ED
+    }
+}
+</style>
+<rect width="256" height="256" rx="60"/>
+<g fill="#000">
+<g>
+<rect width="192" height="192" x="32" y="32"/>
+<rect width="184" height="184" x="36" y="36" fill="#717e51"/>
+</g>
+<g>
+<rect width="8" height="192" x="124" y="32"/>
+<g transform="rotate(45 128 128)">
+<rect width="8" height="192" x="124" y="32"/>
+<rect width="192" height="8" x="32" y="124"/>
+</g>
+<g>
+<circle r="45" cx="128" cy="128"/>
+<circle r="37" cx="128" cy="128" fill="#fff"/>
+<rect width="20" height="20" y="118" x="118"/>
+</g>
+</g>
+<g>
+<rect width="27.5" height="27.5" y="172.5" x="172.5"/>
+<rect width="28" height="27.5" y="172.5" x="56"/>
+<rect width="27.5" height="27.5" y="56" x="172.5"/>
+<rect width="27.5" height="27.5" y="56" x="56"/>
+</g>
+</g>
+</svg>
