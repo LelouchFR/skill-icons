@@ -1,0 +1,16 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="filmora">
+<style>
+#filmora {
+    rect {fill: #242938}
+    path[fill="white"] {fill: white}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+        path[fill="white"] {fill: #131313}
+    }
+}
+</style>
+<rect width="256" height="256" fill="#242938" rx="60"/>
+<path d="M200.639 128.215L103.855 225L55.4697 176.614L152.253 79.831L200.639 128.215Z" fill="#64C9A9"/>
+<path d="M55 75.5769L91.2109 111.787C96.3827 116.958 96.3827 125.345 91.2109 130.516L146.151 75.5769L100.576 30.0002L55 75.5769Z" fill="white"/>
+</svg>

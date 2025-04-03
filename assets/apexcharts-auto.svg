@@ -1,0 +1,16 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="apexcharts">
+<style>
+#apexcharts {
+    rect {fill: #242938}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+        path[fill="white"] {fill: black}
+    }
+}
+</style>
+<rect width="256" height="256" fill="#242938" rx="60"/>
+<path d="M230.994 215.96L128.351 41L26 215.96H111.147L96.8586 190.59H70.0315L128.351 90.2803L200.96 215.96H230.994Z" fill="white"/>
+<path d="M116.333 155.89L100.649 181.201L120.478 215.96L150.898 215.901L116.333 155.89Z" fill="#F5B145"/>
+<path d="M136.454 120.023L120.77 145.334L160.839 216L191.248 215.84L136.454 120.023Z" fill="#64DC9A"/>
+</svg>
