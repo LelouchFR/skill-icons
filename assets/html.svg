@@ -7,11 +7,11 @@
  -->
 
 <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-    <!-- Fondo del contenedor -->
+    <!-- Fondo -->
     <rect x="0" y="0" width="200" height="200" fill="#dc6e3c" />
 
     <!-- Texto "HTML" -->
-    <text x="190" y="185" font-family="Futura, Arial Narrow, sans-serif" font-size="60" font-weight="900" fill="white" text-anchor="end" dominant-baseline="auto">
+    <text x="190" y="185" font-family="Arial Narrow, Futura, sans-serif" font-size="60" font-weight="900" fill="white" text-anchor="end" dominant-baseline="auto">
         HTML
     </text>
 </svg>
