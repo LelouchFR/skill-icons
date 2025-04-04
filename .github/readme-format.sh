@@ -12,17 +12,15 @@ function get_maximum_length() {
 
 head -96 README.md > README.tmp && mv README.tmp README.md
 
-icons=$(ls assets --ignore="*-light.svg" --ignore="*-dark.svg")
-icon_list=($(ls assets --ignore="*-light.svg" --ignore="*-dark.svg"))
-
-
-icons_counter=0
-declare -a img_tags
-for icon in $icons
-do
-    icons_counter=$((icons_counter + 1))
-    img_tags+=("<img src=\"./assets/$icon\" width=\"48\">")
+icon_list=()
+for file in assets/*.svg; do
+    icon_file=$(basename "$file")
+    if [[ ! "$icon_file" =~ -light\.svg$ && ! "$icon_file" =~ -dark\.svg$ ]]; then
+        icon_list+=("$icon_file")
+    fi
 done
+
+icons_counter=${#icon_list[@]}
 
 table_headers=("" "")
 columns=$(($icons_counter / 100 + 1))
@@ -37,7 +35,7 @@ table_headers[1]+="|"
 echo ${table_headers[0]} >> README.md
 echo ${table_headers[1]} >> README.md
 
-max_icon_id_length=$(get_maximum_length "$icons")
+max_icon_id_length=$(get_maximum_length "$icons_list")
 max_img_tag_length=$(get_maximum_length "${img_tags[*]}")
 
 most_negative_number=0

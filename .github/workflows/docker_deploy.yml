@@ -6,8 +6,8 @@ on:
       - 'main'
 
 env:
-  DOCKERHUB_USERNAME: $(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
-  DOCKER_IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/${{ github.event.repository.name }}
+  DOCKERHUB_USERNAME: lelouchfr
+  DOCKER_IMAGE_NAME: lelouchfr/${{ github.event.repository.name }}
   GHCR_IMAGE_NAME: ${{ github.repository }}
 
 jobs:
