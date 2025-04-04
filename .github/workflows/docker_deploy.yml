@@ -6,8 +6,9 @@ on:
       - 'main'
 
 env:
-  DOCKERHUB_USERNAME: $(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
-  DOCKER_IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/${{ github.event.repository.name }}
+  DOCKERHUB_USERNAME: lelouchfr
+  GHCR_USERNAME: lelouchfr
+  DOCKER_IMAGE_NAME: lelouchfr/${{ github.event.repository.name }}
   GHCR_IMAGE_NAME: ${{ github.repository }}
 
 jobs:
@@ -21,7 +22,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
+          username: ${{ env.GHCR_USERNAME }}
           password: ${{ secrets.GHCR_TOKEN }}
 
       - name: Log in to docker.io
