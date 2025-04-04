@@ -1,4 +1,4 @@
-name: Build Docker Image And Deploy To GHCR
+name: Build Docker Image And Deploy To GHCR and Docker.io
 
 on:
   push:
@@ -39,4 +39,4 @@ jobs:
           push: true
           tags: |
             ${{ env.DOCKER_IMAGE_NAME }}:latest
-            ghcr.io/${{ env.GITHUB_IMAGE_NAME }}:latest
+            ghcr.io/${{ env.GHCR_IMAGE_NAME }}:latest
