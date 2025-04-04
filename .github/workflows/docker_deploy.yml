@@ -9,7 +9,7 @@ env:
   DOCKERHUB_USERNAME: lelouchfr
   GHCR_USERNAME: lelouchfr
   DOCKER_IMAGE_NAME: lelouchfr/${{ github.event.repository.name }}
-  GHCR_IMAGE_NAME: ${{ github.repository }}
+  GHCR_IMAGE_NAME: lelouchfr/skill-icons
 
 jobs:
   build_image:
