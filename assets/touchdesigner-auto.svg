@@ -1,0 +1,26 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="touchdesigner">
+<style>
+#touchdesigner {
+    rect {fill: #242938}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<g clip-path="url(#clip0_36_68)">
+<rect width="256" height="256" rx="60" fill="#242938" />
+<path d="M224 32H32V224H224V32Z" fill="black"/>
+<path d="M220 36H36V220H220V36Z" fill="#717E51"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M200 56H172.5V77.843L128 122.343L83.5 77.843V56H56V83.5H77.8433L122.343 128L77.843 172.5H56V200H84V177.657L128 133.657L172.5 178.157V200H200V172.5H178.157L133.657 128L178.157 83.5H200V56Z" fill="black"/>
+<path d="M131.999 32.0001H123.999V224H131.999V32.0001Z" fill="black"/>
+<path d="M127.999 173C152.852 173 172.999 152.853 172.999 128C172.999 103.147 152.852 83.0001 127.999 83.0001C103.146 83.0001 82.999 103.147 82.999 128C82.999 152.853 103.146 173 127.999 173Z" fill="black"/>
+<path d="M127.999 165C148.434 165 164.999 148.435 164.999 128C164.999 107.566 148.434 91.0001 127.999 91.0001C107.564 91.0001 90.999 107.566 90.999 128C90.999 148.435 107.564 165 127.999 165Z" fill="white"/>
+<path d="M137.999 118H117.999V138H137.999V118Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_36_68">
+<rect width="256" height="256" fill="white"/>
+</clipPath>
+</defs>
+</svg>
