@@ -1,0 +1,13 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="framer">
+<style>
+#framer {
+    rect {fill: #242938}
+    
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<path d="M64 33H191V96.3317H127.5L64 33ZM64 96.3317H127.5L191 159.666H64V96.3317ZM64 159.666H127.5V223L64 159.666Z" fill="#0055FF"/>
+</svg>
