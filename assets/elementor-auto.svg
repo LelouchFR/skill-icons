@@ -1,0 +1,13 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="elementor">
+<style>
+#elementor {
+    rect {fill: #242938}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<path d="M127.5 40C79.1702 40 40 79.1702 40 127.5C40 175.814 79.1702 215 127.5 215C175.83 215 215 175.83 215 127.5C214.984 79.1702 175.814 40 127.5 40ZM105.629 163.947H91.0528V91.037H105.629V163.947ZM163.945 163.947H120.204V149.372H163.945V163.947ZM163.945 134.78H120.204V120.204H163.945V134.78ZM163.945 105.613H120.204V91.037H163.945V105.613Z" fill="#92003B"/>
+</svg>
