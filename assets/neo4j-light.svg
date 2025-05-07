@@ -1,90 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="256"
-   height="256"
-   viewBox="0 0 256 256"
-   fill="none"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <path
-     d="M 196,0 H 60 C 26.8629,0 0,26.8629 0,60 v 136 c 0,33.137 26.8629,60 60,60 h 136 c 33.137,0 60,-26.863 60,-60 V 60 C 256,26.8629 229.137,0 196,0 Z"
-     fill="#242938"
-     id="path1"
-     style="fill:#f4f2ed;fill-opacity:1" />
-  <circle
-     style="fill:#008cc1;fill-opacity:1"
-     id="path2"
-     cx="127"
-     cy="117"
-     r="85" />
-  <circle
-     style="fill:#ffffff;fill-opacity:1"
-     id="path68"
-     cx="72.338486"
-     cy="89.749657"
-     r="6.8600001" />
-  <circle
-     style="fill:#ffffff;fill-opacity:1"
-     id="path67"
-     cx="73.440231"
-     cy="108.31273"
-     r="6.8600001" />
-  <circle
-     style="fill:#ffffff;fill-opacity:1"
-     id="path66"
-     cx="77.573677"
-     cy="128.24957"
-     r="6.8600001" />
-  <circle
-     style="fill:#ffffff;fill-opacity:1"
-     id="path65"
-     cx="86.906464"
-     cy="145.89072"
-     r="6.8600001" />
-  <circle
-     style="fill:#ffffff;fill-opacity:1"
-     id="path64"
-     cx="160.42963"
-     cy="171.00095"
-     r="6.8600001" />
-  <circle
-     style="fill:#ffffff;fill-opacity:1"
-     id="path63"
-     cx="173.02121"
-     cy="156.41336"
-     r="6.8600001" />
-  <circle
-     style="fill:#ffffff;fill-opacity:1"
-     id="path62"
-     cx="137.20953"
-     cy="52.861572"
-     r="6.8600001" />
-  <circle
-     style="fill:#ffffff;fill-opacity:1"
-     id="path61"
-     cx="119.14211"
-     cy="46.536877"
-     r="6.8600001" />
-  <circle
-     style="fill:#66b245;fill-opacity:1;stroke:#ffffff;stroke-width:2.3;stroke-dasharray:none;stroke-opacity:1"
-     id="path5"
-     cx="114.15"
-     cy="191.14999"
-     r="38" />
-  <circle
-     style="fill:#66b245;fill-opacity:1;stroke:#ffffff;stroke-width:2.3;stroke-dasharray:none;stroke-opacity:1"
-     id="path4"
-     cx="175.14999"
-     cy="97.150002"
-     r="45" />
-  <circle
-     style="fill:#66b245;fill-opacity:1;stroke:#ffffff;stroke-width:2.3;stroke-dasharray:none;stroke-opacity:1"
-     id="path3"
-     cx="82.150002"
-     cy="52.150002"
-     r="25" />
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none" id="neo4j">
+<rect width="256" height="256" rx="60" fill="#f4f2ed"/>
+<circle style="fill:#008cc1;fill-opacity:1" id="path2" cx="127" cy="117" r="85"/>
+<circle style="fill:#ffffff;fill-opacity:1" id="path68" cx="72.338486" cy="89.749657" r="6.8600001"/>
+<circle style="fill:#ffffff;fill-opacity:1" id="path67" cx="73.440231" cy="108.31273" r="6.8600001"/>
+<circle style="fill:#ffffff;fill-opacity:1" id="path66" cx="77.573677" cy="128.24957" r="6.8600001"/>
+<circle style="fill:#ffffff;fill-opacity:1" id="path65" cx="86.906464" cy="145.89072" r="6.8600001"/>
+<circle style="fill:#ffffff;fill-opacity:1" id="path64" cx="160.42963" cy="171.00095" r="6.8600001"/>
+<circle style="fill:#ffffff;fill-opacity:1" id="path63" cx="173.02121" cy="156.41336" r="6.8600001"/>
+<circle style="fill:#ffffff;fill-opacity:1" id="path62" cx="137.20953" cy="52.861572" r="6.8600001"/>
+<circle style="fill:#ffffff;fill-opacity:1" id="path61" cx="119.14211" cy="46.536877" r="6.8600001"/>
+<circle style="fill:#66b245;fill-opacity:1;stroke:#ffffff;stroke-width:2.3;stroke-dasharray:none;stroke-opacity:1" id="path5" cx="114.15" cy="191.14999" r="38"/>
+<circle style="fill:#66b245;fill-opacity:1;stroke:#ffffff;stroke-width:2.3;stroke-dasharray:none;stroke-opacity:1" id="path4" cx="175.14999" cy="97.150002" r="45"/>
+<circle style="fill:#66b245;fill-opacity:1;stroke:#ffffff;stroke-width:2.3;stroke-dasharray:none;stroke-opacity:1" id="path3" cx="82.150002" cy="52.150002" r="25"/>
 </svg>
