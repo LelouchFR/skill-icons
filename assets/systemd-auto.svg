@@ -1,0 +1,17 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="systemd">
+<style>
+#systemd {
+    rect {fill: #242938}
+    path[fill="white"] {fill: white}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+        path[fill="white"] {fill: #201A26}
+    }
+}
+</style>
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<path d="M27 97V158H50.4615V148.615H36.3846V106.385H50.4615V97H27ZM205.308 97V106.385H219.385V148.615H205.308V158H228.769V97H205.308Z" fill="white"/>
+<path d="M132.577 127.5L174.808 104.039V150.962L132.577 127.5Z" fill="#30D475"/>
+<path d="M97.3869 148.617C109.049 148.617 118.502 139.164 118.502 127.502C118.502 115.84 109.049 106.387 97.3869 106.387C85.7252 106.387 76.2715 115.84 76.2715 127.502C76.2715 139.164 85.7252 148.617 97.3869 148.617Z" fill="#30D475"/>
+</svg>
