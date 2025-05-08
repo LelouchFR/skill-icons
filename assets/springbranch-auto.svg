@@ -1,0 +1,13 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="springbranch">
+<style>
+#springbranch {
+    rect {fill: #242938}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<path d="M41 154.671V167.998L127.494 218L214 167.998V154.671L127.494 204.673L41 154.671ZM41 128.006V141.333L127.494 191.335L214 141.333V128.006L127.494 178.008L41 128.006ZM127.494 38L41 88.0019V114.667L127.494 164.704L214 114.702V88.0019L127.494 38Z" fill="#6DB33F"/>
+</svg>
