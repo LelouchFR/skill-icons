@@ -3,6 +3,12 @@
 <h3 align="center">Showcase your skills on your GitHub or resumé with ease!</h3>
 <hr>
 
+<p align="center">
+    <a>English</a>
+    ·
+    <a href="./READMEs/README_es.md">Español</a>
+</p>
+
 # Docs
 
 - [Docs](#docs)
