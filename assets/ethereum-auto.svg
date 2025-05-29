@@ -1,0 +1,19 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="ethereum">
+<style>
+#ethereum {
+    rect {fill: #242938}
+    path[fill="white"] {fill: white}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+        path[fill="white"] {fill: black}
+    }
+}
+</style>
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<path opacity="0.6" d="M127.507 102.107L66 130.069L127.507 166.439L189.037 130.069L127.507 102.107Z" fill="white"/>
+<path opacity="0.45" d="M66.0225 130.046L127.53 166.416V28L66.0225 130.046Z" fill="white"/>
+<path opacity="0.8" d="M127.53 28V166.416L189.037 130.046L127.53 28Z" fill="white"/>
+<path opacity="0.45" d="M66 141.713L127.507 228.4V178.061L66 141.713Z" fill="white"/>
+<path opacity="0.8" d="M127.507 178.061V228.4L189.06 141.713L127.507 178.061Z" fill="white"/>
+</svg>

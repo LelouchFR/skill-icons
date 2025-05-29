@@ -1,0 +1,13 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="axios">
+<style>
+#axios {
+    rect {fill: #242938}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<path d="M120.138 53.5597V211.167L103.437 225V93.8962H72L120.138 53.5597ZM150.679 30V158.112H183L134.014 199.456V41.9368L150.679 30Z" fill="#5A29E4"/>
+</svg>
