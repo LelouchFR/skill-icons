@@ -1,0 +1,19 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="gmx">
+<style>
+#gmx {
+    rect {fill: #242938}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<path d="M228 199.993L128.153 55L28 199.993H167.536L128.153 144.656L108.617 173.409H87.8543L128.166 115.599L186.442 200L228 199.993Z" fill="url(#paint0_linear_220_88)"/>
+<defs>
+<linearGradient id="paint0_linear_220_88" x1="135.2" y1="58.77" x2="73.4106" y2="216.886" gradientUnits="userSpaceOnUse">
+<stop stop-color="#03D1CF" stop-opacity="0.988"/>
+<stop offset="1" stop-color="#4E09F8"/>
+</linearGradient>
+</defs>
+</svg>
