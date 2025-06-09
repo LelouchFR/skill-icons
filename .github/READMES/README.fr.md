@@ -7,12 +7,12 @@
 
 - [Docs](#docs)
 - [Example](#example)
-- [Spécifier Les Icônes](#specifier-les-icones)
-- [Utiliser Les Thèmes d'Icônes](#utiliser-les-themes-d'icones)
-- [Icônes Par Ligne](#icon-par-ligne)
-- [Titre Des Icônes](#titre-des-icones)
-- [Centrer Des Icônes](#centrer-des-icones)
-- [Liste Des Icônes](#liste-des-icones)
+- [Spécifier Les Icônes](#spécifier-les-icônes)
+- [Utiliser Les Thèmes d'Icônes](#utiliser-les-thèmes-d'icônes)
+- [Icônes Par Ligne](#icônes-par-ligne)
+- [Titre Des Icônes](#titre-des-icônes)
+- [Centrer Des Icônes](#centrer-des-icônes)
+- [Liste Des Icônes](#liste-des-icônes)
 - [💖 Soutenir Le Projet](#-soutenir-le-projet)
 
 # Example
@@ -24,7 +24,7 @@
 
 Copiez et collez le bloc de code ci-dessous dans votre README pour ajouter des icônes !
 
-Remplacez le `?i=js,html,css,wasm` par une liste de vos compétences séparées par des virgules "," ! Vous trouverez la liste complète des icônes [ici] (#liste-des-icones).
+Remplacez le `?i=js,html,css,wasm` par une liste de vos compétences séparées par des virgules "," ! Vous trouverez la liste complète des icônes [ici] (#liste-des-icônes).
 
 ```md
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=js,html,css,wasm)
