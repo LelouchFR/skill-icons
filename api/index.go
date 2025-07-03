@@ -94,6 +94,7 @@ var shortNames = map[string]string{
 	"hf":                "huggingface",
 	"sqla":              "sqlalchemy",
     "notepad++":         "notepadpp",
+    "jq":                "jqlang",
 }
 
 var (

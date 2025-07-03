@@ -1,0 +1,22 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="codeblocks">
+<style>
+#codeblocks {
+    rect {fill: #242938}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<rect width="256" height="256" fill="#242938" rx="60"/>
+<path d="M143 202.999L213 192.999V128L143 133V202.999Z" fill="#3F51B5"/>
+<path d="M213 128L173 113L118 118L143 133L213 128Z" fill="#303F9F"/>
+<path d="M118 118V182.999L143 202.999V132.999L118 118Z" fill="#3949AB"/>
+<path d="M58 212.999L133 202.999V133L58 138V212.999Z" fill="#FFEB3B"/>
+<path d="M133 132.999L108 118L43 123L58 137.999L133 132.999Z" fill="#FBC02D"/>
+<path d="M43 123V193L58 213V138L43 123Z" fill="#FDD835"/>
+<path d="M143 123L213 118V43H143V123Z" fill="#8BC34A"/>
+<path d="M118 53V108L143 123V43L118 53Z" fill="#7CB342"/>
+<path d="M58 128L133 123V43H58V128Z" fill="#F44336"/>
+<path d="M43 53V113L58 128V43L43 53Z" fill="#D32F2F"/>
+</svg>
