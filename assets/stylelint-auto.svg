@@ -1,12 +1,12 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
-  rect {fill: #242938}
-	path: {fill: white}
+rect { fill: #242938; }
+path { fill: white; }
 
-  @media (prefers-color-scheme: light) {
-    rect {fill: #F4F2ED}
-  	path: {fill: black}
-  }
+@media (prefers-color-scheme: light) {
+rect { fill: #F4F2ED; }
+path { fill: black; }
+}
 </style>
 <rect width="256" height="256" rx="60" fill="#242938"/>
 <path d="M129.227 217.711C148.94 147.221 148.368 146.903 162.617 96.6418L166.044 98.6206C167.905 99.6959 169.429 98.8166 169.429 96.6715V72.7026C173.21 59.4595 176.174 49.2264 177.042 46.1494H192.479L218.125 69.9074L201.282 84.4631L214.018 98.2325L130.079 217.711C129.669 218.386 129.097 218.232 129.227 217.711Z" fill="white"/>
