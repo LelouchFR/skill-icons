@@ -1,0 +1,20 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="dubbo">
+<style>
+#dubbo {
+    rect {fill: #242938}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M116.063 43H56V213H116.063C162.855 213 200.79 174.945 200.79 128C200.79 81.0548 162.855 43 116.063 43Z" fill="url(#paint0_linear_406_1319)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M135.666 81.3758V69.3247H113.538C108.837 69.333 104.332 71.208 101.012 74.5375C97.6928 77.8669 95.8309 82.3784 95.836 87.0803V168.277C95.8293 172.98 97.6904 177.493 101.01 180.824C104.33 184.155 108.836 186.031 113.538 186.039H135.666V182.236C135.666 177.325 131.7 173.358 126.815 173.358C125.65 173.357 124.497 173.126 123.422 172.678C122.347 172.231 121.371 171.576 120.549 170.751C119.727 169.926 119.075 168.947 118.632 167.87C118.188 166.793 117.961 165.639 117.964 164.474V90.2599C117.964 85.3488 121.93 81.3821 126.815 81.3821H135.666V81.3758Z" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear_406_1319" x1="56" y1="128" x2="201" y2="128" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9163EA"/>
+<stop offset="1" stop-color="#00DDE5"/>
+</linearGradient>
+</defs>
+</svg>
