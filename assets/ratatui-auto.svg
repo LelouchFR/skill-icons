@@ -5,7 +5,7 @@
     #ratatui .logo { fill: white; }
 
     @media (prefers-color-scheme: light) {
-        #ratatui .bg-rect { fill: #1E1E1E; }
+        #ratatui .bg-rect { fill: #F4F2ED; }
         #ratatui .bg-path { fill: #F4F2ED; }
         #ratatui .logo { fill: black; }
     }
