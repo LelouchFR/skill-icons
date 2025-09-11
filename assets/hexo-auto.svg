@@ -1,0 +1,13 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="hexo">
+<style>
+#hexo {
+    rect {fill: #242938}
+    
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}  
+</style>
+<rect width="256" height="256" fill="#242938" rx="60"/>
+<path d="M127.665 33L45.165 80.6651L45 175.665L127.335 223L209.835 175.335L210 80.3349L127.665 33ZM165.862 168.691L158.272 173.106L150.6 168.567V135.841H104.4V168.691L96.81 173.106L89.1375 168.567V87.268L96.7687 82.8936L104.4 87.3506V120.159H150.6V87.3093L158.231 82.9348L165.862 87.3918V168.691Z" fill="#0E83CD"/>
+</svg>
