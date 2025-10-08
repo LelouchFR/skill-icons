@@ -1,0 +1,13 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="burpsuite">
+<style>
+#burpsuite {
+    rect {fill: #242938}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<path d="M141.123 256H113.877V214.71L151.031 169.29H113.877V113.961H47L113.877 31.3806V0H141.123V41.2903L103.969 86.7097H141.123V142.039H208L141.123 224.619V256Z" fill="#FF6633"/>
+</svg>
