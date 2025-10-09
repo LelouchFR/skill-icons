@@ -38,8 +38,8 @@ func main() {
 		panic(err)
 	}
 
-	// Read content of api/index.go
-	indexFile, err := os.ReadFile("./api/index.go")
+	// Read content of api/icons/index.go
+	indexFile, err := os.ReadFile("./api/icons/index.go")
 	if err != nil {
 		panic(err)
 	}
@@ -57,10 +57,10 @@ func main() {
 	modifiedContent := strings.Join(lines, "\n")
 
 	// Write the modified content back to the file
-	err = os.WriteFile("./api/index.go", []byte(modifiedContent), 0644)
+	err = os.WriteFile("./api/icons/index.go", []byte(modifiedContent), 0644)
 	if err != nil {
 		panic(err)
 	}
 
-	fmt.Println("Modified content saved to api/index.go")
+	fmt.Println("Modified content saved to api/icons/index.go")
 }
