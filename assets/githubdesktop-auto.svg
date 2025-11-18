@@ -1,15 +1,15 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="githubdesktop">
 <style>
 #githubdesktop {
-    rect.bg {fill: #242938}
+    rect {fill: #242938}
 
     @media (prefers-color-scheme: light) {
-        rect.bg {fill: #F4F2ED}
+        rect {fill: #F4F2ED}
     }
 }
 </style>
 <g clip-path="url(#clip0_13_65)">
-<rect width="256" height="256" fill="#242938" rx="60" class="bg"/>
+<rect width="256" height="256" fill="#242938" rx="60"/>
 <g filter="url(#filter0_d_13_65)">
 <path d="M128 233.84C186.454 233.84 233.84 186.454 233.84 128C233.84 69.5462 186.454 22.16 128 22.16C69.5462 22.16 22.16 69.5462 22.16 128C22.16 186.454 69.5462 233.84 128 233.84Z" fill="black"/>
 </g>

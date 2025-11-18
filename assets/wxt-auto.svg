@@ -1,15 +1,15 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="wxt">
 <style>
 #wxt {
-    rect.bg {fill: #242938}
+    rect {fill: #242938}
 
     @media (prefers-color-scheme: light) {
-        rect.bg {fill: #F4F2ED}
+        rect {fill: #F4F2ED}
     }
 }
 </style>
 <g clip-path="url(#clip0_2_8)">
-<rect width="256" height="256" fill="#242938" rx="60" class="bg"/>
+<rect width="256" height="256" fill="#242938" rx="60"/>
 <g clip-path="url(#clip1_2_8)">
 <mask id="mask0_2_8" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="36" y="12" width="208" height="208">
 <path d="M244 12H36V220H244V12Z" fill="white"/>
