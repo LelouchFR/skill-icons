@@ -1,0 +1,21 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="resend">
+<style>
+#resend {
+    rect {fill: #242938}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED};
+        path {fill: black};
+    }
+}
+</style>
+<g clip-path="url(#clip0_22_4)">
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<path d="M148.315 37C183.565 37 204.527 57.9642 204.527 85.7926C204.527 113.621 183.565 134.585 148.315 134.585H130.504L219 219H156.477L89.1317 154.993C84.3087 150.542 82.0826 145.347 82.0824 140.895C82.0824 134.587 86.5362 129.021 95.0703 126.609L129.762 117.332C142.934 113.806 152.026 103.602 152.026 90.2447C152.024 73.9191 138.666 64.4577 122.155 64.4577H37V37H148.315Z" fill="#FDFDFD"/>
+</g>
+<defs>
+<clipPath id="clip0_22_4">
+<rect width="256" height="256" fill="white"/>
+</clipPath>
+</defs>
+</svg>
