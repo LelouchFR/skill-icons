@@ -67,7 +67,7 @@
 `titles` 的值是一个布尔值，所以应该是 `true` 或 `false`， 默认是 `false`
 
 ```md
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=rust,surrealdb,actix,yew&titles=true)
+![我的技能](https://go-skill-icons.vercel.app/api/icons?i=rust,surrealdb,actix,yew&titles=true)
 ```
 
 ![我的技能](https://go-skill-icons.vercel.app/api/icons?i=rust,surrealdb,actix,yew&titles=true)
