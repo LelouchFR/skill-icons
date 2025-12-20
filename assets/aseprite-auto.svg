@@ -1,0 +1,32 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="aseprite">
+<style>
+#aseprite {
+    rect {fill: #242938}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<g clip-path="url(#clip0_1_238)">
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<g clip-path="url(#clip1_1_238)">
+<path d="M62.8571 31H192.143V225H62.8571V31Z" fill="#655561"/>
+<path d="M49.9286 43.9333H205.071V212.067H49.9286V43.9333Z" fill="#655561"/>
+<path d="M37 56.8667H218V199.133H37V56.8667Z" fill="#655561"/>
+<path d="M62.8571 43.9333H192.143V212.067H62.8571V43.9333Z" fill="#7E919F"/>
+<path d="M49.9286 56.8666H205.071V199.133H49.9286V56.8666Z" fill="#7E919F"/>
+<path d="M62.8571 43.9333H192.143V186.2H62.8571V43.9333Z" fill="white"/>
+<path d="M49.9286 56.8666H205.071V173.267H49.9286V56.8666Z" fill="white"/>
+<path d="M88.7143 82.7333H101.643V134.467H88.7143V82.7333ZM153.357 82.7333H166.286V134.467H153.357V82.7333Z" fill="#655561"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1_238">
+<rect width="256" height="256" fill="white"/>
+</clipPath>
+<clipPath id="clip1_1_238">
+<rect width="181" height="194" fill="white" transform="translate(37 31)"/>
+</clipPath>
+</defs>
+</svg>
