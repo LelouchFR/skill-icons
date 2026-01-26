@@ -1,0 +1,47 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M196 0H60C26.8629 0 0 26.8629 0 60V196C0 229.137 26.8629 256 60 256H196C229.137 256 256 229.137 256 196V60C256 26.8629 229.137 0 196 0Z" fill="url(#paint0_linear_563_20)"/>
+<path d="M32 32H223.8V223.8H32V32Z" fill="#666666"/>
+<path d="M196.5 148.9H59.3C57.8944 148.9 56.5463 148.342 55.5523 147.348C54.5584 146.354 54 145.006 54 143.6V58.3C54 55.4 56.4 53 59.3 53H196.6C199.5 53 201.9 55.4 201.9 58.3V143.6C201.874 145.015 201.293 146.363 200.283 147.354C199.274 148.345 197.915 148.9 196.5 148.9Z" fill="black"/>
+<path d="M196.5 148.9H59.3C57.8944 148.9 56.5463 148.342 55.5523 147.348C54.5584 146.354 54 145.006 54 143.6V58.3C54 55.4 56.4 53 59.3 53H196.6C199.5 53 201.9 55.4 201.9 58.3V143.6C201.874 145.015 201.293 146.363 200.283 147.354C199.274 148.345 197.915 148.9 196.5 148.9Z" fill="black"/>
+<path d="M90.9004 53H127.9V148.9H90.9004V53Z" fill="url(#paint1_linear_563_20)"/>
+<path d="M90.9 148.9H59.3C57.8944 148.9 56.5463 148.342 55.5523 147.348C54.5584 146.354 54 145.006 54 143.6V58.3C54 55.4 56.4 53 59.3 53H90.9V148.9Z" fill="url(#paint2_linear_563_20)"/>
+<path d="M127.9 53H164.9V148.9H127.9V53Z" fill="url(#paint3_linear_563_20)"/>
+<path d="M196.5 148.9H164.9V53H196.5C199.5 53 201.8 55.4 201.8 58.3V143.5C201.8 146.5 199.4 148.9 196.5 148.9Z" fill="url(#paint4_linear_563_20)"/>
+<path d="M81.3004 201.8H58.6004C57.9832 201.8 57.372 201.678 56.8018 201.442C56.2315 201.206 55.7134 200.86 55.277 200.423C54.8406 199.987 54.4944 199.469 54.2582 198.899C54.022 198.328 53.9004 197.717 53.9004 197.1V174.5C53.9004 171.9 56.0004 169.8 58.6004 169.8H81.2004C83.8004 169.8 85.9004 171.9 85.9004 174.5V197.1C85.9004 199.8 83.9004 201.8 81.3004 201.8Z" fill="url(#paint5_linear_563_20)"/>
+<path d="M139.2 201.8H116.6C115.354 201.8 114.158 201.305 113.277 200.423C112.396 199.542 111.9 198.347 111.9 197.1V174.5C111.9 171.9 114 169.8 116.6 169.8H139.2C141.8 169.8 143.9 171.9 143.9 174.5V197.1C143.9 199.8 141.8 201.8 139.2 201.8Z" fill="url(#paint6_linear_563_20)"/>
+<path d="M197.2 201.8H174.6C173.354 201.8 172.158 201.305 171.277 200.423C170.396 199.542 169.9 198.347 169.9 197.1V174.5C169.9 171.9 172 169.8 174.6 169.8H197.2C199.8 169.8 201.9 171.9 201.9 174.5V197.1C201.9 198.347 201.405 199.542 200.524 200.423C199.642 201.305 198.447 201.8 197.2 201.8Z" fill="url(#paint7_linear_563_20)"/>
+<defs>
+<linearGradient id="paint0_linear_563_20" x1="213.124" y1="275.56" x2="42.6478" y2="-19.4944" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D7CCB3"/>
+<stop offset="1" stop-color="#F2E6CA"/>
+</linearGradient>
+<linearGradient id="paint1_linear_563_20" x1="134.8" y1="144.9" x2="84.0004" y2="57" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFB900"/>
+<stop offset="1" stop-color="#FEF000"/>
+</linearGradient>
+<linearGradient id="paint2_linear_563_20" x1="98.7" y1="144.4" x2="48.9" y2="58.2" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D83B01"/>
+<stop offset="1" stop-color="#EC6725"/>
+</linearGradient>
+<linearGradient id="paint3_linear_563_20" x1="171.8" y1="144.9" x2="121" y2="57" gradientUnits="userSpaceOnUse">
+<stop stop-color="#56B60E"/>
+<stop offset="1" stop-color="#66EB6E"/>
+</linearGradient>
+<linearGradient id="paint4_linear_563_20" x1="206.9" y1="143.7" x2="157.1" y2="57.4" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0078D4"/>
+<stop offset="1" stop-color="#28AFEA"/>
+</linearGradient>
+<linearGradient id="paint5_linear_563_20" x1="80.0004" y1="203.3" x2="59.9004" y2="168.4" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D7CCB3"/>
+<stop offset="1" stop-color="#F2E6CA"/>
+</linearGradient>
+<linearGradient id="paint6_linear_563_20" x1="138" y1="203.3" x2="117.8" y2="168.4" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D7CCB3"/>
+<stop offset="1" stop-color="#F2E6CA"/>
+</linearGradient>
+<linearGradient id="paint7_linear_563_20" x1="195.9" y1="203.3" x2="175.8" y2="168.4" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D7CCB3"/>
+<stop offset="1" stop-color="#F2E6CA"/>
+</linearGradient>
+</defs>
+</svg>
