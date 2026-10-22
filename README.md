@@ -12,6 +12,12 @@
 - [Icons Per Line](#icons-per-line)
 - [Get Icons Names](#get-icons-names)
 - [Centering Icons](#centering-icons)
+- [⚙️ How it works](#️-how-it-works)
+- [📤 Deploying it on your own](#-deploying-it-on-your-own)
+- [Common Isses](#common-isses)
+  - [error on line 6 at column 9: XML declaration allowed only at the start of the document](#error-on-line-6-at-column-9-xml-declaration-allowed-only-at-the-start-of-the-document)
+  - [Icons not visible/strangely overlapping](#icons-not-visiblestrangely-overlapping)
+  - [Beware when using defs and minifyer](#beware-when-using-defs-and-minifyer)
 - [Icons List](#icons-list)
 - [💖 Support the Project](#-support-the-project)
 
@@ -90,9 +96,62 @@ Want to center the icons in your readme? The SVGs are automatically resized, so 
   </a>
 </p>
 
+# ⚙️ How it works
+
+When a request is made, the skeleton of a single parent svg is returned. In the body the code of each requested icon is embedded, with parented groups, which are translated by 300px in a grid.
+
+![Final SVG Structure](./.github/final_svg.png)
+
+# 📤 Deploying it on your own
+
+It's recommended to test out the changed or added icons in a hosted instance before raising a PR. Also try out the icons in a request with multiple icons, to further make the test as realistic as possible.
+
+Proceed as follows:
+
+1. Create a project at Vercel.
+2. Configure the project as follows:
+   - Output Directory: `.vercel/output`
+   - Install Command: `go mod tidy`
+   - ![Vercel Project Settings](.github/vercel_project.png)
+3. Create a Vercel Access Token and add it to your repo secrets as `VERCEL_TOKEN`
+4. Use the action `.github/workflows/deploy.yml` to build and deploy the project to Vercel. It can be triggered manually or it also runs automatically whenever a push to `main` branch happens. Normally no changes are necessary to this file itself.
+
+# Common Isses
+
+Below is a list of common issues which can occur during changing or adding icons.
+
+## error on line 6 at column 9: XML declaration allowed only at the start of the document
+
+![error](.github/error.png)
+
+This error originates from how the final svg code is returned (explained [here](#how-it-works)). Because of this there can only be one declaration of xml in the final svg.
+
+To fix it, remove this line of code in the icon's svg file:
+
+``` svg
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+```
+
+## Icons not visible/strangely overlapping
+
+When the icon is missing attributes like `height` or `width` this can have strange effects when the `translate` is applied.
+
+Make sure that the icon's svg has the attributes `width`, `height` and `viewBox` correctly set to **256**.
+
+Example of a correct svg:
+
+``` svg
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+```
+
+## Beware when using defs and minifyer
+
+Minifying the icons can lead to the ids of defs (like gradients, etc.) being shortened as well. This could mean, that the defs are named like `a`, `ba`, `c` and so on. When requesting multiple icons (because of the structure explained in [here](#how-it-works)) this could lead to collisions in ids (e.g. multiple defs named `a`).
+
+Recommendation: After minfiying manually rename defs like `<icon_name>` (e.g. `codex`). This way, when requesting multiple icons, the id will still be unique.
+
 # Icons List
 
-|       Icon ID       |                          Icon                          |        Icon ID        |                             Icon                             |       Icon ID       |                           Icon                            |       Icon ID       |                            Icon                            |       Icon ID       |                           Icon                            |       Icon ID       |                          Icon                          |       Icon ID       |                           Icon                            |       Icon ID       |                            Icon                            |       Icon ID       |                        Icon                        |
 | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon |
 | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon |
 | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: |
