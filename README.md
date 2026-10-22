@@ -36,7 +36,7 @@ Change the `?i=js,html,css,wasm` to a list of your skills separated by ","s! You
 
 Some icons have a dark and light themed background. You can specify which theme you want as a url parameter.
 
-This is optional. The default theme is dark.
+This is optional. The default theme is system-specific.
 
 Change the `&theme=light` to either `dark` or `light`. The theme is the background color, so light theme has a white icon background, and dark has a black-ish.
 
