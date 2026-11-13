@@ -1,5 +1,6 @@
 name: Deploy
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -10,19 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
       
-      - uses: actions/setup-go@v5
-        with:
-          go-version: '1.18'
-      
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
-      - name: Install Go Packages
-        run: go mod tidy
       - name: Pull Vercel Environment Information
         run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
-      - name: Add IconsJSON Variable
-        run: go run build.go
       - name: Build Project Artifacts
         run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
       - name: Deploy Project Artifacts to Vercel
-        run: vercel deploy --prod --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
