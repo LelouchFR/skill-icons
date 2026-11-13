@@ -1,6 +1,7 @@
 name: Build Docker Image And Deploy To GHCR and Docker.io
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'main'
