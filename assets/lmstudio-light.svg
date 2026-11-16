@@ -1,0 +1,22 @@
+<svg width="256" height="256" fill="none" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<path d="m0 89.598c0-31.362 0-47.044 6.1035-59.025 5.369-10.537 13.936-19.104 24.472-24.472 11.979-6.1035 27.66-6.1035 59.025-6.1035h76.799c31.362 0 47.044 0 59.025 6.1035 10.537 5.369 19.104 13.936 24.472 24.472 6.1034 11.979 6.1034 27.66 6.1034 59.025v76.799c0 31.362 0 47.044-6.1034 59.025-5.369 10.537-13.936 19.104-24.472 24.472-11.979 6.1034-27.66 6.1034-59.025 6.1034h-76.799c-31.362 0-47.044 0-59.025-6.1034-10.537-5.369-19.104-13.936-24.472-24.472-6.1035-11.979-6.1035-27.66-6.1035-59.025z" fill="url(#lmstudio)"/>
+<rect x="64" y="42" width="112" height="22" rx="11" fill="#fff" opacity=".25"/>
+<rect x="32" y="42" width="112" height="22" rx="11" fill="#fff"/>
+<rect x="112" y="71.998" width="112" height="22" rx="11" fill="#fff" opacity=".25"/>
+<rect x="79.999" y="71.998" width="112" height="22" rx="11" fill="#fff"/>
+<rect x="83.999" y="102" width="112" height="22" rx="11" fill="#fff" opacity=".25"/>
+<rect x="52" y="102" width="112" height="22" rx="11" fill="#fff"/>
+<rect x="56" y="132" width="112" height="22" rx="11" fill="#fff" opacity=".25"/>
+<rect x="24" y="132" width="112" height="22" rx="11" fill="#fff"/>
+<rect x="87.999" y="162" width="112" height="22" rx="11" fill="#fff" opacity=".25"/>
+<rect x="56" y="162" width="112" height="22" rx="11" fill="#fff"/>
+<rect x="152" y="192" width="75.999" height="22" rx="11" fill="#fff" opacity=".25"/>
+<rect x="120" y="192" width="75.999" height="22" rx="11" fill="#fff"/>
+<defs>
+<linearGradient id="lmstudio" x1="-219.79" x2="239.06" y1="229.43" y2="702.6" gradientTransform="matrix(.49999 0 0 .49999 0 .00049998)" gradientUnits="userSpaceOnUse">
+<stop stop-color="color(display-p3 0.4303 0.4946 0.9515)" offset="0"/>
+<stop stop-color="color(display-p3 0.3079 0.0763 0.7470)" offset="1"/>
+</linearGradient>
+</defs>
+</svg>
+
