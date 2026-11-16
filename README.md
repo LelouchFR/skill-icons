@@ -79,7 +79,9 @@ Want to center the icons in your readme? The SVGs are automatically resized, so 
 ```html
 <p align="center">
   <a href="https://go-skill-icons.vercel.app/">
-    <img src="https://go-skill-icons.vercel.app/api/icons?i=git,kubernetes,docker,c,vim" />
+    <img
+      src="https://go-skill-icons.vercel.app/api/icons?i=git,kubernetes,docker,c,vim"
+    />
   </a>
 </p>
 ```
@@ -92,7 +94,6 @@ Want to center the icons in your readme? The SVGs are automatically resized, so 
 
 # Icons List
 
-|       Icon ID       |                          Icon                          |        Icon ID        |                             Icon                             |       Icon ID       |                           Icon                            |       Icon ID       |                            Icon                            |       Icon ID       |                           Icon                            |       Icon ID       |                          Icon                          |       Icon ID       |                           Icon                            |       Icon ID       |                            Icon                            |       Icon ID       |                        Icon                        |
 | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon |
 | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon | Icon ID | Icon |
 | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: | :-----------------: | :--------------: |
