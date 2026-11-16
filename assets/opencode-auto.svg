@@ -1,0 +1,19 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="opencode">
+<style>
+#opencode {
+    rect {fill: #242938}
+    path[fill="#4B4646"] {fill: #4B4646}
+    path[fill="#F1ECEC"] {fill: #F1ECEC}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+        path[fill="#4B4646"] {fill: #CFCECD}
+        path[fill="#F1ECEC"] {fill: #211E1E}
+    }
+}
+</style>
+
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<path d="M162 179H94V111H162V179Z" fill="#4B4646"/>
+<path d="M162 77H94V179H162V77ZM196 213H60V43H196V213Z" fill="#F1ECEC"/>
+</svg>
