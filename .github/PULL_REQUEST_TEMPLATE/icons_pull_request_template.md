@@ -2,8 +2,8 @@
 
 ## Icon Details
 
-| Icon ID | Icon |
-|---------|------|
+| Icon ID      | Icon                 |
+| ------------ | -------------------- |
 | new-icon-id1 | ![image](image_url1) |
 | new-icon-id2 | ![image](image_url2) |
 
@@ -15,6 +15,7 @@
 ## Checklist
 
 - [ ] Added icon(s) to the appropriate directory
-- [ ] Updated documentation with the new icon(s)
+- [ ] Updated documentation with the new icon(s) by executing `./.github/readme-format.sh`
+- [ ] Tested the icon(s) on my own hosted instance on Vercel
 - [ ] Verified the icon(s) display correctly
 - [ ] If the icon has light and dark, verified the auto switch works correctly
