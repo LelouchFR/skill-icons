@@ -1,5 +1,6 @@
 name: Generate Readme
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - "**"
@@ -13,8 +14,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
-          repository: ${{ github.repository }}
+          ref: ${{ github.event.pull_request.head.ref || github.ref_name }}
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set executable permission for script
@@ -30,7 +31,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git add .
             git commit -m "Format the readme file"
-            git push origin ${{ github.event.pull_request.head.ref }}
+            git push origin ${{ github.event.pull_request.head.ref || github.ref_name }}
           else
             echo "no icon has been added, nothing to generate."
           fi

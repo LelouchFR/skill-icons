@@ -1,10 +1,18 @@
 {
-    "trailingSlash": false,
-    "rewrites": [
-      {
-        "source": "/api(.*)",
-        "destination": "/api/index.go"
+  "services": {
+    "skill-icons": {
+      "root": ".",
+      "runtime": "container",
+      "entrypoint": "Dockerfile"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "skill-icons"
       }
-    ]
-  }
-  
+    }
+  ],
+  "trailingSlash": false
+}
