@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none" id="trae">
+<style>
+#trae {
+    rect {fill: #242938}
+    
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<rect width="256" height="256" rx="60" fill="#242938"/>
+  <path d="M220 194H61.4242V167.617H35V62H220V194ZM61.4242 167.617H193.576V88.3908H61.4242V167.617ZM127.508 127.603L108.815 146.27L90.13 127.603L108.815 108.937L127.508 127.603ZM180.364 127.596L161.679 146.255L142.986 127.596L161.679 108.921L180.364 127.596Z" fill="#32F08C"/>
+</svg>
